@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import os
+import subprocess
 from dataclasses import dataclass
 from pathlib import Path, PurePosixPath
 
@@ -85,6 +86,8 @@ def classify(rel: str) -> Decision:
 
     if rel == AUDIT_REL:
         return Decision("TRACKED_EVIDENCE", "TRACK (self-hash omitted)", "Repository content audit; recursive self-hash is intentionally undefined.")
+    if rel == BASELINE_REL:
+        return Decision("TRACKED_EVIDENCE", "TRACK (co-generated hash omitted)", "Tracked Git-blob SHA-256 baseline; its audit hash is omitted to avoid a generation cycle with this audit.")
     if rel == CANDIDATE_SOURCE:
         return Decision("CANDIDATE_NON_AUTHORITATIVE", f"PRESERVE UNTRACKED; archive copy at {CANDIDATE_COPY}", "Historical source path retained; candidate content is not a formal project basis.")
     if rel == CANDIDATE_COPY or rel == "research/candidate_inputs/STATUS.md":
@@ -169,7 +172,7 @@ def write_audit(root: Path, rows: list[tuple[str, Decision, int, str]]) -> None:
         "",
         "Confirmed project root: `E:\\\\科研\\\\ICLR2027-PREEMPT-Mem`.",
         "",
-        "This audit was generated before staging. It enumerates every file under the confirmed project root except root Git metadata. SHA-256 is computed from bytes without opening file contents in the report. The audit row for this file uses `SELF-EXCLUDED` because a file cannot contain its own stable cryptographic hash.",
+        "This audit enumerates every file under the confirmed project root except root Git metadata. SHA-256 is computed from bytes without opening file contents in the report. The audit row for this file uses `SELF-EXCLUDED`; the co-generated tracked-file baseline uses `CO-GENERATED-EXCLUDED` to avoid a mutual hash cycle. The baseline independently hashes canonical Git blob bytes.",
         "",
         "## Category summary",
         "",
@@ -254,19 +257,26 @@ def write_allowlist(root: Path, rows: list[tuple[str, Decision, int, str]], outp
     output.write_text("\n".join(tracked) + "\n", encoding="utf-8")
 
 
-def write_baseline(root: Path, tracked_paths: list[str]) -> None:
+def write_baseline(root: Path, tracked_paths: list[str], git_rev: str) -> None:
+    safe_root = root.as_posix()
+    commit = subprocess.check_output(
+        ["git", "-c", f"safe.directory={safe_root}", "rev-parse", git_rev],
+        cwd=str(root),
+    ).decode("ascii").strip()
     lines = [
         "# PREEMPT-Mem tracked-file SHA-256 baseline, generated 2026-09-02",
-        "# Excludes this baseline and the repository content audit to avoid a mutual hash cycle.",
+        f"# Source commit: {commit}",
+        "# Hashes canonical Git blob bytes. Excludes this baseline and the repository content audit to avoid a mutual hash cycle.",
         "path\tbytes\tsha256",
     ]
     for rel in sorted(tracked_paths, key=str.casefold):
         if rel in {BASELINE_REL, AUDIT_REL}:
             continue
-        path = root / Path(rel)
-        if not path.is_file():
-            raise FileNotFoundError(rel)
-        lines.append(f"{rel}\t{path.stat().st_size}\t{sha256_file(path)}")
+        blob = subprocess.check_output(
+            ["git", "-c", f"safe.directory={safe_root}", "show", f"{git_rev}:{rel}"],
+            cwd=str(root),
+        )
+        lines.append(f"{rel}\t{len(blob)}\t{hashlib.sha256(blob).hexdigest()}")
     (root / BASELINE_REL).write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -275,12 +285,13 @@ def main() -> int:
     parser.add_argument("--root", type=Path, default=Path.cwd())
     parser.add_argument("--allowlist", type=Path, default=Path(".repository-audit/tracked-paths.txt"))
     parser.add_argument("--baseline-from", type=Path)
+    parser.add_argument("--baseline-git-rev", default="HEAD")
     args = parser.parse_args()
     root = args.root.resolve()
 
     if args.baseline_from:
         tracked_paths = [line.strip() for line in args.baseline_from.read_text(encoding="utf-8").splitlines() if line.strip()]
-        write_baseline(root, tracked_paths)
+        write_baseline(root, tracked_paths, args.baseline_git_rev)
         return 0
 
     files = iter_files(root)
@@ -288,7 +299,12 @@ def main() -> int:
     for path in files:
         rel = posix(path, root)
         decision = classify(rel)
-        sha = "SELF-EXCLUDED" if rel == AUDIT_REL else sha256_file(path)
+        if rel == AUDIT_REL:
+            sha = "SELF-EXCLUDED"
+        elif rel == BASELINE_REL:
+            sha = "CO-GENERATED-EXCLUDED"
+        else:
+            sha = sha256_file(path)
         rows.append((rel, decision, path.stat().st_size, sha))
     write_external_index(root, rows)
 

@@ -2,7 +2,7 @@
 
 Confirmed project root: `E:\\科研\\ICLR2027-PREEMPT-Mem`.
 
-This audit was generated before staging. It enumerates every file under the confirmed project root except root Git metadata. SHA-256 is computed from bytes without opening file contents in the report. The audit row for this file uses `SELF-EXCLUDED` because a file cannot contain its own stable cryptographic hash.
+This audit enumerates every file under the confirmed project root except root Git metadata. SHA-256 is computed from bytes without opening file contents in the report. The audit row for this file uses `SELF-EXCLUDED`; the co-generated tracked-file baseline uses `CO-GENERATED-EXCLUDED` to avoid a mutual hash cycle. The baseline independently hashes canonical Git blob bytes.
 
 ## Category summary
 
@@ -13,8 +13,8 @@ This audit was generated before staging. It enumerates every file under the conf
 | EXCLUDED_SECRET | 188 | 837546 |
 | EXTERNAL_LARGE_ASSET | 2285 | 43204143 |
 | REGENERABLE | 15370 | 155908378 |
-| TRACKED_CORE | 50 | 647913 |
-| TRACKED_EVIDENCE | 254 | 14359544 |
+| TRACKED_CORE | 50 | 607900 |
+| TRACKED_EVIDENCE | 255 | 14406131 |
 
 ## File classification
 
@@ -59,8 +59,9 @@ This audit was generated before staging. It enumerates every file under the conf
 | `docs/COLLABORATION_AND_FREEZE_POLICY.md` | TRACKED_CORE | TRACK | 2491 | `7204eb7e918da5951c08a11d8a2a58a639616442e37394c37de53ec81324b549` | Repository management, collaboration, environment, or audit tooling. |
 | `docs/ENVIRONMENT.md` | TRACKED_CORE | TRACK | 2175 | `72153cff434edc4f6c81f7f4d2deba042f3e28bb98c202c11738aeb3df7c8bcf` | Repository management, collaboration, environment, or audit tooling. |
 | `docs/EXTERNAL_ASSET_INDEX.md` | TRACKED_CORE | TRACK | 3164 | `d1dd6fb17f673ff54a316e83b9e3079d1d7a1c043322f8314fc0358489bb422f` | Repository management, collaboration, environment, or audit tooling. |
-| `docs/REPOSITORY_CONTENT_AUDIT_2026-09-02.md` | TRACKED_EVIDENCE | TRACK (self-hash omitted) | 11686534 | `SELF-EXCLUDED` | Repository content audit; recursive self-hash is intentionally undefined. |
-| `docs/TRACKED_FILE_SHA256_BASELINE_2026-09-02.tsv` | TRACKED_CORE | TRACK | 46371 | `09360d53540a22cdab760ca8379d5d2a8e92ebaa88f6d5603badf1f6159318e2` | Repository management, collaboration, environment, or audit tooling. |
+| `docs/REPOSITORY_CONTENT_AUDIT_2026-09-02.md` | TRACKED_EVIDENCE | TRACK (self-hash omitted) | 11686750 | `SELF-EXCLUDED` | Repository content audit; recursive self-hash is intentionally undefined. |
+| `docs/REPOSITORY_ESTABLISHMENT_REPORT_2026-09-02.md` | TRACKED_CORE | TRACK | 5512 | `55796f9a709ed5c9ac226b45884c39e2c563316e4f007f689791ac34fb750133` | Repository management, collaboration, environment, or audit tooling. |
+| `docs/TRACKED_FILE_SHA256_BASELINE_2026-09-02.tsv` | TRACKED_EVIDENCE | TRACK (co-generated hash omitted) | 46371 | `CO-GENERATED-EXCLUDED` | Tracked Git-blob SHA-256 baseline; its audit hash is omitted to avoid a generation cycle with this audit. |
 | `ICLR2027-PREEMPT-Mem_新项目续研指令_v1.1.md` | TRACKED_EVIDENCE | TRACK | 8672 | `1bb80a39fe5a926e001983448a8784743dc7963024091571f5f2d73473491f24` | Project research or paper document. |
 | `ICLR2027-PREEMPT-Mem_新项目续研指令_v1.2.md` | TRACKED_EVIDENCE | TRACK | 12756 | `ceea3c6f07b0077f0243f7c9518507d1da139b358906cde675784dc7c29f6347` | Project research or paper document. |
 | `ICLR2027-PREEMPT-Mem_独立复核审查指令.md` | TRACKED_EVIDENCE | TRACK | 11413 | `6692abf1a3daf7e8918baa96ffe30526e08624fb4badd944e9eba2d6af98b064` | Project research or paper document. |
@@ -92,7 +93,7 @@ This audit was generated before staging. It enumerates every file under the conf
 | `review/PREEMPT-Mem_第三步A_run005独立实验审计.md` | TRACKED_EVIDENCE | TRACK | 14323 | `1b2b51efdb771514dcbaf942210182a25ecc9b52f4a9d1ef0c07b37e2eee0129` | Formal research, protocol, revision, or review record. |
 | `review/PREEMPT-Mem_第三步A_独立实验审计.md` | TRACKED_EVIDENCE | TRACK | 9656 | `1293fdfe896c27f7bdaeb987c1ff5570856d445e0653e7a1d3cc48922d11766c` | Formal research, protocol, revision, or review record. |
 | `scripts/__pycache__/repository_inventory.cpython-39.pyc` | REGENERABLE | EXCLUDE | 14472 | `459f6df71a8cccf2165cbd2480c3707c12a3ff92aac92ffbe1e1f78e6fc660be` | Local virtual environment or generated Python bytecode. |
-| `scripts/repository_inventory.py` | TRACKED_CORE | TRACK | 16029 | `814bf942f6934b95f5350e06d49095e8c1906e96d7b29924054c66f0fa79369f` | Repository management, collaboration, environment, or audit tooling. |
+| `scripts/repository_inventory.py` | TRACKED_CORE | TRACK | 16875 | `fc25c93eb945cc80532051fd07629b792298bb701e1d6e973d9f1444ffeea346` | Repository management, collaboration, environment, or audit tooling. |
 | `third_step_a/.venv/Include/site/python3.12/greenlet/greenlet.h` | REGENERABLE | EXCLUDE | 4919 | `82847d669ac6a2aef5981461cc1b9ec45bd336bcaf7f8b9c78c1cc21a4b1877a` | Local virtual environment or generated Python bytecode. |
 | `third_step_a/.venv/Lib/site-packages/__pycache__/inflection.cpython-312.pyc` | REGENERABLE | EXCLUDE | 15024 | `78e59d33604d2e302ac6f4025e8835ec11dd437ad87b19ae79f0b767c5dbec22` | Local virtual environment or generated Python bytecode. |
 | `third_step_a/.venv/Lib/site-packages/__pycache__/ipython_pygments_lexers.cpython-312.pyc` | REGENERABLE | EXCLUDE | 16936 | `9d4db0fb2a1b41d2ca93970973aad557ee4382ea31a3ef3f3537cba8da467734` | Local virtual environment or generated Python bytecode. |
