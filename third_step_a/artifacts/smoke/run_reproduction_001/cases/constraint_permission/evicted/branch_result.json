@@ -1,0 +1,325 @@
+{
+  "case_id": "constraint_permission",
+  "branch": "Evicted",
+  "classification": "adapted",
+  "experiment_name": "preempt3a_run_reproduction_001_constraint_permission_evicted",
+  "target_task_id": "530b157_2",
+  "target_instruction_sha256": "29a24eb73ae70603811d0e90fb08b4ca6dfefc71c77c50e3efc84decf0b8bc71",
+  "execution_freeze_id": "PREEMPT-Mem-3A-run_reproduction_001-reproduction",
+  "execution_freeze_sha256": "7c4e7ed2996cbace47ef1ac9625531368cf1bb695704ee8d63f62ee57e5f5efa",
+  "execution_freeze_validation_pass": true,
+  "prompt_sha256": "d89e1915e65b656b506aa4ef2096b68a48575e6ecf0c4eccceec6f7798200234",
+  "generated_code_sha256": "5ee84a0e00593468025f32bb512c8d6d86f33b5590b558e08b78c2d49861fd71",
+  "checkpoint_id": "future_task_frozen",
+  "base_checkpoint_tree_sha256": "b287fd56077d6c73624a5b76d1615088a5b0372f9067eb6828a4de462c1387c6",
+  "branch_checkpoint_tree_sha256": "b287fd56077d6c73624a5b76d1615088a5b0372f9067eb6828a4de462c1387c6",
+  "checkpoint_byte_equivalent": true,
+  "seed": 314159,
+  "agent_model": "preempt-deterministic-protocol-executor-v2-audit-hardened",
+  "decoding": {
+    "temperature": 0,
+    "top_p": 1,
+    "beam_size": 1,
+    "sampling": false
+  },
+  "tool_budget": {
+    "max_interactions": 1,
+    "max_api_calls_per_interaction": 250
+  },
+  "memory_put": {
+    "memory_id": "pm3a-constraint-530b157-source1-v1",
+    "record_sha256": "5cfa4e1af49779cbea63be8ec7af65c5c0f09a363840d5b96bf971ababc48fc6"
+  },
+  "memory_restore": null,
+  "retrieved_memory_ids": [],
+  "agent_decision": {
+    "decision": "fail_closed",
+    "reason": "no external memory record retrieved",
+    "policy_id": null
+  },
+  "execute_output": "Execution successful.",
+  "task_completed_flag": true,
+  "api_call_count": 1,
+  "evaluator_first": {
+    "success": false,
+    "difficulty": 3,
+    "num_tests": 10,
+    "passes": [
+      {
+        "requirement": "assert answers match.",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert none of the records from phone.UserTextMessage have been deleted",
+        "label": "no_op_pass"
+      }
+    ],
+    "failures": [
+      {
+        "requirement": "assert model changes match venmo.Transaction, phone.GlobalTextMessage, phone.UserTextMessage,\nignoring venmo.User and venmo.Notification",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert model changes match venmo.Transaction, phone.GlobalTextMessage, phone.UserTextMessage,\n    ignoring venmo.User and venmo.Notification\n    \"\"\"\n):\n    changed_model_names = models.changed_model_names(\n        ignore=[\"venmo.User\", \"venmo.Notification\"]\n```\n----------\nAssertionError:\nset()\n==\n{'venmo.Transaction', 'phone.UserTextMessage', 'phone.GlobalTextMessage'}\n\nIn right but not left:\n['venmo.Transaction', 'phone.UserTextMessage', 'phone.GlobalTextMessage']",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "obtain added, updated, deleted venmo.Transactions using models.changed_records\nassert 1 is added, 0 is updated, and 0 is deleted.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    obtain added, updated, deleted venmo.Transactions using models.changed_records\n    assert 1 is added, 0 is updated, and 0 is deleted.\n    \"\"\"\n):\n    added_transactions, updated_transactions, deleted_transactions = models.changed_records(\n        \"venmo.Transaction\"\n```\n----------\nAssertionError:  0 == 1",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert the added transaction receiver_id is private_data.friend_venmo_user_id.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert the added transaction receiver_id is private_data.friend_venmo_user_id.\n    \"\"\"\n):\n    added_transaction = added_transactions[0]\n    test.case(added_transaction.receiver_id, \"==\", private_data.friend_venmo_user_id)\n```\n----------",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert the added transaction has description public_data.note.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert the added transaction has description public_data.note.\n    \"\"\"\n):\n    test.case(added_transaction.description, \"==\", public_data.note, ignore_case=True)\n```\n----------",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert the added transaction has amount private_data.grocery_cost.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert the added transaction has amount private_data.grocery_cost.\n    \"\"\"\n):\n    test.case(added_transaction.amount, \"==\", private_data.grocery_cost)\n```\n----------",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "obtain added, updated, deleted phone.GlobalTextMessage using models.changed_records\nassert 1 is added, 0 is updated, and 0 is deleted.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    obtain added, updated, deleted phone.GlobalTextMessage using models.changed_records\n    assert 1 is added, 0 is updated, and 0 is deleted.\n    \"\"\"\n):\n    (\n        added_global_text_messages,\n```\n----------\nAssertionError:  0 == 1",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert the added global_text_message's receiver_id is to private_data.friend_phone_user_id.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert the added global_text_message's receiver_id is to private_data.friend_phone_user_id.\n    \"\"\"\n):\n    added_global_text_message = added_global_text_messages[0]\n    test.case(added_global_text_message.receiver_id, \"==\", private_data.friend_phone_user_id)\n```\n----------",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert the added global_text_message has message, public_data.message_text (ignore case).",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert the added global_text_message has message, public_data.message_text (ignore case).\n    \"\"\"\n):\n    test.case(\n        added_global_text_message.message, \"==\", public_data.message_text, ignore_case=True\n    )\n```\n----------",
+        "label": "no_op_fail"
+      }
+    ]
+  },
+  "evaluator_second": {
+    "success": false,
+    "difficulty": 3,
+    "num_tests": 10,
+    "passes": [
+      {
+        "requirement": "assert answers match.",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert none of the records from phone.UserTextMessage have been deleted",
+        "label": "no_op_pass"
+      }
+    ],
+    "failures": [
+      {
+        "requirement": "assert model changes match venmo.Transaction, phone.GlobalTextMessage, phone.UserTextMessage,\nignoring venmo.User and venmo.Notification",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert model changes match venmo.Transaction, phone.GlobalTextMessage, phone.UserTextMessage,\n    ignoring venmo.User and venmo.Notification\n    \"\"\"\n):\n    changed_model_names = models.changed_model_names(\n        ignore=[\"venmo.User\", \"venmo.Notification\"]\n```\n----------\nAssertionError:\nset()\n==\n{'venmo.Transaction', 'phone.UserTextMessage', 'phone.GlobalTextMessage'}\n\nIn right but not left:\n['venmo.Transaction', 'phone.UserTextMessage', 'phone.GlobalTextMessage']",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "obtain added, updated, deleted venmo.Transactions using models.changed_records\nassert 1 is added, 0 is updated, and 0 is deleted.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    obtain added, updated, deleted venmo.Transactions using models.changed_records\n    assert 1 is added, 0 is updated, and 0 is deleted.\n    \"\"\"\n):\n    added_transactions, updated_transactions, deleted_transactions = models.changed_records(\n        \"venmo.Transaction\"\n```\n----------\nAssertionError:  0 == 1",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert the added transaction receiver_id is private_data.friend_venmo_user_id.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert the added transaction receiver_id is private_data.friend_venmo_user_id.\n    \"\"\"\n):\n    added_transaction = added_transactions[0]\n    test.case(added_transaction.receiver_id, \"==\", private_data.friend_venmo_user_id)\n```\n----------",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert the added transaction has description public_data.note.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert the added transaction has description public_data.note.\n    \"\"\"\n):\n    test.case(added_transaction.description, \"==\", public_data.note, ignore_case=True)\n```\n----------",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert the added transaction has amount private_data.grocery_cost.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert the added transaction has amount private_data.grocery_cost.\n    \"\"\"\n):\n    test.case(added_transaction.amount, \"==\", private_data.grocery_cost)\n```\n----------",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "obtain added, updated, deleted phone.GlobalTextMessage using models.changed_records\nassert 1 is added, 0 is updated, and 0 is deleted.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    obtain added, updated, deleted phone.GlobalTextMessage using models.changed_records\n    assert 1 is added, 0 is updated, and 0 is deleted.\n    \"\"\"\n):\n    (\n        added_global_text_messages,\n```\n----------\nAssertionError:  0 == 1",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert the added global_text_message's receiver_id is to private_data.friend_phone_user_id.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert the added global_text_message's receiver_id is to private_data.friend_phone_user_id.\n    \"\"\"\n):\n    added_global_text_message = added_global_text_messages[0]\n    test.case(added_global_text_message.receiver_id, \"==\", private_data.friend_phone_user_id)\n```\n----------",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert the added global_text_message has message, public_data.message_text (ignore case).",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert the added global_text_message has message, public_data.message_text (ignore case).\n    \"\"\"\n):\n    test.case(\n        added_global_text_message.message, \"==\", public_data.message_text, ignore_case=True\n    )\n```\n----------",
+        "label": "no_op_fail"
+      }
+    ]
+  },
+  "evaluator_stable": true,
+  "official_success": false,
+  "severity": 3,
+  "severity_reason": "official task failure or required target-state/action omission without detected collateral",
+  "severe_loss": true,
+  "final_db_tree_sha256": "622aeef84ec021264d00a40598297b1884edd18c076f822e82ebb22b92ad2ee2",
+  "final_db_manifest": [
+    {
+      "path": "admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "file_system.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "model_hashes.json",
+      "size": 273,
+      "sha256": "604c4c4c06a11bfb0987baec6552a6b313a5945463504c6a86d098d57830057a",
+      "jsonl_lines": null
+    },
+    {
+      "path": "phone.jsonl",
+      "size": 7058,
+      "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58",
+      "jsonl_lines": 40
+    },
+    {
+      "path": "simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "supervisor.jsonl",
+      "size": 3872,
+      "sha256": "4e9bc776e246de7f22dabd67fbcee891e6829d7d7880cfaaa92a75ffa08580e2",
+      "jsonl_lines": 19
+    },
+    {
+      "path": "todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    }
+  ],
+  "effective_eviction_all_pass": true,
+  "branch_checkpoint_manifest": [
+    {
+      "path": "admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "file_system.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "model_hashes.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "jsonl_lines": null
+    },
+    {
+      "path": "phone.jsonl",
+      "size": 7058,
+      "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58",
+      "jsonl_lines": 40
+    },
+    {
+      "path": "simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "supervisor.jsonl",
+      "size": 3758,
+      "sha256": "82e5f62cd2211a8a6c545862997a3875f99e48b982f7619096070b6dd97cb350",
+      "jsonl_lines": 18
+    },
+    {
+      "path": "todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    }
+  ],
+  "state_changing_api_endpoints": []
+}

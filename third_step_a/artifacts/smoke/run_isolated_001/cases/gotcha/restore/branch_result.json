@@ -1,0 +1,62 @@
+{
+  "schema_version": "preempt-mem-3a-r-branch-result-v1",
+  "case_id": "gotcha",
+  "branch": "Restore",
+  "classification": "adapted",
+  "mechanism_claim": "constructed deterministic selector-channel mechanism smoke",
+  "experiment_name": "preempt3ar_run_isolated_001_gotcha_restore",
+  "target_task_id": "68ee2c9_2",
+  "target_instruction_sha256": "e072f1a0bcf1f8703d0a2e942be298b6b3f5a75ffb3330ccf4a99784862d13fc",
+  "execution_freeze_id": "run_isolated_001-freeze-v1",
+  "execution_freeze_sha256": "649f86faea21c1c3c8c1fd6d4398be44cf408c96124ea99abcab4514d05e4fed",
+  "execution_freeze_validation_pass": true,
+  "prompt_logical_lf_sha256": "339a0c96a82db2eb5a10ed25935bcf67ce583ddcfe8f440d3edf6fc7ce166397",
+  "prompt_file_sha256": "339a0c96a82db2eb5a10ed25935bcf67ce583ddcfe8f440d3edf6fc7ce166397",
+  "structured_agent_plan_logical_lf_sha256": "3d7e1aac2ec3aee304e9b04958214e4be02f9472f332359b3c9776c62ec93d58",
+  "structured_agent_plan_file_sha256": "de6059b08e7cc81de57406464129596777a72231dde5fcd8c09332d9a06c623c",
+  "checkpoint_id": "future_task_frozen",
+  "checkpoint_tree_manifest_root_sha256": "b3689d0bf2010a1b95acc6965f330705ee32dd2b39d22b29e352ec2845ebafa9",
+  "checkpoint_byte_equivalent_to_case_base": true,
+  "agent_model": "preempt-structured-tool-agent-v1-process-isolated",
+  "agent_model_type": "non-learned deterministic structured-tool agent in a separate process",
+  "seed": 314159,
+  "memory_put": {
+    "memory_id": "pm3a-gotcha-68ee2c9-source1-v1",
+    "record_sha256": "265c5a51eddfd3abc4dcc03c0f421e383829d1139993853e17350a4aced8fa7e"
+  },
+  "memory_delete": {
+    "memory_id": "pm3a-gotcha-68ee2c9-source1-v1",
+    "content_sha256": "f06f0fc30818447f62d212bc395b23725f5eb332aaf1e301820e274f515ff48c",
+    "record_sha256": "265c5a51eddfd3abc4dcc03c0f421e383829d1139993853e17350a4aced8fa7e"
+  },
+  "memory_restore": {
+    "memory_id": "pm3a-gotcha-68ee2c9-source1-v1",
+    "record_sha256": "265c5a51eddfd3abc4dcc03c0f421e383829d1139993853e17350a4aced8fa7e"
+  },
+  "retrieved_memory_ids": [
+    "pm3a-gotcha-68ee2c9-source1-v1"
+  ],
+  "agent_result": "<REDACTED:AGENT_RESULT:a988fd81abcc5bd0>",
+  "agent_process_pid": 40852,
+  "agent_ground_truth_loaded": false,
+  "evaluator_process_pids": [
+    12120,
+    49440
+  ],
+  "evaluator_ground_truth_loaded": true,
+  "official_success": true,
+  "evaluator_num_tests": 5,
+  "evaluator_pass_count": 5,
+  "evaluator_failure_count": 0,
+  "evaluator_stable": true,
+  "severity": 0,
+  "severity_reason": "official evaluator success; no relevant loss",
+  "severe_loss": false,
+  "db_tree_manifest_root_sha256": "b7c5d05e754c789488ce0775e421cf83319f7b7d91db8631437d77f7a6534081",
+  "db_file_count": 13,
+  "capability_probe_all_pass": true,
+  "effective_eviction_all_pass": true,
+  "api_tool_call_count": 126,
+  "api_log_redaction_count": 801,
+  "raw_api_logs_retained_in_run": false
+}

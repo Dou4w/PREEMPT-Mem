@@ -1,0 +1,29 @@
+{
+  "base": "Windows-11-10.0.22000-SP0 + CPython 3.12.13",
+  "system_pkgs": [
+    "git"
+  ],
+  "pip_phases": [
+    [
+      "editable:third_step_a/vendor/appworld_source@a072b7a86e7c1d5b1d7175659d750ebb9b79f10a"
+    ]
+  ],
+  "env": {
+    "APPWORLD_ROOT": "third_step_a/appworld_root",
+    "PYTHONHASHSEED": "0",
+    "PYTHONUTF8": "1",
+    "PYTHONWARNINGS": "ignore"
+  },
+  "run_commands": [],
+  "data": {
+    "appworld_data_version": "0.2.0",
+    "path": "third_step_a/appworld_root/data"
+  },
+  "smoke": {
+    "import_names": [
+      "appworld"
+    ],
+    "functional_witness": "third_step_a/src/memory_store_probe.py",
+    "reproduction_entrypoint": "third_step_a/README.md"
+  }
+}

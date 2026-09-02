@@ -1,0 +1,19 @@
+{
+  "frozen_before_evaluator": true,
+  "agent_exit_code": 0,
+  "agent_process_pid": 4400,
+  "source_db_tree_manifest_root_sha256": "f7faa8d0449d0462de82ec3eb05895899c3b116dd94d017eed9ced91ef634986",
+  "db_tree_manifest_root_sha256": "f7faa8d0449d0462de82ec3eb05895899c3b116dd94d017eed9ced91ef634986",
+  "db_file_count": 13,
+  "db_total_bytes": 12991,
+  "appworld_internal_raw_log": {
+    "path": "api_calls.jsonl",
+    "existed": true,
+    "row_count": 0,
+    "file_sha256_before_removal": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "removed": true
+  },
+  "controller_memory_raw_tool_log_written_to_disk": false,
+  "controller_memory_raw_tool_log_retained_until_case_firewall_scan": true,
+  "redacted_tool_log_file_sha256": "330528c7a4cc344603dbc12e330b6d63874b13c17f111c12ece56f324ea1a10b"
+}

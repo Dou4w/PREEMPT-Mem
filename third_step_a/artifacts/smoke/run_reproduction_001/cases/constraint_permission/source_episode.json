@@ -1,0 +1,40 @@
+{
+  "dataset": "dev",
+  "task_id": "530b157_1",
+  "generator_or_scenario_id": "530b157",
+  "variation": 1,
+  "specs_sha256": "484163be105a8423ac5c6b6172874746c2f2910b0d4713c6ecb765567c2e04fc",
+  "source_solution_sha256": "b05d2cc719da50f10310a64dc56564d7b3d7ac90d566da572c05cf3291d1dfe8",
+  "summary": "A prior reimbursement episode required identifying the named contact, extracting the grocery amount from the relevant recent text conversation, sending exactly one matching payment, and messaging only that contact after payment.",
+  "instruction": "Kristin paid for my grocery recently as my payment cards were not working at the time. Send them the owed money with a description note \"Groceries\" as per my phone text conversation, and then send them a phone text message, \"It is done.\".",
+  "source_specs_file_sha256_recomputed": "484163be105a8423ac5c6b6172874746c2f2910b0d4713c6ecb765567c2e04fc",
+  "candidate_record": {
+    "memory_id": "pm3a-constraint-530b157-source1-v1",
+    "memory_type": "external_addressable_episodic_semantic",
+    "content": "Policy constraint_exact_reimbursement_v1: resolve the exact named contact; inspect only the relevant recent conversation for the dollar amount; send exactly one payment to that contact with the exact instruction note; then send the exact requested phone message; fail closed if identity or amount is ambiguous.",
+    "provenance": {
+      "dataset": "dev",
+      "source_task_id": "530b157_1",
+      "generator_or_scenario_id": "530b157",
+      "source_variation": 1,
+      "source_specs_sha256": "484163be105a8423ac5c6b6172874746c2f2910b0d4713c6ecb765567c2e04fc",
+      "source_solution_sha256": "b05d2cc719da50f10310a64dc56564d7b3d7ac90d566da572c05cf3291d1dfe8",
+      "derivation": "abstracted only from source task 530b157_1; target ground truth is not an input to the candidate item"
+    },
+    "aliases": [
+      "exact-reimbursement-constraint-v1"
+    ],
+    "retrieval_keys": [
+      "grocery reimbursement text conversation",
+      "send owed money then phone message",
+      "exact contact amount note"
+    ],
+    "metadata": {
+      "policy_id": "constraint_exact_reimbursement_v1",
+      "summary": "Policy constraint_exact_reimbursement_v1: resolve the exact named contact; inspect only the relevant recent conversation for the dollar amount; send exactly one payment to that contact with the exact instruction note; then send the exact requested phone message; fail closed if identity or amount is ambiguous.",
+      "graph_edges": [],
+      "leakage_sentinel": "PM3A-SENTINEL::pm3a-constraint-530b157-source1-v1::5643b1024ffa6000"
+    }
+  },
+  "candidate_record_sha256": "5cfa4e1af49779cbea63be8ec7af65c5c0f09a363840d5b96bf971ababc48fc6"
+}

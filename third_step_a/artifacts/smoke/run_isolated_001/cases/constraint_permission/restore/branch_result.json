@@ -1,0 +1,62 @@
+{
+  "schema_version": "preempt-mem-3a-r-branch-result-v1",
+  "case_id": "constraint_permission",
+  "branch": "Restore",
+  "classification": "adapted",
+  "mechanism_claim": "constructed deterministic selector-channel mechanism smoke",
+  "experiment_name": "preempt3ar_run_isolated_001_constraint_permission_restore",
+  "target_task_id": "530b157_2",
+  "target_instruction_sha256": "29a24eb73ae70603811d0e90fb08b4ca6dfefc71c77c50e3efc84decf0b8bc71",
+  "execution_freeze_id": "run_isolated_001-freeze-v1",
+  "execution_freeze_sha256": "649f86faea21c1c3c8c1fd6d4398be44cf408c96124ea99abcab4514d05e4fed",
+  "execution_freeze_validation_pass": true,
+  "prompt_logical_lf_sha256": "769b079586ec1ae1a4af8dbd4408a8c86ee93ab165a67f0618db1b43c31b85f3",
+  "prompt_file_sha256": "769b079586ec1ae1a4af8dbd4408a8c86ee93ab165a67f0618db1b43c31b85f3",
+  "structured_agent_plan_logical_lf_sha256": "c4e6f20fea43d9f049f7eb3c2e20804e08cd54e2f687cb5fc46759eb39cdc67d",
+  "structured_agent_plan_file_sha256": "d54016fed90f6357171082ec4beefdd234e9de74762bd49ba41977787640229d",
+  "checkpoint_id": "future_task_frozen",
+  "checkpoint_tree_manifest_root_sha256": "e17b724ac643b11513bcaa6713658761dee5a8d220b1c49acfc199e6812860cd",
+  "checkpoint_byte_equivalent_to_case_base": true,
+  "agent_model": "preempt-structured-tool-agent-v1-process-isolated",
+  "agent_model_type": "non-learned deterministic structured-tool agent in a separate process",
+  "seed": 314159,
+  "memory_put": {
+    "memory_id": "pm3a-constraint-530b157-source1-v1",
+    "record_sha256": "5cfa4e1af49779cbea63be8ec7af65c5c0f09a363840d5b96bf971ababc48fc6"
+  },
+  "memory_delete": {
+    "memory_id": "pm3a-constraint-530b157-source1-v1",
+    "content_sha256": "5643b1024ffa60005e2f56db22f261c2f330a1f7f4b1fd3003ef7732c4373901",
+    "record_sha256": "5cfa4e1af49779cbea63be8ec7af65c5c0f09a363840d5b96bf971ababc48fc6"
+  },
+  "memory_restore": {
+    "memory_id": "pm3a-constraint-530b157-source1-v1",
+    "record_sha256": "5cfa4e1af49779cbea63be8ec7af65c5c0f09a363840d5b96bf971ababc48fc6"
+  },
+  "retrieved_memory_ids": [
+    "pm3a-constraint-530b157-source1-v1"
+  ],
+  "agent_result": "<REDACTED:AGENT_RESULT:237ad41bb6b4438d>",
+  "agent_process_pid": 41928,
+  "agent_ground_truth_loaded": false,
+  "evaluator_process_pids": [
+    39548,
+    45600
+  ],
+  "evaluator_ground_truth_loaded": true,
+  "official_success": true,
+  "evaluator_num_tests": 10,
+  "evaluator_pass_count": 10,
+  "evaluator_failure_count": 0,
+  "evaluator_stable": true,
+  "severity": 0,
+  "severity_reason": "official evaluator success; no relevant loss",
+  "severe_loss": false,
+  "db_tree_manifest_root_sha256": "f7faa8d0449d0462de82ec3eb05895899c3b116dd94d017eed9ced91ef634986",
+  "db_file_count": 13,
+  "capability_probe_all_pass": true,
+  "effective_eviction_all_pass": true,
+  "api_tool_call_count": 28,
+  "api_log_redaction_count": 159,
+  "raw_api_logs_retained_in_run": false
+}

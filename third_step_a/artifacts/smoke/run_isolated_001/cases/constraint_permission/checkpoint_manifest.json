@@ -1,0 +1,301 @@
+{
+  "schema_version": "preempt-mem-3a-r-checkpoint-manifest-v1",
+  "checkpoint_id": "future_task_frozen",
+  "controller_checkpoint_experiment": "preempt3ar_run_isolated_001_constraint_permission_checkpoint",
+  "base_checkpoint": {
+    "directory": "future_task_frozen",
+    "file_count": 13,
+    "total_bytes": 10818,
+    "tree_manifest_root_sha256": "e17b724ac643b11513bcaa6713658761dee5a8d220b1c49acfc199e6812860cd",
+    "entries": [
+      {
+        "path": "admin.jsonl",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "amazon.jsonl",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "api_docs.jsonl",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "file_system.jsonl",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "gmail.jsonl",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "model_hashes.json",
+        "size": 2,
+        "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      {
+        "path": "phone.jsonl",
+        "size": 7058,
+        "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58"
+      },
+      {
+        "path": "simple_note.jsonl",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "splitwise.jsonl",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "spotify.jsonl",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "supervisor.jsonl",
+        "size": 3758,
+        "sha256": "82e5f62cd2211a8a6c545862997a3875f99e48b982f7619096070b6dd97cb350"
+      },
+      {
+        "path": "todoist.jsonl",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "venmo.jsonl",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  "branch_checkpoint_roots": {
+    "Full": {
+      "directory": "checkpoint_snapshot",
+      "file_count": 13,
+      "total_bytes": 10818,
+      "tree_manifest_root_sha256": "e17b724ac643b11513bcaa6713658761dee5a8d220b1c49acfc199e6812860cd",
+      "entries": [
+        {
+          "path": "admin.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "amazon.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "api_docs.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "file_system.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "gmail.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "model_hashes.json",
+          "size": 2,
+          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+        },
+        {
+          "path": "phone.jsonl",
+          "size": 7058,
+          "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58"
+        },
+        {
+          "path": "simple_note.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "splitwise.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "spotify.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "supervisor.jsonl",
+          "size": 3758,
+          "sha256": "82e5f62cd2211a8a6c545862997a3875f99e48b982f7619096070b6dd97cb350"
+        },
+        {
+          "path": "todoist.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "venmo.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    "Evicted": {
+      "directory": "checkpoint_snapshot",
+      "file_count": 13,
+      "total_bytes": 10818,
+      "tree_manifest_root_sha256": "e17b724ac643b11513bcaa6713658761dee5a8d220b1c49acfc199e6812860cd",
+      "entries": [
+        {
+          "path": "admin.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "amazon.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "api_docs.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "file_system.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "gmail.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "model_hashes.json",
+          "size": 2,
+          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+        },
+        {
+          "path": "phone.jsonl",
+          "size": 7058,
+          "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58"
+        },
+        {
+          "path": "simple_note.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "splitwise.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "spotify.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "supervisor.jsonl",
+          "size": 3758,
+          "sha256": "82e5f62cd2211a8a6c545862997a3875f99e48b982f7619096070b6dd97cb350"
+        },
+        {
+          "path": "todoist.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "venmo.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    "Restore": {
+      "directory": "checkpoint_snapshot",
+      "file_count": 13,
+      "total_bytes": 10818,
+      "tree_manifest_root_sha256": "e17b724ac643b11513bcaa6713658761dee5a8d220b1c49acfc199e6812860cd",
+      "entries": [
+        {
+          "path": "admin.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "amazon.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "api_docs.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "file_system.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "gmail.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "model_hashes.json",
+          "size": 2,
+          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+        },
+        {
+          "path": "phone.jsonl",
+          "size": 7058,
+          "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58"
+        },
+        {
+          "path": "simple_note.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "splitwise.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "spotify.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "supervisor.jsonl",
+          "size": 3758,
+          "sha256": "82e5f62cd2211a8a6c545862997a3875f99e48b982f7619096070b6dd97cb350"
+        },
+        {
+          "path": "todoist.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "venmo.jsonl",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    }
+  },
+  "all_three_byte_equivalent": true,
+  "agent_world_load_ground_truth": false
+}

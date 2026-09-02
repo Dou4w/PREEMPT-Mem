@@ -1,0 +1,194 @@
+{
+  "probe_version": "preempt-3a-structural-probe-v1",
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22000-SP0",
+  "appworld_version": "0.2.0.dev0",
+  "appworld_source_commit": "a072b7a86e7c1d5b1d7175659d750ebb9b79f10a",
+  "appworld_data_version": "0.2.0",
+  "config_sha256": "bae1501303ffd4a6c568d82118938e789bf01d34266a79a01cb9358331663967",
+  "relationship": {
+    "rows": [
+      {
+        "task_id": "82e2fac_1",
+        "generator_or_scenario_id": "82e2fac",
+        "variation_number": 1,
+        "supervisor_email": "joyce-weav@gmail.com",
+        "datetime": "2023-05-18T12:00:00",
+        "task_input_db_home": "E:\\科研\\ICLR2027-PREEMPT-Mem\\third_step_a\\appworld_root\\data\\tasks\\82e2fac_1\\dbs",
+        "instruction_sha256": "fb9639d74e977307def33baf52c45d663380e7a9dd3b64559f4b5ddc328aa528"
+      },
+      {
+        "task_id": "82e2fac_2",
+        "generator_or_scenario_id": "82e2fac",
+        "variation_number": 2,
+        "supervisor_email": "glenn.burton@gmail.com",
+        "datetime": "2023-05-18T12:00:00",
+        "task_input_db_home": "E:\\科研\\ICLR2027-PREEMPT-Mem\\third_step_a\\appworld_root\\data\\tasks\\82e2fac_2\\dbs",
+        "instruction_sha256": "fb5ca320c00c3bb1d8faee9376adf1f8558d8429170dbb8651d80605c0ff839d"
+      }
+    ],
+    "same_generator": true,
+    "different_variations": true,
+    "different_supervisors": true,
+    "task_specific_db_paths": true
+  },
+  "checkpoint_and_reset": {
+    "task_id": "82e2fac_1",
+    "initial_supervisor": "joyce-weav@gmail.com",
+    "initial_db_home": ":memory:task_output-82e2fac_1",
+    "initial_card_count": 5,
+    "deleted_card_count": 5,
+    "mutated_card_count": 0,
+    "load_initial_card_count": 5,
+    "load_mutated_card_count": 0,
+    "checkpoint_files": [
+      "initial/admin.jsonl",
+      "initial/amazon.jsonl",
+      "initial/api_docs.jsonl",
+      "initial/file_system.jsonl",
+      "initial/gmail.jsonl",
+      "initial/model_hashes.json",
+      "initial/phone.jsonl",
+      "initial/simple_note.jsonl",
+      "initial/splitwise.jsonl",
+      "initial/spotify.jsonl",
+      "initial/supervisor.jsonl",
+      "initial/todoist.jsonl",
+      "initial/venmo.jsonl",
+      "mutated/admin.jsonl",
+      "mutated/amazon.jsonl",
+      "mutated/api_docs.jsonl",
+      "mutated/file_system.jsonl",
+      "mutated/gmail.jsonl",
+      "mutated/model_hashes.json",
+      "mutated/phone.jsonl",
+      "mutated/simple_note.jsonl",
+      "mutated/splitwise.jsonl",
+      "mutated/spotify.jsonl",
+      "mutated/supervisor.jsonl",
+      "mutated/todoist.jsonl",
+      "mutated/venmo.jsonl"
+    ],
+    "compatibility_workaround": "re-arm _set_datetime() after load_state() before close/new world",
+    "round_trip_pass": true,
+    "fresh_same_task_resets_to_task_input": true,
+    "other_task_id": "82e2fac_2",
+    "other_supervisor": "glenn.burton@gmail.com",
+    "other_db_home": ":memory:task_output-82e2fac_2",
+    "new_task_closes_and_rebinds_db": true
+  },
+  "evaluator_and_collateral": {
+    "task_id": "82e2fac_1",
+    "noop_first": {
+      "success": false,
+      "difficulty": 1,
+      "num_tests": 2,
+      "passes": [
+        {
+          "requirement": "assert no model changes.",
+          "label": "no_op_pass"
+        }
+      ],
+      "failures": [
+        {
+          "requirement": "assert answers match.",
+          "trace": "```python\nwith test(\n    \"\"\"\n    assert answers match.\n    \"\"\"\n):\n    test.answer(predicted_answer, ground_truth_answer)\n```\n----------\nAssertionError:  '<<not_given>>' == 'a love that never was'",
+          "label": "no_op_fail"
+        }
+      ]
+    },
+    "noop_second": {
+      "success": false,
+      "difficulty": 1,
+      "num_tests": 2,
+      "passes": [
+        {
+          "requirement": "assert no model changes.",
+          "label": "no_op_pass"
+        }
+      ],
+      "failures": [
+        {
+          "requirement": "assert answers match.",
+          "trace": "```python\nwith test(\n    \"\"\"\n    assert answers match.\n    \"\"\"\n):\n    test.answer(predicted_answer, ground_truth_answer)\n```\n----------\nAssertionError:  '<<not_given>>' == 'a love that never was'",
+          "label": "no_op_fail"
+        }
+      ]
+    },
+    "noop_stable": true,
+    "clean": {
+      "success": true,
+      "difficulty": 1,
+      "num_tests": 2,
+      "passes": [
+        {
+          "requirement": "assert answers match.",
+          "label": "no_op_fail"
+        },
+        {
+          "requirement": "assert no model changes.",
+          "label": "no_op_pass"
+        }
+      ],
+      "failures": []
+    },
+    "clean_execute_output": "Execution successful.",
+    "clean_success": true,
+    "clean_before_collateral": {
+      "success": true,
+      "difficulty": 1,
+      "num_tests": 2,
+      "passes": [
+        {
+          "requirement": "assert answers match.",
+          "label": "no_op_fail"
+        },
+        {
+          "requirement": "assert no model changes.",
+          "label": "no_op_pass"
+        }
+      ],
+      "failures": []
+    },
+    "collateral_execute_output": "Execution successful.",
+    "collateral_first": {
+      "success": false,
+      "difficulty": 1,
+      "num_tests": 2,
+      "passes": [
+        {
+          "requirement": "assert answers match.",
+          "label": "no_op_fail"
+        }
+      ],
+      "failures": [
+        {
+          "requirement": "assert no model changes.",
+          "trace": "```python\nwith test(\n    \"\"\"\n    assert no model changes.\n    \"\"\"\n):\n```\n----------\nAssertionError:  True is_falsy True\n\nOriginal values:\n{'amazon.Order', 'amazon.PaymentCard'} is_falsy '<SPECIAL_NOT_PASSED>'",
+          "label": "no_op_pass"
+        }
+      ]
+    },
+    "collateral_second": {
+      "success": false,
+      "difficulty": 1,
+      "num_tests": 2,
+      "passes": [
+        {
+          "requirement": "assert answers match.",
+          "label": "no_op_fail"
+        }
+      ],
+      "failures": [
+        {
+          "requirement": "assert no model changes.",
+          "trace": "```python\nwith test(\n    \"\"\"\n    assert no model changes.\n    \"\"\"\n):\n```\n----------\nAssertionError:  True is_falsy True\n\nOriginal values:\n{'amazon.Order', 'amazon.PaymentCard'} is_falsy '<SPECIAL_NOT_PASSED>'",
+          "label": "no_op_pass"
+        }
+      ]
+    },
+    "collateral_stable": true,
+    "collateral_detected": true
+  },
+  "all_required_checks_pass": true
+}

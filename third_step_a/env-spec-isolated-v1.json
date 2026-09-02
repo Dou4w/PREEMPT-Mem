@@ -1,0 +1,66 @@
+{
+  "schema_version": "preempt-mem-3a-r-environment-v1",
+  "purpose": "frozen environment for the process-isolated constructed deterministic selector-channel mechanism smoke",
+  "base": {
+    "operating_system": "Windows-11-10.0.22000-SP0",
+    "python_version": "3.12.13",
+    "python_executable": "third_step_a/.venv/Scripts/python.exe",
+    "python_executable_sha256": "560b9ef7d856608ab8da02ded2dc8a1951ad1f424c382c0ec6a698874165a18e"
+  },
+  "appworld": {
+    "source_path": "third_step_a/vendor/appworld_source",
+    "source_commit": "a072b7a86e7c1d5b1d7175659d750ebb9b79f10a",
+    "code_version": "0.2.0.dev0",
+    "data_path": "third_step_a/appworld_root/data",
+    "data_version": "0.2.0"
+  },
+  "critical_python_distributions": {
+    "appworld": "0.2.0.dev0",
+    "fastapi": "0.141.1",
+    "pendulum": "3.2.0",
+    "pydantic": "2.13.4",
+    "requests": "2.34.2",
+    "sqlmodel": "0.0.39",
+    "uvicorn": "0.52.4"
+  },
+  "controller_environment": {
+    "APPWORLD_ROOT": "third_step_a/appworld_root",
+    "PYTHONHASHSEED": "0",
+    "PYTHONUTF8": "1",
+    "PYTHONWARNINGS": "ignore"
+  },
+  "agent_boundary": {
+    "transport": "typed JSONL over stdin/stdout",
+    "arbitrary_model_generated_code": false,
+    "worker_copied_to_fresh_temporary_directory": true,
+    "python_isolated_flag": "-I",
+    "project_path_sent_to_agent": false,
+    "ground_truth_loaded": false,
+    "security_scope": "structured-tool capability boundary; not a general Windows arbitrary-code sandbox"
+  },
+  "evaluator_boundary": {
+    "entrypoint": "appworld.evaluator.evaluate_task",
+    "processes_per_frozen_db": 2,
+    "starts_after_agent_exit_and_db_freeze": true,
+    "ground_truth_loaded": true,
+    "environment_key_names_capture_timing": "immediately after APPWORLD_ROOT is set and before importing AppWorld",
+    "framework_added_post_import_keys_not_claimed_as_launch_capabilities": [
+      "APPWORLD_CACHE",
+      "TERMINAL_WIDTH"
+    ],
+    "repeatability_contract": "exact outcome,difficulty,count,label,requirement multiset",
+    "retained_but_excluded_diagnostic_fields": [
+      "failures[*].trace"
+    ],
+    "diagnostic_exclusion_reason": "AppWorld assertion traces contain semantically irrelevant Python set repr ordering; both raw traces remain hash-bound",
+    "deterministic_environment": {
+      "PYTHONHASHSEED": "0",
+      "PYTHONIOENCODING": "utf-8",
+      "PYTHONUTF8": "1",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "PYTHONWARNINGS": "ignore"
+    }
+  },
+  "network_dependencies": [],
+  "pilot_started": false
+}

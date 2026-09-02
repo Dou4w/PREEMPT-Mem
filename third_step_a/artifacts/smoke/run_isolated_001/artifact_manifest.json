@@ -1,0 +1,2348 @@
+{
+  "schema_version": "preempt-mem-artifact-manifest-v1",
+  "scope": "final_run_evidence",
+  "root_name": "run_isolated_001",
+  "excluded_paths": [
+    "artifact_manifest.json"
+  ],
+  "entry_count": 467,
+  "total_bytes": 2439465,
+  "manifest_root_sha256": "d607e9f83938e0505d6d86269aa2aeb8b3d22fa840c650eefcf71d4ced819d75",
+  "entries": [
+    {
+      "path": "aggregate_gate.json",
+      "size": 119303,
+      "sha256": "a5fc2c7b005cb76f8ccf953612a5a0ef29d1acc4a59edaf4e3f5b3bd0ae5f6c2"
+    },
+    {
+      "path": "attestation/precommit_attestation.json",
+      "size": 5092,
+      "sha256": "3a62639acf5e47c93249b6c799d6a17fed5be1376c810cfb5a8103d5e5e66e62"
+    },
+    {
+      "path": "attestation/target_distractor_probe.json",
+      "size": 57709,
+      "sha256": "283f14b3bdc983d5369b2410a5cf759c7555aae2f365b86332e453d386b0e136"
+    },
+    {
+      "path": "cases/constraint_permission/case_agent_exit_barrier.json",
+      "size": 253,
+      "sha256": "cd467cde15d39797bb66d3da0cb8f81aeca414a9e17f88de1f3c9539b41bcb7d"
+    },
+    {
+      "path": "cases/constraint_permission/case_summary.json",
+      "size": 776,
+      "sha256": "4625c5815aa8f2ce2b04fee16b6219c083507a1375feb5f9b13e746f76345795"
+    },
+    {
+      "path": "cases/constraint_permission/checkpoint_manifest.json",
+      "size": 10056,
+      "sha256": "8380ddcdcb206a04247c2d382a01a2dfae364ba6777b2b8bda30651204be1846"
+    },
+    {
+      "path": "cases/constraint_permission/controller_invocation.json",
+      "size": 11648,
+      "sha256": "98300c7f3b5f1ebfb5b1ebb1bcb924e477f58c0c058f9e99af6755603e2debb6"
+    },
+    {
+      "path": "cases/constraint_permission/database_state_diff.json",
+      "size": 22241,
+      "sha256": "2e033c139cf304ffa33f32b9ab2a1783fa5680821e44340b44657df21f1c905d"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/agent_final.redacted.json",
+      "size": 177,
+      "sha256": "be681835fbdf64f583a4a08b77db1d7f8ef444a0dc596ca1af70a1f35fe3eab9"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/agent_initialize.json",
+      "size": 380,
+      "sha256": "20913287eebf4ffd60a2a18bfa52102b971cc4e495c8a8c0701df2c7a1bde2c0"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/agent_process_attestation.json",
+      "size": 5186,
+      "sha256": "3bb41446bbb6afac60002c97c72a836bfbd275322130066e60054e768e93e480"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/agent_request.json",
+      "size": 1154,
+      "sha256": "e1252ae214c440e039b226db38f494c5ad975ec1fe1791d4b3fa79805d950507"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/agent_rpc_transcript.jsonl",
+      "size": 345,
+      "sha256": "afcdea0de51e9c30c2af5d9bb97f8ee796ef1b6bf047bd2903615fc33ad8bcb3"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/api_calls.redacted.jsonl",
+      "size": 345,
+      "sha256": "afcdea0de51e9c30c2af5d9bb97f8ee796ef1b6bf047bd2903615fc33ad8bcb3"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/api_log_redaction_attestation.json",
+      "size": 723,
+      "sha256": "b637fbf9ab3fb5d6fb527070c9e00e70cb586dd95953bc747f5d22cec8117806"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/branch_result.json",
+      "size": 2791,
+      "sha256": "5fadeb87d522caa6495d33fb44d66886d28b71282b454e8edbbb4be5fd9deff3"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/capability_probe_rpc_transcript.jsonl",
+      "size": 4313,
+      "sha256": "6341d456bd5d38af4a5a6d3a92ea59112628cdc0b786a327c6cd82914d687e60"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/capability_probes.json",
+      "size": 5632,
+      "sha256": "8a9fa605b72ca8210595f1d8640081340f3c855a0543e2eba3c40d7fb4d76e74"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/capability_process_attestation.json",
+      "size": 1564,
+      "sha256": "e96a062df8e09d2e9fd5d7f558cdf120078feeedc9539730f413e1c4fdcdba22"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/checkpoint_snapshot/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/checkpoint_snapshot/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/checkpoint_snapshot/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/checkpoint_snapshot/file_system.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/checkpoint_snapshot/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/checkpoint_snapshot/model_hashes.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/checkpoint_snapshot/phone.jsonl",
+      "size": 7058,
+      "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/checkpoint_snapshot/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/checkpoint_snapshot/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/checkpoint_snapshot/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/checkpoint_snapshot/supervisor.jsonl",
+      "size": 3758,
+      "sha256": "82e5f62cd2211a8a6c545862997a3875f99e48b982f7619096070b6dd97cb350"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/checkpoint_snapshot/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/checkpoint_snapshot/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_freeze_attestation.json",
+      "size": 839,
+      "sha256": "bfbf3aa0c5b39844e347d5a3e446021f271d7a5d3ca32994053e86e33351a548"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_snapshot_frozen/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_snapshot_frozen/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_snapshot_frozen/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_snapshot_frozen/file_system.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_snapshot_frozen/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_snapshot_frozen/model_hashes.json",
+      "size": 51,
+      "sha256": "473d35e8bc5e9682a328dc6b1c65b7cdc8f5f542aacc0d61168fe78228f62775"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_snapshot_frozen/phone.jsonl",
+      "size": 7058,
+      "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_snapshot_frozen/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_snapshot_frozen/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_snapshot_frozen/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_snapshot_frozen/supervisor.jsonl",
+      "size": 3872,
+      "sha256": "4e9bc776e246de7f22dabd67fbcee891e6829d7d7880cfaaa92a75ffa08580e2"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_snapshot_frozen/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/db_snapshot_frozen/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/effective_eviction_manifest.json",
+      "size": 26974,
+      "sha256": "0615acb568a9fa5849a7811c4c41b438fa636e91e41c1993aa0d680bf910c411"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/evaluator_first.json",
+      "size": 4337,
+      "sha256": "eb52c623dd046f7676cd2f6fc948c43aa6fe59dfee05fc7547e88f9d861de225"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/evaluator_first_worker.json",
+      "size": 10538,
+      "sha256": "491620eef5ac91090fcbc39d8c5168832fe82f8d2a21ce811237ec8bac821d59"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/evaluator_process_attestation.json",
+      "size": 16543,
+      "sha256": "1165fa33f49e4d0c031c56e093123f99b83e5dbf2ed847f367b1cdb20a9ebefd"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/evaluator_second.json",
+      "size": 4337,
+      "sha256": "019dce28e1d9650e25d96cec6ec99d2c8cf00ad676217a44b82819065928e6bb"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/evaluator_second_worker.json",
+      "size": 10538,
+      "sha256": "560ae6f2d0d70a3449739467d87e0c6cdd1267b383fb23b9166f08b8b8cce7de"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/post_agent_controller_canaries.json",
+      "size": 285,
+      "sha256": "9077c6ff0836418a8b3b547c51699072ffcb2fe4db17c2959dad4ebdeceb32c4"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/prompt.txt",
+      "size": 1820,
+      "sha256": "769b079586ec1ae1a4af8dbd4408a8c86ee93ab165a67f0618db1b43c31b85f3"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/retrieval_results.json",
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "cases/constraint_permission/evicted/structured_agent_plan.json",
+      "size": 318,
+      "sha256": "abadc2c753fb5ac4864ea72bd67a619fd40b932fd33a6ce17b4d7d3d14fd4e09"
+    },
+    {
+      "path": "cases/constraint_permission/firewall_leakage_manifest.json",
+      "size": 40287,
+      "sha256": "7748f6803a4004c4bd54911720181ecfb78b365308fe28daf793638e0913ba70"
+    },
+    {
+      "path": "cases/constraint_permission/full/agent_final.redacted.json",
+      "size": 178,
+      "sha256": "09123301f3a7ef7986e0d1343a171252368023f8c10ed418d2e0cfd66cfe0e0e"
+    },
+    {
+      "path": "cases/constraint_permission/full/agent_initialize.json",
+      "size": 1188,
+      "sha256": "8de5d15c0381b4b7b63a7496ad2013cf3fd9b886d79ad16de7a4211f9e519035"
+    },
+    {
+      "path": "cases/constraint_permission/full/agent_process_attestation.json",
+      "size": 5189,
+      "sha256": "a5e7ff817b82add79c781f35c1eb287b588c6da13f3181f328d7570a79b22003"
+    },
+    {
+      "path": "cases/constraint_permission/full/agent_request.json",
+      "size": 1962,
+      "sha256": "f04d765a3c9725d764ba0c11637d75288e579b6c735c1e2ae30dd68ec5dcf268"
+    },
+    {
+      "path": "cases/constraint_permission/full/agent_rpc_transcript.jsonl",
+      "size": 12317,
+      "sha256": "330528c7a4cc344603dbc12e330b6d63874b13c17f111c12ece56f324ea1a10b"
+    },
+    {
+      "path": "cases/constraint_permission/full/api_calls.redacted.jsonl",
+      "size": 12317,
+      "sha256": "330528c7a4cc344603dbc12e330b6d63874b13c17f111c12ece56f324ea1a10b"
+    },
+    {
+      "path": "cases/constraint_permission/full/api_log_redaction_attestation.json",
+      "size": 731,
+      "sha256": "427a4f48327fae44fe7d815ceb6a252685a4ceb51bb9cdaf8f3137dd96bfcd0f"
+    },
+    {
+      "path": "cases/constraint_permission/full/branch_result.json",
+      "size": 2566,
+      "sha256": "a1b5e324eccf42bb10db4ab35a9c90e40325bd1bbcc1507e80d88093250e8aa4"
+    },
+    {
+      "path": "cases/constraint_permission/full/capability_probe_rpc_transcript.jsonl",
+      "size": 4313,
+      "sha256": "6341d456bd5d38af4a5a6d3a92ea59112628cdc0b786a327c6cd82914d687e60"
+    },
+    {
+      "path": "cases/constraint_permission/full/capability_probes.json",
+      "size": 5632,
+      "sha256": "1155dff5a80a0b84a2250dfecad61d8d0a12f2bdf731a558a912790908a62e40"
+    },
+    {
+      "path": "cases/constraint_permission/full/capability_process_attestation.json",
+      "size": 1564,
+      "sha256": "23d85368de4c4a87a228b2667340b9b00e6e838445e809b28ed1c8bde70c29d1"
+    },
+    {
+      "path": "cases/constraint_permission/full/checkpoint_snapshot/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/checkpoint_snapshot/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/checkpoint_snapshot/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/checkpoint_snapshot/file_system.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/checkpoint_snapshot/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/checkpoint_snapshot/model_hashes.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "cases/constraint_permission/full/checkpoint_snapshot/phone.jsonl",
+      "size": 7058,
+      "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58"
+    },
+    {
+      "path": "cases/constraint_permission/full/checkpoint_snapshot/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/checkpoint_snapshot/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/checkpoint_snapshot/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/checkpoint_snapshot/supervisor.jsonl",
+      "size": 3758,
+      "sha256": "82e5f62cd2211a8a6c545862997a3875f99e48b982f7619096070b6dd97cb350"
+    },
+    {
+      "path": "cases/constraint_permission/full/checkpoint_snapshot/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/checkpoint_snapshot/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_freeze_attestation.json",
+      "size": 839,
+      "sha256": "76143ac39a9f44fc59c25584665c6b7c4d282ad3066ac8826712e7fdd9b24cec"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_snapshot_frozen/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_snapshot_frozen/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_snapshot_frozen/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_snapshot_frozen/file_system.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_snapshot_frozen/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_snapshot_frozen/model_hashes.json",
+      "size": 236,
+      "sha256": "b77f7d6a2ec74597b0d8b3be2594fe114d5f4df7c5df276a0f72de3d56b226e4"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_snapshot_frozen/phone.jsonl",
+      "size": 7848,
+      "sha256": "095e893ff65953fa39af75b6768bad4c451adf004602dd4a702b9182829d9bf8"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_snapshot_frozen/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_snapshot_frozen/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_snapshot_frozen/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_snapshot_frozen/supervisor.jsonl",
+      "size": 3875,
+      "sha256": "4f2fc939d824ba325ebcf01e872260e39daa720f13d05e5a1916a21d9303f52a"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_snapshot_frozen/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/full/db_snapshot_frozen/venmo.jsonl",
+      "size": 1032,
+      "sha256": "3ab7333f76a58e93b08f2bc527b1bb13e30916fd90ea1cd2e654a117ed4b1eb3"
+    },
+    {
+      "path": "cases/constraint_permission/full/evaluator_first.json",
+      "size": 1682,
+      "sha256": "7363c8601b5e446513444b3ae0fbea1778af672da639d5632e4184845f4ccf0b"
+    },
+    {
+      "path": "cases/constraint_permission/full/evaluator_first_worker.json",
+      "size": 7870,
+      "sha256": "b6d947171146bdce1db770a13ba99f719b99b53833e2431621c27f6295716b95"
+    },
+    {
+      "path": "cases/constraint_permission/full/evaluator_process_attestation.json",
+      "size": 16546,
+      "sha256": "d8d5875d0a0c1392e7f8655aa3ee11422e8ccbe8ffda7ce848fffd5c7b74ca88"
+    },
+    {
+      "path": "cases/constraint_permission/full/evaluator_second.json",
+      "size": 1682,
+      "sha256": "7363c8601b5e446513444b3ae0fbea1778af672da639d5632e4184845f4ccf0b"
+    },
+    {
+      "path": "cases/constraint_permission/full/evaluator_second_worker.json",
+      "size": 7870,
+      "sha256": "05c1cd14cf6f939d7508daa3c7969cbcdf0b1e33550a262fce4cd78c0bdecfb7"
+    },
+    {
+      "path": "cases/constraint_permission/full/post_agent_controller_canaries.json",
+      "size": 285,
+      "sha256": "efb2964ba4301f368a39b08173ab7259dcd1a24e1b8976ab64cfe696594ae37d"
+    },
+    {
+      "path": "cases/constraint_permission/full/prompt.txt",
+      "size": 1820,
+      "sha256": "769b079586ec1ae1a4af8dbd4408a8c86ee93ab165a67f0618db1b43c31b85f3"
+    },
+    {
+      "path": "cases/constraint_permission/full/retrieval_results.json",
+      "size": 776,
+      "sha256": "9f14607f8806a1f0c603e6c7c8b387d0b0662b5f97066e6105e2c18b97a00be9"
+    },
+    {
+      "path": "cases/constraint_permission/full/structured_agent_plan.json",
+      "size": 1188,
+      "sha256": "d54016fed90f6357171082ec4beefdd234e9de74762bd49ba41977787640229d"
+    },
+    {
+      "path": "cases/constraint_permission/memory_provenance.json",
+      "size": 439,
+      "sha256": "160966cb2037322f24b251c96f500e5e1580d1d9b293d79f825ca3cb7044e692"
+    },
+    {
+      "path": "cases/constraint_permission/raw_controller_firewall_scan.json",
+      "size": 14806,
+      "sha256": "d6a36ba22b13cb2b4776ffb381e29ee10396e913ce82a2ae271b377baa642f67"
+    },
+    {
+      "path": "cases/constraint_permission/restore/agent_final.redacted.json",
+      "size": 178,
+      "sha256": "09123301f3a7ef7986e0d1343a171252368023f8c10ed418d2e0cfd66cfe0e0e"
+    },
+    {
+      "path": "cases/constraint_permission/restore/agent_initialize.json",
+      "size": 1188,
+      "sha256": "8de5d15c0381b4b7b63a7496ad2013cf3fd9b886d79ad16de7a4211f9e519035"
+    },
+    {
+      "path": "cases/constraint_permission/restore/agent_process_attestation.json",
+      "size": 5190,
+      "sha256": "e458312ada6ee77051ccf31bfd085bf30b2256e6c0d0df42faac70875c326f46"
+    },
+    {
+      "path": "cases/constraint_permission/restore/agent_request.json",
+      "size": 1962,
+      "sha256": "f04d765a3c9725d764ba0c11637d75288e579b6c735c1e2ae30dd68ec5dcf268"
+    },
+    {
+      "path": "cases/constraint_permission/restore/agent_rpc_transcript.jsonl",
+      "size": 12317,
+      "sha256": "330528c7a4cc344603dbc12e330b6d63874b13c17f111c12ece56f324ea1a10b"
+    },
+    {
+      "path": "cases/constraint_permission/restore/api_calls.redacted.jsonl",
+      "size": 12317,
+      "sha256": "330528c7a4cc344603dbc12e330b6d63874b13c17f111c12ece56f324ea1a10b"
+    },
+    {
+      "path": "cases/constraint_permission/restore/api_log_redaction_attestation.json",
+      "size": 731,
+      "sha256": "427a4f48327fae44fe7d815ceb6a252685a4ceb51bb9cdaf8f3137dd96bfcd0f"
+    },
+    {
+      "path": "cases/constraint_permission/restore/branch_result.json",
+      "size": 2958,
+      "sha256": "297779cf31065df5f6465ced66f7e56407dc674300008e107e6297978db0d10c"
+    },
+    {
+      "path": "cases/constraint_permission/restore/capability_probe_rpc_transcript.jsonl",
+      "size": 4313,
+      "sha256": "6341d456bd5d38af4a5a6d3a92ea59112628cdc0b786a327c6cd82914d687e60"
+    },
+    {
+      "path": "cases/constraint_permission/restore/capability_probes.json",
+      "size": 5632,
+      "sha256": "5efd49417ac6dac1746f6e1fd6611fc9088571bcb1b95a4b2022d1dc26062784"
+    },
+    {
+      "path": "cases/constraint_permission/restore/capability_process_attestation.json",
+      "size": 1564,
+      "sha256": "4865b949fa3bcc0eca08046e8f2e2b385afaf585026fbe03f86898ae663f0433"
+    },
+    {
+      "path": "cases/constraint_permission/restore/checkpoint_snapshot/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/checkpoint_snapshot/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/checkpoint_snapshot/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/checkpoint_snapshot/file_system.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/checkpoint_snapshot/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/checkpoint_snapshot/model_hashes.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "cases/constraint_permission/restore/checkpoint_snapshot/phone.jsonl",
+      "size": 7058,
+      "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58"
+    },
+    {
+      "path": "cases/constraint_permission/restore/checkpoint_snapshot/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/checkpoint_snapshot/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/checkpoint_snapshot/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/checkpoint_snapshot/supervisor.jsonl",
+      "size": 3758,
+      "sha256": "82e5f62cd2211a8a6c545862997a3875f99e48b982f7619096070b6dd97cb350"
+    },
+    {
+      "path": "cases/constraint_permission/restore/checkpoint_snapshot/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/checkpoint_snapshot/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_freeze_attestation.json",
+      "size": 840,
+      "sha256": "0a7f1be0ec02f05a0aedef1ccd879188b19fa11ce10b1b3cd33c1b45e7cbda87"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_snapshot_frozen/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_snapshot_frozen/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_snapshot_frozen/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_snapshot_frozen/file_system.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_snapshot_frozen/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_snapshot_frozen/model_hashes.json",
+      "size": 236,
+      "sha256": "b77f7d6a2ec74597b0d8b3be2594fe114d5f4df7c5df276a0f72de3d56b226e4"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_snapshot_frozen/phone.jsonl",
+      "size": 7848,
+      "sha256": "095e893ff65953fa39af75b6768bad4c451adf004602dd4a702b9182829d9bf8"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_snapshot_frozen/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_snapshot_frozen/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_snapshot_frozen/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_snapshot_frozen/supervisor.jsonl",
+      "size": 3875,
+      "sha256": "4f2fc939d824ba325ebcf01e872260e39daa720f13d05e5a1916a21d9303f52a"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_snapshot_frozen/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/constraint_permission/restore/db_snapshot_frozen/venmo.jsonl",
+      "size": 1032,
+      "sha256": "3ab7333f76a58e93b08f2bc527b1bb13e30916fd90ea1cd2e654a117ed4b1eb3"
+    },
+    {
+      "path": "cases/constraint_permission/restore/effective_eviction_manifest.json",
+      "size": 26974,
+      "sha256": "0615acb568a9fa5849a7811c4c41b438fa636e91e41c1993aa0d680bf910c411"
+    },
+    {
+      "path": "cases/constraint_permission/restore/evaluator_first.json",
+      "size": 1682,
+      "sha256": "7363c8601b5e446513444b3ae0fbea1778af672da639d5632e4184845f4ccf0b"
+    },
+    {
+      "path": "cases/constraint_permission/restore/evaluator_first_worker.json",
+      "size": 7873,
+      "sha256": "a91fc0e12b648778950fc566f219d145d7528fa7f1ead6f147fea9c39d648c0a"
+    },
+    {
+      "path": "cases/constraint_permission/restore/evaluator_process_attestation.json",
+      "size": 16559,
+      "sha256": "53b24edf8d74b5a773a5860bbb42317e637c2c66b76f9ec026d133d9a9526af6"
+    },
+    {
+      "path": "cases/constraint_permission/restore/evaluator_second.json",
+      "size": 1682,
+      "sha256": "7363c8601b5e446513444b3ae0fbea1778af672da639d5632e4184845f4ccf0b"
+    },
+    {
+      "path": "cases/constraint_permission/restore/evaluator_second_worker.json",
+      "size": 7873,
+      "sha256": "f1c622cddb778c52f9a3f41cb88e120ab048d0a88cc9994624ad4cfd57033f71"
+    },
+    {
+      "path": "cases/constraint_permission/restore/post_agent_controller_canaries.json",
+      "size": 285,
+      "sha256": "498f8d6f7b6a336a757e5f84e3fab6bb8f34442b7ff05271e833e9f840a5395d"
+    },
+    {
+      "path": "cases/constraint_permission/restore/prompt.txt",
+      "size": 1820,
+      "sha256": "769b079586ec1ae1a4af8dbd4408a8c86ee93ab165a67f0618db1b43c31b85f3"
+    },
+    {
+      "path": "cases/constraint_permission/restore/retrieval_results.json",
+      "size": 776,
+      "sha256": "9f14607f8806a1f0c603e6c7c8b387d0b0662b5f97066e6105e2c18b97a00be9"
+    },
+    {
+      "path": "cases/constraint_permission/restore/structured_agent_plan.json",
+      "size": 1188,
+      "sha256": "d54016fed90f6357171082ec4beefdd234e9de74762bd49ba41977787640229d"
+    },
+    {
+      "path": "cases/constraint_permission/source_episode.json",
+      "size": 2755,
+      "sha256": "822bd5d67aee1ed267a46fb063384441759e2a93a463ddfaa16452baf3fee881"
+    },
+    {
+      "path": "cases/constraint_permission/target_relationship.json",
+      "size": 1573,
+      "sha256": "f1a086adb63e1bfe253531c0864b06a4db835eb82072f4cac7129cd7c2beb17f"
+    },
+    {
+      "path": "cases/constraint_permission/witness.json",
+      "size": 907,
+      "sha256": "b7020c34b42eea13e57cbfb1e899ad9a9bd540955fb7d779dc5aba2bad7c0c84"
+    },
+    {
+      "path": "cases/gotcha/case_agent_exit_barrier.json",
+      "size": 255,
+      "sha256": "7cabdbde307bb11e8e166002bf27afeea63cadd2a9e3ef36c5da22c222b9b87b"
+    },
+    {
+      "path": "cases/gotcha/case_summary.json",
+      "size": 761,
+      "sha256": "a584c30c65030b76148dfd92133ff48cf95d02d18a7413d441aa5ac429bae24d"
+    },
+    {
+      "path": "cases/gotcha/checkpoint_manifest.json",
+      "size": 10045,
+      "sha256": "57f82539b0f679acd69df6d261996b9d20981094ffec04ab04186d0047e48eb5"
+    },
+    {
+      "path": "cases/gotcha/controller_invocation.json",
+      "size": 11633,
+      "sha256": "11e56ec1c629a80b0aca72b49ddc5d7e15e3809b5f6cfa824794817e4f3dae79"
+    },
+    {
+      "path": "cases/gotcha/database_state_diff.json",
+      "size": 22244,
+      "sha256": "3646c9d89256b1c0519e472fcad434f0e7a377b9d6ed22a3dc4f07bc1af0add4"
+    },
+    {
+      "path": "cases/gotcha/evicted/agent_final.redacted.json",
+      "size": 177,
+      "sha256": "be681835fbdf64f583a4a08b77db1d7f8ef444a0dc596ca1af70a1f35fe3eab9"
+    },
+    {
+      "path": "cases/gotcha/evicted/agent_initialize.json",
+      "size": 340,
+      "sha256": "8648580b1f496dfd0678e9a5675368c0970750f515f98dabc4d0431ab179099e"
+    },
+    {
+      "path": "cases/gotcha/evicted/agent_process_attestation.json",
+      "size": 5187,
+      "sha256": "23a01927145a684de2a11a9a3e7331c073177b33127ea34d68ec470f741e72f8"
+    },
+    {
+      "path": "cases/gotcha/evicted/agent_request.json",
+      "size": 1065,
+      "sha256": "3a4fc55e39a1cf8f10b27fa053a144219540c30019dc40e0baa02631cd67b4be"
+    },
+    {
+      "path": "cases/gotcha/evicted/agent_rpc_transcript.jsonl",
+      "size": 345,
+      "sha256": "afcdea0de51e9c30c2af5d9bb97f8ee796ef1b6bf047bd2903615fc33ad8bcb3"
+    },
+    {
+      "path": "cases/gotcha/evicted/api_calls.redacted.jsonl",
+      "size": 345,
+      "sha256": "afcdea0de51e9c30c2af5d9bb97f8ee796ef1b6bf047bd2903615fc33ad8bcb3"
+    },
+    {
+      "path": "cases/gotcha/evicted/api_log_redaction_attestation.json",
+      "size": 723,
+      "sha256": "b637fbf9ab3fb5d6fb527070c9e00e70cb586dd95953bc747f5d22cec8117806"
+    },
+    {
+      "path": "cases/gotcha/evicted/branch_result.json",
+      "size": 2753,
+      "sha256": "2daea452192f79ad0c6283654037729cf4b73107bef28ad58249dc97027d8c87"
+    },
+    {
+      "path": "cases/gotcha/evicted/capability_probe_rpc_transcript.jsonl",
+      "size": 4313,
+      "sha256": "6341d456bd5d38af4a5a6d3a92ea59112628cdc0b786a327c6cd82914d687e60"
+    },
+    {
+      "path": "cases/gotcha/evicted/capability_probes.json",
+      "size": 5632,
+      "sha256": "5a71eaad59ba69793dcb5646a1f2d1f848d2faec054f1a21677453ac119e0ade"
+    },
+    {
+      "path": "cases/gotcha/evicted/capability_process_attestation.json",
+      "size": 1564,
+      "sha256": "bc78f759f561634e1d0a432e1a2d5f05e714792a0811cc4a2333a06a7323a2a7"
+    },
+    {
+      "path": "cases/gotcha/evicted/checkpoint_snapshot/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/checkpoint_snapshot/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/checkpoint_snapshot/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/checkpoint_snapshot/file_system.jsonl",
+      "size": 29080,
+      "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158"
+    },
+    {
+      "path": "cases/gotcha/evicted/checkpoint_snapshot/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/checkpoint_snapshot/model_hashes.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "cases/gotcha/evicted/checkpoint_snapshot/phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/checkpoint_snapshot/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/checkpoint_snapshot/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/checkpoint_snapshot/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/checkpoint_snapshot/supervisor.jsonl",
+      "size": 3454,
+      "sha256": "010b1a4ffee28f0a481ee5050fb6d9deab543730f63959519f8ff415a81aa863"
+    },
+    {
+      "path": "cases/gotcha/evicted/checkpoint_snapshot/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/checkpoint_snapshot/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_freeze_attestation.json",
+      "size": 840,
+      "sha256": "ab1f9dd4053354b27a682586dcae8f46b0243eb5d64445eebfc6c50cb357cb06"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_snapshot_frozen/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_snapshot_frozen/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_snapshot_frozen/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_snapshot_frozen/file_system.jsonl",
+      "size": 29080,
+      "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_snapshot_frozen/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_snapshot_frozen/model_hashes.json",
+      "size": 51,
+      "sha256": "473d35e8bc5e9682a328dc6b1c65b7cdc8f5f542aacc0d61168fe78228f62775"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_snapshot_frozen/phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_snapshot_frozen/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_snapshot_frozen/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_snapshot_frozen/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_snapshot_frozen/supervisor.jsonl",
+      "size": 3568,
+      "sha256": "4e9d2b375a5a5f3e9305efdbe3abee4410c93e42ab40449ff995137e7c4cecaa"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_snapshot_frozen/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/db_snapshot_frozen/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/evicted/effective_eviction_manifest.json",
+      "size": 26182,
+      "sha256": "d4f7597b16aee74e806c76489c11d439268ae6d44d3b127fb5eee9d9b95fd4a3"
+    },
+    {
+      "path": "cases/gotcha/evicted/evaluator_first.json",
+      "size": 2426,
+      "sha256": "2279e7bb424792009cbc43be9f53e2af4c65cfc50a7d355748398abbd5791f7a"
+    },
+    {
+      "path": "cases/gotcha/evicted/evaluator_first_worker.json",
+      "size": 8564,
+      "sha256": "4f98ef85dfa3292fe8f4fbe98fe95012146e7f4827dfbb1131eb1e1d6c647b77"
+    },
+    {
+      "path": "cases/gotcha/evicted/evaluator_process_attestation.json",
+      "size": 16487,
+      "sha256": "a7f7a99f9e7287b0b730d2d611737d294fcf2efb5870e3ee249b1b5bcb5d882b"
+    },
+    {
+      "path": "cases/gotcha/evicted/evaluator_second.json",
+      "size": 2426,
+      "sha256": "2279e7bb424792009cbc43be9f53e2af4c65cfc50a7d355748398abbd5791f7a"
+    },
+    {
+      "path": "cases/gotcha/evicted/evaluator_second_worker.json",
+      "size": 8564,
+      "sha256": "7d71250557c4d4408cc6ab6af00669fffa1a751030d85473c8e3ef644403aaa5"
+    },
+    {
+      "path": "cases/gotcha/evicted/post_agent_controller_canaries.json",
+      "size": 285,
+      "sha256": "0d1ea0e06e0adb3f7a3e334871fb4d93cc870934df1a9837ee76ed45f0a0f328"
+    },
+    {
+      "path": "cases/gotcha/evicted/prompt.txt",
+      "size": 1744,
+      "sha256": "339a0c96a82db2eb5a10ed25935bcf67ce583ddcfe8f440d3edf6fc7ce166397"
+    },
+    {
+      "path": "cases/gotcha/evicted/retrieval_results.json",
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "cases/gotcha/evicted/structured_agent_plan.json",
+      "size": 318,
+      "sha256": "abadc2c753fb5ac4864ea72bd67a619fd40b932fd33a6ce17b4d7d3d14fd4e09"
+    },
+    {
+      "path": "cases/gotcha/firewall_leakage_manifest.json",
+      "size": 39024,
+      "sha256": "28fa88c8dc64a41737dcacfb05a918f9f2b7117910e95849112e8a0de6a2e19a"
+    },
+    {
+      "path": "cases/gotcha/full/agent_final.redacted.json",
+      "size": 179,
+      "sha256": "60860b4a7cdd5a9e385d6e7f888849a66f1faa8243f46ee89d800c637b283a17"
+    },
+    {
+      "path": "cases/gotcha/full/agent_initialize.json",
+      "size": 1115,
+      "sha256": "f39579bc67f6a76b3b310bcfd66b0e430401cef448060f02ad85822b9ed2728e"
+    },
+    {
+      "path": "cases/gotcha/full/agent_process_attestation.json",
+      "size": 5191,
+      "sha256": "0346a8774400d99e9a55fa73468cd1fd5d6995e60db4394a5ddd5ad52b6fef78"
+    },
+    {
+      "path": "cases/gotcha/full/agent_request.json",
+      "size": 1840,
+      "sha256": "9184fa4abe204609d0f74714d63758093c56684062dbd276b4d1ed4fca8bbc21"
+    },
+    {
+      "path": "cases/gotcha/full/agent_rpc_transcript.jsonl",
+      "size": 59985,
+      "sha256": "56d850601b0e9505e49f04811544953469847d3b0d366be61dc5cabc9ca11f6d"
+    },
+    {
+      "path": "cases/gotcha/full/api_calls.redacted.jsonl",
+      "size": 59985,
+      "sha256": "56d850601b0e9505e49f04811544953469847d3b0d366be61dc5cabc9ca11f6d"
+    },
+    {
+      "path": "cases/gotcha/full/api_log_redaction_attestation.json",
+      "size": 735,
+      "sha256": "c5eccb8989b366b00fd2fb6ef4f55f4e3a8ad507494b1c793226b38ffee52f59"
+    },
+    {
+      "path": "cases/gotcha/full/branch_result.json",
+      "size": 2528,
+      "sha256": "b00c14523b5528b54dcc4c6ccbe3f8e99d2bb564ad6975023637dc43775cb261"
+    },
+    {
+      "path": "cases/gotcha/full/capability_probe_rpc_transcript.jsonl",
+      "size": 4313,
+      "sha256": "6341d456bd5d38af4a5a6d3a92ea59112628cdc0b786a327c6cd82914d687e60"
+    },
+    {
+      "path": "cases/gotcha/full/capability_probes.json",
+      "size": 5632,
+      "sha256": "02cb66f080918afc5cec4e48eed4e6f308e18fe0826d663f1d04a9b8615c32f3"
+    },
+    {
+      "path": "cases/gotcha/full/capability_process_attestation.json",
+      "size": 1564,
+      "sha256": "d56ba0e6422b1c3017fd52e40682d7d868e50b806302c57624e706feeb1d00e8"
+    },
+    {
+      "path": "cases/gotcha/full/checkpoint_snapshot/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/checkpoint_snapshot/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/checkpoint_snapshot/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/checkpoint_snapshot/file_system.jsonl",
+      "size": 29080,
+      "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158"
+    },
+    {
+      "path": "cases/gotcha/full/checkpoint_snapshot/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/checkpoint_snapshot/model_hashes.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "cases/gotcha/full/checkpoint_snapshot/phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/checkpoint_snapshot/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/checkpoint_snapshot/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/checkpoint_snapshot/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/checkpoint_snapshot/supervisor.jsonl",
+      "size": 3454,
+      "sha256": "010b1a4ffee28f0a481ee5050fb6d9deab543730f63959519f8ff415a81aa863"
+    },
+    {
+      "path": "cases/gotcha/full/checkpoint_snapshot/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/checkpoint_snapshot/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/db_freeze_attestation.json",
+      "size": 840,
+      "sha256": "ceb6a5ae4bf49c5e50ecc24cee2c03e8e0f7da5cd59ac8544fd97d9d8659f95a"
+    },
+    {
+      "path": "cases/gotcha/full/db_snapshot_frozen/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/db_snapshot_frozen/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/db_snapshot_frozen/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/db_snapshot_frozen/file_system.jsonl",
+      "size": 55592,
+      "sha256": "94735fb8cfc0e08406e68da1adfb60fd64fdd3e5316a9752edc76980578938c1"
+    },
+    {
+      "path": "cases/gotcha/full/db_snapshot_frozen/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/db_snapshot_frozen/model_hashes.json",
+      "size": 127,
+      "sha256": "b61ba7242bcccae5ce98af7ab0c5fd874af7b2699a0af1b74179e8c2c0066877"
+    },
+    {
+      "path": "cases/gotcha/full/db_snapshot_frozen/phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/db_snapshot_frozen/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/db_snapshot_frozen/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/db_snapshot_frozen/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/db_snapshot_frozen/supervisor.jsonl",
+      "size": 3571,
+      "sha256": "d254fdb9fb2734f5436d5e677614756ff8d09a49dd8257f3beaa8014af478145"
+    },
+    {
+      "path": "cases/gotcha/full/db_snapshot_frozen/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/db_snapshot_frozen/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/full/evaluator_first.json",
+      "size": 1208,
+      "sha256": "7259a64a488b0fb6f360e89016cb2ec587d1fc48c1d53085ac1ca07e814d95be"
+    },
+    {
+      "path": "cases/gotcha/full/evaluator_first_worker.json",
+      "size": 7337,
+      "sha256": "3e5206c792cc8bfc23da2f138190dd78dce0bb02810416d615cc6ecc6b02a913"
+    },
+    {
+      "path": "cases/gotcha/full/evaluator_process_attestation.json",
+      "size": 16479,
+      "sha256": "9377eca039ba204399caac0e790ee454ff6157fae34f969651c68d5cfdf043ef"
+    },
+    {
+      "path": "cases/gotcha/full/evaluator_second.json",
+      "size": 1208,
+      "sha256": "7259a64a488b0fb6f360e89016cb2ec587d1fc48c1d53085ac1ca07e814d95be"
+    },
+    {
+      "path": "cases/gotcha/full/evaluator_second_worker.json",
+      "size": 7337,
+      "sha256": "d9c4e2e642d81f076a5fe6a2b5fbbc1a3f0d7dff2e9bb893a2355f40f051af28"
+    },
+    {
+      "path": "cases/gotcha/full/post_agent_controller_canaries.json",
+      "size": 285,
+      "sha256": "369817c639891b0c9359c6c6be4d91a484aabe7c4ab32051a151662132de4ddb"
+    },
+    {
+      "path": "cases/gotcha/full/prompt.txt",
+      "size": 1744,
+      "sha256": "339a0c96a82db2eb5a10ed25935bcf67ce583ddcfe8f440d3edf6fc7ce166397"
+    },
+    {
+      "path": "cases/gotcha/full/retrieval_results.json",
+      "size": 743,
+      "sha256": "f04c1c86d3ae066312c3bae478addc950ef4761a2b07951c7d777814655edcc5"
+    },
+    {
+      "path": "cases/gotcha/full/structured_agent_plan.json",
+      "size": 4095,
+      "sha256": "de6059b08e7cc81de57406464129596777a72231dde5fcd8c09332d9a06c623c"
+    },
+    {
+      "path": "cases/gotcha/memory_provenance.json",
+      "size": 439,
+      "sha256": "77d52c5489fad8b8c3dbf54b42b791c4813c4e8447500481ae6c1e262e02d983"
+    },
+    {
+      "path": "cases/gotcha/raw_controller_firewall_scan.json",
+      "size": 14230,
+      "sha256": "cd10bae8a68e96a16264c9f2d02b04aef098b51d73ba18091370c4e2f76cac1c"
+    },
+    {
+      "path": "cases/gotcha/restore/agent_final.redacted.json",
+      "size": 179,
+      "sha256": "60860b4a7cdd5a9e385d6e7f888849a66f1faa8243f46ee89d800c637b283a17"
+    },
+    {
+      "path": "cases/gotcha/restore/agent_initialize.json",
+      "size": 1115,
+      "sha256": "f39579bc67f6a76b3b310bcfd66b0e430401cef448060f02ad85822b9ed2728e"
+    },
+    {
+      "path": "cases/gotcha/restore/agent_process_attestation.json",
+      "size": 5191,
+      "sha256": "1947d54ac6b4adefb3d9546dc53918b20ebe19c452af2183959f4e56e7df6aba"
+    },
+    {
+      "path": "cases/gotcha/restore/agent_request.json",
+      "size": 1840,
+      "sha256": "9184fa4abe204609d0f74714d63758093c56684062dbd276b4d1ed4fca8bbc21"
+    },
+    {
+      "path": "cases/gotcha/restore/agent_rpc_transcript.jsonl",
+      "size": 59985,
+      "sha256": "56d850601b0e9505e49f04811544953469847d3b0d366be61dc5cabc9ca11f6d"
+    },
+    {
+      "path": "cases/gotcha/restore/api_calls.redacted.jsonl",
+      "size": 59985,
+      "sha256": "56d850601b0e9505e49f04811544953469847d3b0d366be61dc5cabc9ca11f6d"
+    },
+    {
+      "path": "cases/gotcha/restore/api_log_redaction_attestation.json",
+      "size": 735,
+      "sha256": "c5eccb8989b366b00fd2fb6ef4f55f4e3a8ad507494b1c793226b38ffee52f59"
+    },
+    {
+      "path": "cases/gotcha/restore/branch_result.json",
+      "size": 2911,
+      "sha256": "c112c8376714b94a632d77066bff8ac7cb59c5ad766a9ec204fecd6abaf88c29"
+    },
+    {
+      "path": "cases/gotcha/restore/capability_probe_rpc_transcript.jsonl",
+      "size": 4313,
+      "sha256": "6341d456bd5d38af4a5a6d3a92ea59112628cdc0b786a327c6cd82914d687e60"
+    },
+    {
+      "path": "cases/gotcha/restore/capability_probes.json",
+      "size": 5632,
+      "sha256": "2f7aec573846445e0cc152273fefba3698fe86ed7836f5cb3a71d248fe330ee9"
+    },
+    {
+      "path": "cases/gotcha/restore/capability_process_attestation.json",
+      "size": 1564,
+      "sha256": "4f660e88b5968e6c1f5b2f79386d0cfa34607cf83a3efdaae92af8e68479a15a"
+    },
+    {
+      "path": "cases/gotcha/restore/checkpoint_snapshot/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/checkpoint_snapshot/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/checkpoint_snapshot/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/checkpoint_snapshot/file_system.jsonl",
+      "size": 29080,
+      "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158"
+    },
+    {
+      "path": "cases/gotcha/restore/checkpoint_snapshot/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/checkpoint_snapshot/model_hashes.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "cases/gotcha/restore/checkpoint_snapshot/phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/checkpoint_snapshot/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/checkpoint_snapshot/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/checkpoint_snapshot/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/checkpoint_snapshot/supervisor.jsonl",
+      "size": 3454,
+      "sha256": "010b1a4ffee28f0a481ee5050fb6d9deab543730f63959519f8ff415a81aa863"
+    },
+    {
+      "path": "cases/gotcha/restore/checkpoint_snapshot/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/checkpoint_snapshot/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/db_freeze_attestation.json",
+      "size": 840,
+      "sha256": "dbc3c425f81fe168ea97be3449d6b006f3c3d463a9e31c19081633046646594d"
+    },
+    {
+      "path": "cases/gotcha/restore/db_snapshot_frozen/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/db_snapshot_frozen/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/db_snapshot_frozen/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/db_snapshot_frozen/file_system.jsonl",
+      "size": 55592,
+      "sha256": "94735fb8cfc0e08406e68da1adfb60fd64fdd3e5316a9752edc76980578938c1"
+    },
+    {
+      "path": "cases/gotcha/restore/db_snapshot_frozen/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/db_snapshot_frozen/model_hashes.json",
+      "size": 127,
+      "sha256": "b61ba7242bcccae5ce98af7ab0c5fd874af7b2699a0af1b74179e8c2c0066877"
+    },
+    {
+      "path": "cases/gotcha/restore/db_snapshot_frozen/phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/db_snapshot_frozen/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/db_snapshot_frozen/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/db_snapshot_frozen/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/db_snapshot_frozen/supervisor.jsonl",
+      "size": 3571,
+      "sha256": "d254fdb9fb2734f5436d5e677614756ff8d09a49dd8257f3beaa8014af478145"
+    },
+    {
+      "path": "cases/gotcha/restore/db_snapshot_frozen/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/db_snapshot_frozen/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/gotcha/restore/effective_eviction_manifest.json",
+      "size": 26182,
+      "sha256": "d4f7597b16aee74e806c76489c11d439268ae6d44d3b127fb5eee9d9b95fd4a3"
+    },
+    {
+      "path": "cases/gotcha/restore/evaluator_first.json",
+      "size": 1208,
+      "sha256": "7259a64a488b0fb6f360e89016cb2ec587d1fc48c1d53085ac1ca07e814d95be"
+    },
+    {
+      "path": "cases/gotcha/restore/evaluator_first_worker.json",
+      "size": 7340,
+      "sha256": "4800f81b4896ff652b88e0e60e98dac28a14746234a3e622e82eaebc22e78492"
+    },
+    {
+      "path": "cases/gotcha/restore/evaluator_process_attestation.json",
+      "size": 16491,
+      "sha256": "b7d02e6889b2c16d76ecfc3d632ed194a82de1fc917140daf2adf0dcc957e801"
+    },
+    {
+      "path": "cases/gotcha/restore/evaluator_second.json",
+      "size": 1208,
+      "sha256": "7259a64a488b0fb6f360e89016cb2ec587d1fc48c1d53085ac1ca07e814d95be"
+    },
+    {
+      "path": "cases/gotcha/restore/evaluator_second_worker.json",
+      "size": 7340,
+      "sha256": "4ccbc2b9eedce7754f992ad43032c9d1a1d4d619797c479d428458d5f8564f82"
+    },
+    {
+      "path": "cases/gotcha/restore/post_agent_controller_canaries.json",
+      "size": 285,
+      "sha256": "f163e6301f9011c901a175ba1d070f9d47c32ebcc6305ee8cff015098fd1398c"
+    },
+    {
+      "path": "cases/gotcha/restore/prompt.txt",
+      "size": 1744,
+      "sha256": "339a0c96a82db2eb5a10ed25935bcf67ce583ddcfe8f440d3edf6fc7ce166397"
+    },
+    {
+      "path": "cases/gotcha/restore/retrieval_results.json",
+      "size": 743,
+      "sha256": "f04c1c86d3ae066312c3bae478addc950ef4761a2b07951c7d777814655edcc5"
+    },
+    {
+      "path": "cases/gotcha/restore/structured_agent_plan.json",
+      "size": 4095,
+      "sha256": "de6059b08e7cc81de57406464129596777a72231dde5fcd8c09332d9a06c623c"
+    },
+    {
+      "path": "cases/gotcha/source_episode.json",
+      "size": 2622,
+      "sha256": "da8488b32ce156dd02276fdebdf47b25a2b59cf62acde93f2b581f7fa07ffb90"
+    },
+    {
+      "path": "cases/gotcha/target_relationship.json",
+      "size": 1497,
+      "sha256": "d41d14d8787e0b73e975c17ca21ddd8cc6618bdd67440e680e8ecf64a5ecccde"
+    },
+    {
+      "path": "cases/gotcha/witness.json",
+      "size": 848,
+      "sha256": "720cda4ac6156f4ae99fde94e1aff7fe251e3d6247420cf1eb47f6fad5d030d7"
+    },
+    {
+      "path": "cases/workflow/case_agent_exit_barrier.json",
+      "size": 254,
+      "sha256": "6ab6274a049957c8f24c741be75cdc79f84aace988b899fc514d8e013c54275d"
+    },
+    {
+      "path": "cases/workflow/case_summary.json",
+      "size": 763,
+      "sha256": "4dc415c13b0705e321d6394fb487b346cbd90f4829f42804e17d1f5e8196106b"
+    },
+    {
+      "path": "cases/workflow/checkpoint_manifest.json",
+      "size": 10027,
+      "sha256": "7b915bd536d5b72faffe891db7f45dc116456c299d2d84e9f89e4c0ca72efa6e"
+    },
+    {
+      "path": "cases/workflow/controller_invocation.json",
+      "size": 11635,
+      "sha256": "03c9f73486027bc7f639a53ed1b2614c56af53f88bb0c82ab749584fd54f982b"
+    },
+    {
+      "path": "cases/workflow/database_state_diff.json",
+      "size": 22241,
+      "sha256": "ba1a7cf9175b2c8cefafd5609f0eda98d69e27e061968f274af381a5297f2988"
+    },
+    {
+      "path": "cases/workflow/evicted/agent_final.redacted.json",
+      "size": 177,
+      "sha256": "be681835fbdf64f583a4a08b77db1d7f8ef444a0dc596ca1af70a1f35fe3eab9"
+    },
+    {
+      "path": "cases/workflow/evicted/agent_initialize.json",
+      "size": 352,
+      "sha256": "561cc881828fefd3d40c9983c179619f3a10da354fdb6978e54cd203bdbc0df0"
+    },
+    {
+      "path": "cases/workflow/evicted/agent_process_attestation.json",
+      "size": 5186,
+      "sha256": "fd0fad184377be896e0101635b2f77911e3d72ca6a7400f2445f027fd44a56ef"
+    },
+    {
+      "path": "cases/workflow/evicted/agent_request.json",
+      "size": 1063,
+      "sha256": "d985b96cc80f9e1b03d5d92e190d07483bd43e993cc7aa37366a5e7e0edc99f2"
+    },
+    {
+      "path": "cases/workflow/evicted/agent_rpc_transcript.jsonl",
+      "size": 345,
+      "sha256": "afcdea0de51e9c30c2af5d9bb97f8ee796ef1b6bf047bd2903615fc33ad8bcb3"
+    },
+    {
+      "path": "cases/workflow/evicted/api_calls.redacted.jsonl",
+      "size": 345,
+      "sha256": "afcdea0de51e9c30c2af5d9bb97f8ee796ef1b6bf047bd2903615fc33ad8bcb3"
+    },
+    {
+      "path": "cases/workflow/evicted/api_log_redaction_attestation.json",
+      "size": 723,
+      "sha256": "b637fbf9ab3fb5d6fb527070c9e00e70cb586dd95953bc747f5d22cec8117806"
+    },
+    {
+      "path": "cases/workflow/evicted/branch_result.json",
+      "size": 2760,
+      "sha256": "0aea7c048ba3ee29f3d33f04081573c1309e29364ffeae59839fda32ef84b51e"
+    },
+    {
+      "path": "cases/workflow/evicted/capability_probe_rpc_transcript.jsonl",
+      "size": 4313,
+      "sha256": "6341d456bd5d38af4a5a6d3a92ea59112628cdc0b786a327c6cd82914d687e60"
+    },
+    {
+      "path": "cases/workflow/evicted/capability_probes.json",
+      "size": 5632,
+      "sha256": "be4f873c016f7ec5035fecaf8abce857c8eac94be1ee8c1b72ef41d06fbadd0a"
+    },
+    {
+      "path": "cases/workflow/evicted/capability_process_attestation.json",
+      "size": 1564,
+      "sha256": "f6be6047dbeb6e49ad09a6bbc9a7327e7d5d42c26288cf827bd63326885ec155"
+    },
+    {
+      "path": "cases/workflow/evicted/checkpoint_snapshot/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/checkpoint_snapshot/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/checkpoint_snapshot/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/checkpoint_snapshot/file_system.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/checkpoint_snapshot/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/checkpoint_snapshot/model_hashes.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "cases/workflow/evicted/checkpoint_snapshot/phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/checkpoint_snapshot/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/checkpoint_snapshot/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/checkpoint_snapshot/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/checkpoint_snapshot/supervisor.jsonl",
+      "size": 3484,
+      "sha256": "c82ae8c1fec4746027debb4cd68cf2616db51b8588e8cdf47de00db2aff2fbf9"
+    },
+    {
+      "path": "cases/workflow/evicted/checkpoint_snapshot/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/checkpoint_snapshot/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/db_freeze_attestation.json",
+      "size": 838,
+      "sha256": "f5c7948c8b61d3de3210b81945e20f46ff017259d6bc383f31b00a2090474ca5"
+    },
+    {
+      "path": "cases/workflow/evicted/db_snapshot_frozen/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/db_snapshot_frozen/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/db_snapshot_frozen/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/db_snapshot_frozen/file_system.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/db_snapshot_frozen/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/db_snapshot_frozen/model_hashes.json",
+      "size": 51,
+      "sha256": "473d35e8bc5e9682a328dc6b1c65b7cdc8f5f542aacc0d61168fe78228f62775"
+    },
+    {
+      "path": "cases/workflow/evicted/db_snapshot_frozen/phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/db_snapshot_frozen/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/db_snapshot_frozen/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/db_snapshot_frozen/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/db_snapshot_frozen/supervisor.jsonl",
+      "size": 3598,
+      "sha256": "2dd84aaef2d51b0b78a0305ee8bd95f964f7c36115f7ce155f042e1d2fabd652"
+    },
+    {
+      "path": "cases/workflow/evicted/db_snapshot_frozen/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/db_snapshot_frozen/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/evicted/effective_eviction_manifest.json",
+      "size": 25402,
+      "sha256": "daad7a46628c9867b19e1fc7e5a187cde31445ecb2a8259d5a23d1e97208a6c9"
+    },
+    {
+      "path": "cases/workflow/evicted/evaluator_first.json",
+      "size": 79986,
+      "sha256": "6fe672c97d4dd9a05fbf213efe02f31fe6dafdbf12a35666c282454878fdf0d6"
+    },
+    {
+      "path": "cases/workflow/evicted/evaluator_first_worker.json",
+      "size": 86146,
+      "sha256": "8a2ca3f0506310e0427971d03001eb3e9341ba779286bc8ae7cb20c20b8027d6"
+    },
+    {
+      "path": "cases/workflow/evicted/evaluator_process_attestation.json",
+      "size": 16475,
+      "sha256": "e899d6c49c7600f3258ec78dfa7e50912273301153fb81536fd5455a962c4acb"
+    },
+    {
+      "path": "cases/workflow/evicted/evaluator_second.json",
+      "size": 79986,
+      "sha256": "baed3f2d3e829f004fd04c80689b3b0a1e54f9ab92689a19de796f5edc00f7a3"
+    },
+    {
+      "path": "cases/workflow/evicted/evaluator_second_worker.json",
+      "size": 86146,
+      "sha256": "344415ee2db1303864084e80ff2833bb22a2c7153c3435ce24c109e87ba5ecec"
+    },
+    {
+      "path": "cases/workflow/evicted/post_agent_controller_canaries.json",
+      "size": 285,
+      "sha256": "041124858588936c007971426f67db016b635cee11ec4f60a11ad38a22319812"
+    },
+    {
+      "path": "cases/workflow/evicted/prompt.txt",
+      "size": 1760,
+      "sha256": "747a23c4e14c6d97aa3f163381a41c39dd2ac4e224e39cded05a34f38ab21b98"
+    },
+    {
+      "path": "cases/workflow/evicted/retrieval_results.json",
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "cases/workflow/evicted/structured_agent_plan.json",
+      "size": 318,
+      "sha256": "abadc2c753fb5ac4864ea72bd67a619fd40b932fd33a6ce17b4d7d3d14fd4e09"
+    },
+    {
+      "path": "cases/workflow/firewall_leakage_manifest.json",
+      "size": 39024,
+      "sha256": "f8299cd4343c4947bb35d5bb333a2e3d6a48be03eae75fe72f4e6dacfcf1285e"
+    },
+    {
+      "path": "cases/workflow/full/agent_final.redacted.json",
+      "size": 178,
+      "sha256": "1807832463ed0932083278eddf1e79dc8a4b23499be900d16f517157b736df2d"
+    },
+    {
+      "path": "cases/workflow/full/agent_initialize.json",
+      "size": 1046,
+      "sha256": "1aaa0fff930d531965d7238fc57689b1ba6272a03b63f4803054f3e04566b75e"
+    },
+    {
+      "path": "cases/workflow/full/agent_process_attestation.json",
+      "size": 5191,
+      "sha256": "517fbcc30e6d116aedde79fb74d3d6d3e85a61199fe6262a8a0593bab4683ec5"
+    },
+    {
+      "path": "cases/workflow/full/agent_request.json",
+      "size": 1757,
+      "sha256": "f36b657fc638382ecf6506b2c26221d469339b428ed0b9cf56771774ce48a393"
+    },
+    {
+      "path": "cases/workflow/full/agent_rpc_transcript.jsonl",
+      "size": 28903,
+      "sha256": "fe63d7bb7d6b0e7ff9e0fc226b697150920ca007c9176990fdaedb36c7dda87f"
+    },
+    {
+      "path": "cases/workflow/full/api_calls.redacted.jsonl",
+      "size": 28903,
+      "sha256": "fe63d7bb7d6b0e7ff9e0fc226b697150920ca007c9176990fdaedb36c7dda87f"
+    },
+    {
+      "path": "cases/workflow/full/api_log_redaction_attestation.json",
+      "size": 733,
+      "sha256": "ce1536ec949dbbb86d85040b56e4c28a19bd977a51e5a0942160001556d71c46"
+    },
+    {
+      "path": "cases/workflow/full/branch_result.json",
+      "size": 2535,
+      "sha256": "10326e29f2e472662b26336d4dbcb76aee5c540c81fa6f2c444a3ae30e211754"
+    },
+    {
+      "path": "cases/workflow/full/capability_probe_rpc_transcript.jsonl",
+      "size": 4313,
+      "sha256": "6341d456bd5d38af4a5a6d3a92ea59112628cdc0b786a327c6cd82914d687e60"
+    },
+    {
+      "path": "cases/workflow/full/capability_probes.json",
+      "size": 5632,
+      "sha256": "c34402b1b8af49b7cd94e1cd4adb97ee37046cffd1b53ea41d5306ba796f2607"
+    },
+    {
+      "path": "cases/workflow/full/capability_process_attestation.json",
+      "size": 1564,
+      "sha256": "48d662cd4e8cc4b10b19cb5a03ff651c1ca299862de2666730cc87ac374a2a99"
+    },
+    {
+      "path": "cases/workflow/full/checkpoint_snapshot/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/checkpoint_snapshot/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/checkpoint_snapshot/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/checkpoint_snapshot/file_system.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/checkpoint_snapshot/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/checkpoint_snapshot/model_hashes.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "cases/workflow/full/checkpoint_snapshot/phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/checkpoint_snapshot/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/checkpoint_snapshot/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/checkpoint_snapshot/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/checkpoint_snapshot/supervisor.jsonl",
+      "size": 3484,
+      "sha256": "c82ae8c1fec4746027debb4cd68cf2616db51b8588e8cdf47de00db2aff2fbf9"
+    },
+    {
+      "path": "cases/workflow/full/checkpoint_snapshot/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/checkpoint_snapshot/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/db_freeze_attestation.json",
+      "size": 840,
+      "sha256": "60c1af45813d99a06ef9f044d664ac49dac47d78c9fab5a3fd57238fe93b281d"
+    },
+    {
+      "path": "cases/workflow/full/db_snapshot_frozen/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/db_snapshot_frozen/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/db_snapshot_frozen/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/db_snapshot_frozen/file_system.jsonl",
+      "size": 27349,
+      "sha256": "0d24e9cd86de3b4dc253657e3848fdfca1d20a1cfd059054519bc1f0f49a0a22"
+    },
+    {
+      "path": "cases/workflow/full/db_snapshot_frozen/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/db_snapshot_frozen/model_hashes.json",
+      "size": 126,
+      "sha256": "c393d1b827b17d80910dd447a03d4057b9dbea92af1ab2e4a77a7620082c6591"
+    },
+    {
+      "path": "cases/workflow/full/db_snapshot_frozen/phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/db_snapshot_frozen/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/db_snapshot_frozen/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/db_snapshot_frozen/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/db_snapshot_frozen/supervisor.jsonl",
+      "size": 3601,
+      "sha256": "ccb7893966ff868626875764669d7bef5e102eb295b15948b496ed4a8c388aeb"
+    },
+    {
+      "path": "cases/workflow/full/db_snapshot_frozen/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/db_snapshot_frozen/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/full/evaluator_first.json",
+      "size": 1377,
+      "sha256": "969a1431825b1a8581f020917635379728a116fd1cae4a427021fa1b4f6bb735"
+    },
+    {
+      "path": "cases/workflow/full/evaluator_first_worker.json",
+      "size": 7532,
+      "sha256": "e0ee99c2ecdb99011b503902397a4baa7530e8bfe6ad1e2b2e8d53d20b19d3b4"
+    },
+    {
+      "path": "cases/workflow/full/evaluator_process_attestation.json",
+      "size": 16487,
+      "sha256": "3c67de3bfe78677a1efdcf03077830fafcdb60ad61749e6203a7ac3e6225e041"
+    },
+    {
+      "path": "cases/workflow/full/evaluator_second.json",
+      "size": 1377,
+      "sha256": "969a1431825b1a8581f020917635379728a116fd1cae4a427021fa1b4f6bb735"
+    },
+    {
+      "path": "cases/workflow/full/evaluator_second_worker.json",
+      "size": 7532,
+      "sha256": "dc644513f6bef47d7af7aabf4a7820eaae48145eb007c3ca93d15685322e8ea2"
+    },
+    {
+      "path": "cases/workflow/full/post_agent_controller_canaries.json",
+      "size": 285,
+      "sha256": "d3870ee8fe6a578793810797e4331d53ef12ec6a0b8fe5cbcb329bb4d3674c04"
+    },
+    {
+      "path": "cases/workflow/full/prompt.txt",
+      "size": 1760,
+      "sha256": "747a23c4e14c6d97aa3f163381a41c39dd2ac4e224e39cded05a34f38ab21b98"
+    },
+    {
+      "path": "cases/workflow/full/retrieval_results.json",
+      "size": 662,
+      "sha256": "2bd5297ed3cdffdbcc4910451fc50b69669d69fb6fbaf036947274d0e45638f3"
+    },
+    {
+      "path": "cases/workflow/full/structured_agent_plan.json",
+      "size": 2387,
+      "sha256": "28c0e7560c7b8bbf829f03a905e1f706fb29a9e96f14a6940978a313be8ef26f"
+    },
+    {
+      "path": "cases/workflow/memory_provenance.json",
+      "size": 439,
+      "sha256": "d178f2705e25b2d11de967652281ed8b735d78aa76b9d480373ef1b08e79ffc0"
+    },
+    {
+      "path": "cases/workflow/raw_controller_firewall_scan.json",
+      "size": 14230,
+      "sha256": "5b79eddd0306a51ffae90ee2d1a0ea36b8308dc4f0cfa49136b4111b2390eafe"
+    },
+    {
+      "path": "cases/workflow/restore/agent_final.redacted.json",
+      "size": 178,
+      "sha256": "1807832463ed0932083278eddf1e79dc8a4b23499be900d16f517157b736df2d"
+    },
+    {
+      "path": "cases/workflow/restore/agent_initialize.json",
+      "size": 1046,
+      "sha256": "1aaa0fff930d531965d7238fc57689b1ba6272a03b63f4803054f3e04566b75e"
+    },
+    {
+      "path": "cases/workflow/restore/agent_process_attestation.json",
+      "size": 5191,
+      "sha256": "0829efa1a26ca4a8b80c43bc0eb06cabcb356b9b56e3915a29a33f93b312ca73"
+    },
+    {
+      "path": "cases/workflow/restore/agent_request.json",
+      "size": 1757,
+      "sha256": "f36b657fc638382ecf6506b2c26221d469339b428ed0b9cf56771774ce48a393"
+    },
+    {
+      "path": "cases/workflow/restore/agent_rpc_transcript.jsonl",
+      "size": 28903,
+      "sha256": "fe63d7bb7d6b0e7ff9e0fc226b697150920ca007c9176990fdaedb36c7dda87f"
+    },
+    {
+      "path": "cases/workflow/restore/api_calls.redacted.jsonl",
+      "size": 28903,
+      "sha256": "fe63d7bb7d6b0e7ff9e0fc226b697150920ca007c9176990fdaedb36c7dda87f"
+    },
+    {
+      "path": "cases/workflow/restore/api_log_redaction_attestation.json",
+      "size": 733,
+      "sha256": "ce1536ec949dbbb86d85040b56e4c28a19bd977a51e5a0942160001556d71c46"
+    },
+    {
+      "path": "cases/workflow/restore/branch_result.json",
+      "size": 2922,
+      "sha256": "adf0fa1603e3e63e3e081bdcadad449e5f53a0b0a84b230327bfd51ddb7ae1ec"
+    },
+    {
+      "path": "cases/workflow/restore/capability_probe_rpc_transcript.jsonl",
+      "size": 4313,
+      "sha256": "6341d456bd5d38af4a5a6d3a92ea59112628cdc0b786a327c6cd82914d687e60"
+    },
+    {
+      "path": "cases/workflow/restore/capability_probes.json",
+      "size": 5632,
+      "sha256": "8152721fc53b31ef9b2694783021236493c3c7e2f22dfc79e97c65430863da42"
+    },
+    {
+      "path": "cases/workflow/restore/capability_process_attestation.json",
+      "size": 1564,
+      "sha256": "49881c94bb19d64ce4dec7b057784be4716e8eb80ae5816aa67b6ac10f2cedb7"
+    },
+    {
+      "path": "cases/workflow/restore/checkpoint_snapshot/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/checkpoint_snapshot/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/checkpoint_snapshot/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/checkpoint_snapshot/file_system.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/checkpoint_snapshot/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/checkpoint_snapshot/model_hashes.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "cases/workflow/restore/checkpoint_snapshot/phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/checkpoint_snapshot/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/checkpoint_snapshot/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/checkpoint_snapshot/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/checkpoint_snapshot/supervisor.jsonl",
+      "size": 3484,
+      "sha256": "c82ae8c1fec4746027debb4cd68cf2616db51b8588e8cdf47de00db2aff2fbf9"
+    },
+    {
+      "path": "cases/workflow/restore/checkpoint_snapshot/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/checkpoint_snapshot/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/db_freeze_attestation.json",
+      "size": 840,
+      "sha256": "d657577c903767c7280d268c6f128a1b15fdf1f86ee1addbf1a0b404b9ebdd9a"
+    },
+    {
+      "path": "cases/workflow/restore/db_snapshot_frozen/admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/db_snapshot_frozen/amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/db_snapshot_frozen/api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/db_snapshot_frozen/file_system.jsonl",
+      "size": 27349,
+      "sha256": "0d24e9cd86de3b4dc253657e3848fdfca1d20a1cfd059054519bc1f0f49a0a22"
+    },
+    {
+      "path": "cases/workflow/restore/db_snapshot_frozen/gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/db_snapshot_frozen/model_hashes.json",
+      "size": 126,
+      "sha256": "c393d1b827b17d80910dd447a03d4057b9dbea92af1ab2e4a77a7620082c6591"
+    },
+    {
+      "path": "cases/workflow/restore/db_snapshot_frozen/phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/db_snapshot_frozen/simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/db_snapshot_frozen/splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/db_snapshot_frozen/spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/db_snapshot_frozen/supervisor.jsonl",
+      "size": 3601,
+      "sha256": "ccb7893966ff868626875764669d7bef5e102eb295b15948b496ed4a8c388aeb"
+    },
+    {
+      "path": "cases/workflow/restore/db_snapshot_frozen/todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/db_snapshot_frozen/venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "cases/workflow/restore/effective_eviction_manifest.json",
+      "size": 25402,
+      "sha256": "daad7a46628c9867b19e1fc7e5a187cde31445ecb2a8259d5a23d1e97208a6c9"
+    },
+    {
+      "path": "cases/workflow/restore/evaluator_first.json",
+      "size": 1377,
+      "sha256": "969a1431825b1a8581f020917635379728a116fd1cae4a427021fa1b4f6bb735"
+    },
+    {
+      "path": "cases/workflow/restore/evaluator_first_worker.json",
+      "size": 7535,
+      "sha256": "3db6a2e2dccda14aae6bae5fbb6d69a7bd799e6f10262978af61a2b03904414e"
+    },
+    {
+      "path": "cases/workflow/restore/evaluator_process_attestation.json",
+      "size": 16499,
+      "sha256": "acde8276da28642c948392d301e8a1a25e93f127acdc7267e4ab4ea890a72d50"
+    },
+    {
+      "path": "cases/workflow/restore/evaluator_second.json",
+      "size": 1377,
+      "sha256": "969a1431825b1a8581f020917635379728a116fd1cae4a427021fa1b4f6bb735"
+    },
+    {
+      "path": "cases/workflow/restore/evaluator_second_worker.json",
+      "size": 7535,
+      "sha256": "5f2f024696353f9fc9ec3ace82b7087b29f7896e8ebdd6981b0f5b2b7fc1bea5"
+    },
+    {
+      "path": "cases/workflow/restore/post_agent_controller_canaries.json",
+      "size": 285,
+      "sha256": "3f0176cd0b6e22a726da51d9d67edcf00da7a283ebd2d9e122ae804c9a25513d"
+    },
+    {
+      "path": "cases/workflow/restore/prompt.txt",
+      "size": 1760,
+      "sha256": "747a23c4e14c6d97aa3f163381a41c39dd2ac4e224e39cded05a34f38ab21b98"
+    },
+    {
+      "path": "cases/workflow/restore/retrieval_results.json",
+      "size": 662,
+      "sha256": "2bd5297ed3cdffdbcc4910451fc50b69669d69fb6fbaf036947274d0e45638f3"
+    },
+    {
+      "path": "cases/workflow/restore/structured_agent_plan.json",
+      "size": 2387,
+      "sha256": "28c0e7560c7b8bbf829f03a905e1f706fb29a9e96f14a6940978a313be8ef26f"
+    },
+    {
+      "path": "cases/workflow/source_episode.json",
+      "size": 2484,
+      "sha256": "396b860b90aae782fd0617560f1f932f3fdbdfcb9c046d9b68cf795b563432de"
+    },
+    {
+      "path": "cases/workflow/target_relationship.json",
+      "size": 1487,
+      "sha256": "572b1ab96e228989a36672684dedd98302c2afd3b6d72f5ef2ba90fc7dbac192"
+    },
+    {
+      "path": "cases/workflow/witness.json",
+      "size": 918,
+      "sha256": "ac7f42262b6122b8194dd6b7eaad8fc9a6c4fc2c8f346c9d9982a521ebaaf624"
+    },
+    {
+      "path": "environment.json",
+      "size": 3471,
+      "sha256": "5d6521fefc420f88c0e581c1edcbfc90d42e78e78dac3f32b9aa102cb48f31b7"
+    },
+    {
+      "path": "pre_aggregate_artifact_manifest.json",
+      "size": 89778,
+      "sha256": "38e5c841d3bb4cf70634b36ccc778e8418ab038aa1c967cd5451dc27accb7222"
+    }
+  ]
+}

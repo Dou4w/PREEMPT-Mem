@@ -1,0 +1,15 @@
+{
+  "schema_version": "preempt-mem-deterministic-redaction-v1",
+  "raw_file_sha256": "5249ca1e468a164fbb91466133cac2b41b99a4e178bee32677b913fa055a85e3",
+  "raw_row_count": 28,
+  "raw_source": "controller-memory-only canonical JSONL; never written to run artifacts",
+  "raw_file_retained_in_shareable_artifacts": false,
+  "redacted_file": "api_calls.redacted.jsonl",
+  "redacted_file_sha256": "330528c7a4cc344603dbc12e330b6d63874b13c17f111c12ece56f324ea1a10b",
+  "redacted_row_count": 28,
+  "rpc_redaction_count": 80,
+  "evidence_additional_redaction_count": 79,
+  "total_redaction_count": 159,
+  "redaction_count": 159,
+  "nonce_commitment_sha256": "edea888497cbe7c10ec21999ea014c52d17e973080ea3a33ba9cab864f9ab855"
+}

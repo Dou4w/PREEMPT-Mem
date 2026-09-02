@@ -1,0 +1,1887 @@
+[
+  {
+    "path": "aggregate_gate.json",
+    "size": 4055,
+    "sha256": "5434d3e7f47263a9096ed11895c3dd2ba690b9ed128b6e194e95e0ccd76c35f7"
+  },
+  {
+    "path": "cases/constraint_permission/case_summary.json",
+    "size": 1012,
+    "sha256": "00f8d4ece0615b908294cd413a282e654d2eb155d4e9e27ba1e474d049a75434"
+  },
+  {
+    "path": "cases/constraint_permission/checkpoint_manifest.json",
+    "size": 2658,
+    "sha256": "15f12117955c83069fe80ee223b74f1177c78ad4d7b4f263796f67505422085c"
+  },
+  {
+    "path": "cases/constraint_permission/database_state_diff.json",
+    "size": 38028,
+    "sha256": "7f2d6069b2a09742303a545e9aee3d74d88af25386aa347325b2aa22c7ac1dad"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/agent_decision.json",
+    "size": 107,
+    "sha256": "706bd0784357f76457fa878f601af8d92b6cc3e8dd764c152cbb0003ac82837e"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/file_system.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/model_hashes.json",
+    "size": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/phone.jsonl",
+    "size": 7058,
+    "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/supervisor.jsonl",
+    "size": 3758,
+    "sha256": "82e5f62cd2211a8a6c545862997a3875f99e48b982f7619096070b6dd97cb350"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/dbs/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/dbs/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/dbs/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/dbs/file_system.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/dbs/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/dbs/model_hashes.json",
+    "size": 273,
+    "sha256": "604c4c4c06a11bfb0987baec6552a6b313a5945463504c6a86d098d57830057a"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/dbs/phone.jsonl",
+    "size": 7058,
+    "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/dbs/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/dbs/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/dbs/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/dbs/supervisor.jsonl",
+    "size": 3872,
+    "sha256": "4e9bc776e246de7f22dabd67fbcee891e6829d7d7880cfaaa92a75ffa08580e2"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/dbs/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/dbs/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/evaluation/report.md",
+    "size": 3731,
+    "sha256": "580e79a2e93ecfe511950d9e117a3748df71327fcaa57caa0d69c0a8a474a6b6"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/evaluation/version.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/logs/api_calls.jsonl",
+    "size": 78,
+    "sha256": "6305d2c9de7441f2d11cedb221fa0b88f352275175c8a85a6d276715364968f6"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/logs/environment_io.md",
+    "size": 273,
+    "sha256": "a2f0c580e4f46b05ad3770533f6f31508b421b2c4aba76552ecceb84c0d0204c"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/version/code.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/appworld_output_snapshot/version/data.txt",
+    "size": 5,
+    "sha256": "911fc0c48cb0c70601db5775a9bef1b740dc4cc9f9b46389b9f0563fe7eb94d7"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/branch_result.json",
+    "size": 15754,
+    "sha256": "cbd211f3f1dd449766da1b54b49fa373525438f319730bd7b2ed7198c671bdd3"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/effective_eviction_manifest.json",
+    "size": 14190,
+    "sha256": "5be039611aa14801b46e44be8d72c7bf18ab64461653caff2024d141ad0f2e81"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/effective_eviction_pre_agent_manifest.json",
+    "size": 12731,
+    "sha256": "947197573e6baed23582b5cbf6d3107cc0d2774fc91adf96fe28d36748c1e79c"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/generated_code.py",
+    "size": 109,
+    "sha256": "8978320262071ee6d69a030334fef217ffe7947f314ee320b5c7710285635c38"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/prompt.txt",
+    "size": 1385,
+    "sha256": "50a453da37d6fbf85e808370a331b5ab826ec859bbee42c717da85c047ff3a1b"
+  },
+  {
+    "path": "cases/constraint_permission/evicted/retrieval_results.json",
+    "size": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "cases/constraint_permission/freeze_validation.json",
+    "size": 10799,
+    "sha256": "b212f937a7b8afd5f01315d50104d63e7f2e4206649b151f363a0413a7f50e95"
+  },
+  {
+    "path": "cases/constraint_permission/full/agent_decision.json",
+    "size": 162,
+    "sha256": "671590e88ecea24f77dace4c39ac2dca3c2d67e9750cf6bbc2fcb221c97be0cb"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/checkpoints/future_task_frozen/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/checkpoints/future_task_frozen/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/checkpoints/future_task_frozen/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/checkpoints/future_task_frozen/file_system.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/checkpoints/future_task_frozen/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/checkpoints/future_task_frozen/model_hashes.json",
+    "size": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/checkpoints/future_task_frozen/phone.jsonl",
+    "size": 7058,
+    "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/checkpoints/future_task_frozen/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/checkpoints/future_task_frozen/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/checkpoints/future_task_frozen/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/checkpoints/future_task_frozen/supervisor.jsonl",
+    "size": 3758,
+    "sha256": "82e5f62cd2211a8a6c545862997a3875f99e48b982f7619096070b6dd97cb350"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/checkpoints/future_task_frozen/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/checkpoints/future_task_frozen/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/dbs/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/dbs/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/dbs/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/dbs/file_system.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/dbs/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/dbs/model_hashes.json",
+    "size": 422,
+    "sha256": "cb5d3f6c12a90d7ad2522b358b70b18018e165baf94f357f334428999023e7ae"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/dbs/phone.jsonl",
+    "size": 7848,
+    "sha256": "095e893ff65953fa39af75b6768bad4c451adf004602dd4a702b9182829d9bf8"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/dbs/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/dbs/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/dbs/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/dbs/supervisor.jsonl",
+    "size": 3875,
+    "sha256": "4f2fc939d824ba325ebcf01e872260e39daa720f13d05e5a1916a21d9303f52a"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/dbs/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/dbs/venmo.jsonl",
+    "size": 1032,
+    "sha256": "3ab7333f76a58e93b08f2bc527b1bb13e30916fd90ea1cd2e654a117ed4b1eb3"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/evaluation/report.md",
+    "size": 1284,
+    "sha256": "55427dfb6f6e8c05fc750c106469100840edfc008e92cb631f5a14b66a5f65d1"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/evaluation/version.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/logs/api_calls.jsonl",
+    "size": 6180,
+    "sha256": "30905eafbd2a151167866e411a182a213b6c49e69e826b6432c4d568dee06be0"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/logs/environment_io.md",
+    "size": 2417,
+    "sha256": "122ee2e40bcf17be1ce3eb6ee0a3903a21db458c560fccfa1aa2f0501256a0d2"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/version/code.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/constraint_permission/full/appworld_output_snapshot/version/data.txt",
+    "size": 5,
+    "sha256": "911fc0c48cb0c70601db5775a9bef1b740dc4cc9f9b46389b9f0563fe7eb94d7"
+  },
+  {
+    "path": "cases/constraint_permission/full/branch_result.json",
+    "size": 10542,
+    "sha256": "6ba723ad870aa2be624ce5634785adc394c694bb72e39cf61237c66237a56b11"
+  },
+  {
+    "path": "cases/constraint_permission/full/effective_eviction_manifest.json",
+    "size": 4,
+    "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  {
+    "path": "cases/constraint_permission/full/effective_eviction_pre_agent_manifest.json",
+    "size": 4,
+    "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  {
+    "path": "cases/constraint_permission/full/generated_code.py",
+    "size": 2253,
+    "sha256": "0f0ef8f65b4006cfe566c02d2cf8f69a6a6e122285dd2f85852bf2059b813e89"
+  },
+  {
+    "path": "cases/constraint_permission/full/prompt.txt",
+    "size": 1385,
+    "sha256": "50a453da37d6fbf85e808370a331b5ab826ec859bbee42c717da85c047ff3a1b"
+  },
+  {
+    "path": "cases/constraint_permission/full/retrieval_results.json",
+    "size": 1724,
+    "sha256": "d24d5054b5e048d84cd8b858fb93929bb9c6bc28d7be231369650b7aede71766"
+  },
+  {
+    "path": "cases/constraint_permission/memory_provenance.json",
+    "size": 439,
+    "sha256": "160966cb2037322f24b251c96f500e5e1580d1d9b293d79f825ca3cb7044e692"
+  },
+  {
+    "path": "cases/constraint_permission/restore/agent_decision.json",
+    "size": 162,
+    "sha256": "671590e88ecea24f77dace4c39ac2dca3c2d67e9750cf6bbc2fcb221c97be0cb"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/checkpoints/future_task_frozen/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/checkpoints/future_task_frozen/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/checkpoints/future_task_frozen/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/checkpoints/future_task_frozen/file_system.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/checkpoints/future_task_frozen/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/checkpoints/future_task_frozen/model_hashes.json",
+    "size": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/checkpoints/future_task_frozen/phone.jsonl",
+    "size": 7058,
+    "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/checkpoints/future_task_frozen/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/checkpoints/future_task_frozen/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/checkpoints/future_task_frozen/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/checkpoints/future_task_frozen/supervisor.jsonl",
+    "size": 3758,
+    "sha256": "82e5f62cd2211a8a6c545862997a3875f99e48b982f7619096070b6dd97cb350"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/checkpoints/future_task_frozen/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/checkpoints/future_task_frozen/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/dbs/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/dbs/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/dbs/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/dbs/file_system.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/dbs/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/dbs/model_hashes.json",
+    "size": 422,
+    "sha256": "cb5d3f6c12a90d7ad2522b358b70b18018e165baf94f357f334428999023e7ae"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/dbs/phone.jsonl",
+    "size": 7848,
+    "sha256": "095e893ff65953fa39af75b6768bad4c451adf004602dd4a702b9182829d9bf8"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/dbs/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/dbs/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/dbs/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/dbs/supervisor.jsonl",
+    "size": 3875,
+    "sha256": "4f2fc939d824ba325ebcf01e872260e39daa720f13d05e5a1916a21d9303f52a"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/dbs/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/dbs/venmo.jsonl",
+    "size": 1032,
+    "sha256": "3ab7333f76a58e93b08f2bc527b1bb13e30916fd90ea1cd2e654a117ed4b1eb3"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/evaluation/report.md",
+    "size": 1284,
+    "sha256": "55427dfb6f6e8c05fc750c106469100840edfc008e92cb631f5a14b66a5f65d1"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/evaluation/version.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/logs/api_calls.jsonl",
+    "size": 6180,
+    "sha256": "30905eafbd2a151167866e411a182a213b6c49e69e826b6432c4d568dee06be0"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/logs/environment_io.md",
+    "size": 2417,
+    "sha256": "122ee2e40bcf17be1ce3eb6ee0a3903a21db458c560fccfa1aa2f0501256a0d2"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/version/code.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/constraint_permission/restore/appworld_output_snapshot/version/data.txt",
+    "size": 5,
+    "sha256": "911fc0c48cb0c70601db5775a9bef1b740dc4cc9f9b46389b9f0563fe7eb94d7"
+  },
+  {
+    "path": "cases/constraint_permission/restore/branch_result.json",
+    "size": 10695,
+    "sha256": "32f3a790f5581f067bf45e7e75449f40b98665123812937c292d812ea5f13c1f"
+  },
+  {
+    "path": "cases/constraint_permission/restore/effective_eviction_manifest.json",
+    "size": 12731,
+    "sha256": "947197573e6baed23582b5cbf6d3107cc0d2774fc91adf96fe28d36748c1e79c"
+  },
+  {
+    "path": "cases/constraint_permission/restore/effective_eviction_pre_agent_manifest.json",
+    "size": 4,
+    "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  {
+    "path": "cases/constraint_permission/restore/generated_code.py",
+    "size": 2253,
+    "sha256": "0f0ef8f65b4006cfe566c02d2cf8f69a6a6e122285dd2f85852bf2059b813e89"
+  },
+  {
+    "path": "cases/constraint_permission/restore/prompt.txt",
+    "size": 1385,
+    "sha256": "50a453da37d6fbf85e808370a331b5ab826ec859bbee42c717da85c047ff3a1b"
+  },
+  {
+    "path": "cases/constraint_permission/restore/retrieval_results.json",
+    "size": 1724,
+    "sha256": "d24d5054b5e048d84cd8b858fb93929bb9c6bc28d7be231369650b7aede71766"
+  },
+  {
+    "path": "cases/constraint_permission/source_episode.json",
+    "size": 2755,
+    "sha256": "822bd5d67aee1ed267a46fb063384441759e2a93a463ddfaa16452baf3fee881"
+  },
+  {
+    "path": "cases/constraint_permission/target_relationship.json",
+    "size": 1573,
+    "sha256": "f1a086adb63e1bfe253531c0864b06a4db835eb82072f4cac7129cd7c2beb17f"
+  },
+  {
+    "path": "cases/constraint_permission/witness.json",
+    "size": 907,
+    "sha256": "b7020c34b42eea13e57cbfb1e899ad9a9bd540955fb7d779dc5aba2bad7c0c84"
+  },
+  {
+    "path": "cases/gotcha/case_summary.json",
+    "size": 997,
+    "sha256": "d8b2f534f45dd1ea02f7e786773b2180201d658a5ba393692c14b1bbff9cbff0"
+  },
+  {
+    "path": "cases/gotcha/checkpoint_manifest.json",
+    "size": 2645,
+    "sha256": "5813c45b4082fcd4c7a7307893322a0a7ab3fbd8304bffcdf15bb5ca7b416b53"
+  },
+  {
+    "path": "cases/gotcha/database_state_diff.json",
+    "size": 163707,
+    "sha256": "9a7d7253ca7d10937c6d5736b02349951d33c1370676ce4a534bbb030ffbb44e"
+  },
+  {
+    "path": "cases/gotcha/evicted/agent_decision.json",
+    "size": 107,
+    "sha256": "706bd0784357f76457fa878f601af8d92b6cc3e8dd764c152cbb0003ac82837e"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/file_system.jsonl",
+    "size": 29080,
+    "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/model_hashes.json",
+    "size": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/phone.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/supervisor.jsonl",
+    "size": 3454,
+    "sha256": "010b1a4ffee28f0a481ee5050fb6d9deab543730f63959519f8ff415a81aa863"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/dbs/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/dbs/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/dbs/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/dbs/file_system.jsonl",
+    "size": 29080,
+    "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/dbs/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/dbs/model_hashes.json",
+    "size": 273,
+    "sha256": "604c4c4c06a11bfb0987baec6552a6b313a5945463504c6a86d098d57830057a"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/dbs/phone.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/dbs/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/dbs/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/dbs/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/dbs/supervisor.jsonl",
+    "size": 3568,
+    "sha256": "4e9d2b375a5a5f3e9305efdbe3abee4410c93e42ab40449ff995137e7c4cecaa"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/dbs/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/dbs/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/evaluation/report.md",
+    "size": 2171,
+    "sha256": "03614a4af492a1450e9c4dbf3118cc75a7680e4d65c927392339c2a7a6303277"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/evaluation/version.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/logs/api_calls.jsonl",
+    "size": 78,
+    "sha256": "6305d2c9de7441f2d11cedb221fa0b88f352275175c8a85a6d276715364968f6"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/logs/environment_io.md",
+    "size": 273,
+    "sha256": "a2f0c580e4f46b05ad3770533f6f31508b421b2c4aba76552ecceb84c0d0204c"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/version/code.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/gotcha/evicted/appworld_output_snapshot/version/data.txt",
+    "size": 5,
+    "sha256": "911fc0c48cb0c70601db5775a9bef1b740dc4cc9f9b46389b9f0563fe7eb94d7"
+  },
+  {
+    "path": "cases/gotcha/evicted/branch_result.json",
+    "size": 11802,
+    "sha256": "f961d699560c45b71f2c2ee8abb6ca8e5d33554f5ca0e8abd24c0c185235882e"
+  },
+  {
+    "path": "cases/gotcha/evicted/effective_eviction_manifest.json",
+    "size": 13566,
+    "sha256": "10229573c471d69b6862080f7a6434d455a6cce6fd1ac669b1c0bfef50d17d2c"
+  },
+  {
+    "path": "cases/gotcha/evicted/effective_eviction_pre_agent_manifest.json",
+    "size": 12107,
+    "sha256": "cb25817a4dd4db47930976bb6144747b54d85a89ef1f64b1c8cd4dc99465377c"
+  },
+  {
+    "path": "cases/gotcha/evicted/generated_code.py",
+    "size": 109,
+    "sha256": "8978320262071ee6d69a030334fef217ffe7947f314ee320b5c7710285635c38"
+  },
+  {
+    "path": "cases/gotcha/evicted/prompt.txt",
+    "size": 1309,
+    "sha256": "0c08c0ade2093504a9907dc26bde64487d1889a584009406283d3826ca174f05"
+  },
+  {
+    "path": "cases/gotcha/evicted/retrieval_results.json",
+    "size": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "cases/gotcha/freeze_validation.json",
+    "size": 10799,
+    "sha256": "641f2f1f254053f6a5f05eef51d63c729e5a1d9ea7fb909f1095202273fdf260"
+  },
+  {
+    "path": "cases/gotcha/full/agent_decision.json",
+    "size": 157,
+    "sha256": "85bc9103b8f8ed05768996e22909d47061f993eb593aae093a75781eb22e161b"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/checkpoints/future_task_frozen/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/checkpoints/future_task_frozen/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/checkpoints/future_task_frozen/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/checkpoints/future_task_frozen/file_system.jsonl",
+    "size": 29080,
+    "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/checkpoints/future_task_frozen/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/checkpoints/future_task_frozen/model_hashes.json",
+    "size": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/checkpoints/future_task_frozen/phone.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/checkpoints/future_task_frozen/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/checkpoints/future_task_frozen/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/checkpoints/future_task_frozen/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/checkpoints/future_task_frozen/supervisor.jsonl",
+    "size": 3454,
+    "sha256": "010b1a4ffee28f0a481ee5050fb6d9deab543730f63959519f8ff415a81aa863"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/checkpoints/future_task_frozen/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/checkpoints/future_task_frozen/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/dbs/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/dbs/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/dbs/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/dbs/file_system.jsonl",
+    "size": 55592,
+    "sha256": "94735fb8cfc0e08406e68da1adfb60fd64fdd3e5316a9752edc76980578938c1"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/dbs/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/dbs/model_hashes.json",
+    "size": 325,
+    "sha256": "c6085dd792a2eb5fd90955c4e3fbe1c4e1e68d081c2a317ab4ac1185f691e860"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/dbs/phone.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/dbs/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/dbs/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/dbs/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/dbs/supervisor.jsonl",
+    "size": 3571,
+    "sha256": "d254fdb9fb2734f5436d5e677614756ff8d09a49dd8257f3beaa8014af478145"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/dbs/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/dbs/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/evaluation/report.md",
+    "size": 1036,
+    "sha256": "233a3bd9d44308646bbfe93d07bcb6b2dd4668aef4600604c708df04edd8d5a8"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/evaluation/version.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/logs/api_calls.jsonl",
+    "size": 42924,
+    "sha256": "84eac3760f17127d5f43128a4b63b7b54e3575e492c4cc093400ebd7728d3d4f"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/logs/environment_io.md",
+    "size": 1437,
+    "sha256": "af7ecc5f79bdbe8ec5805742b2755fc15afbc93ab7cbf2c40229f1dd97a701dd"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/version/code.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/gotcha/full/appworld_output_snapshot/version/data.txt",
+    "size": 5,
+    "sha256": "911fc0c48cb0c70601db5775a9bef1b740dc4cc9f9b46389b9f0563fe7eb94d7"
+  },
+  {
+    "path": "cases/gotcha/full/branch_result.json",
+    "size": 9431,
+    "sha256": "b10ad88ae68da25ab2f0a202d07d613d609dd173e794f1429de7f5402ae6a218"
+  },
+  {
+    "path": "cases/gotcha/full/effective_eviction_manifest.json",
+    "size": 4,
+    "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  {
+    "path": "cases/gotcha/full/effective_eviction_pre_agent_manifest.json",
+    "size": 4,
+    "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  {
+    "path": "cases/gotcha/full/generated_code.py",
+    "size": 1273,
+    "sha256": "0a7dab500b6900129c19578beb75b2c3520441cd9bcde988617f1ba39550a0b3"
+  },
+  {
+    "path": "cases/gotcha/full/prompt.txt",
+    "size": 1309,
+    "sha256": "0c08c0ade2093504a9907dc26bde64487d1889a584009406283d3826ca174f05"
+  },
+  {
+    "path": "cases/gotcha/full/retrieval_results.json",
+    "size": 1678,
+    "sha256": "f29524045403aa6c5cfe409b413e168cc1fd6e5df4a11e490cf0ef9a509dab4f"
+  },
+  {
+    "path": "cases/gotcha/memory_provenance.json",
+    "size": 439,
+    "sha256": "77d52c5489fad8b8c3dbf54b42b791c4813c4e8447500481ae6c1e262e02d983"
+  },
+  {
+    "path": "cases/gotcha/restore/agent_decision.json",
+    "size": 157,
+    "sha256": "85bc9103b8f8ed05768996e22909d47061f993eb593aae093a75781eb22e161b"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/checkpoints/future_task_frozen/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/checkpoints/future_task_frozen/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/checkpoints/future_task_frozen/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/checkpoints/future_task_frozen/file_system.jsonl",
+    "size": 29080,
+    "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/checkpoints/future_task_frozen/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/checkpoints/future_task_frozen/model_hashes.json",
+    "size": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/checkpoints/future_task_frozen/phone.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/checkpoints/future_task_frozen/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/checkpoints/future_task_frozen/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/checkpoints/future_task_frozen/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/checkpoints/future_task_frozen/supervisor.jsonl",
+    "size": 3454,
+    "sha256": "010b1a4ffee28f0a481ee5050fb6d9deab543730f63959519f8ff415a81aa863"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/checkpoints/future_task_frozen/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/checkpoints/future_task_frozen/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/dbs/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/dbs/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/dbs/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/dbs/file_system.jsonl",
+    "size": 55592,
+    "sha256": "94735fb8cfc0e08406e68da1adfb60fd64fdd3e5316a9752edc76980578938c1"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/dbs/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/dbs/model_hashes.json",
+    "size": 325,
+    "sha256": "c6085dd792a2eb5fd90955c4e3fbe1c4e1e68d081c2a317ab4ac1185f691e860"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/dbs/phone.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/dbs/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/dbs/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/dbs/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/dbs/supervisor.jsonl",
+    "size": 3571,
+    "sha256": "d254fdb9fb2734f5436d5e677614756ff8d09a49dd8257f3beaa8014af478145"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/dbs/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/dbs/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/evaluation/report.md",
+    "size": 1036,
+    "sha256": "233a3bd9d44308646bbfe93d07bcb6b2dd4668aef4600604c708df04edd8d5a8"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/evaluation/version.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/logs/api_calls.jsonl",
+    "size": 42924,
+    "sha256": "84eac3760f17127d5f43128a4b63b7b54e3575e492c4cc093400ebd7728d3d4f"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/logs/environment_io.md",
+    "size": 1437,
+    "sha256": "af7ecc5f79bdbe8ec5805742b2755fc15afbc93ab7cbf2c40229f1dd97a701dd"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/version/code.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/gotcha/restore/appworld_output_snapshot/version/data.txt",
+    "size": 5,
+    "sha256": "911fc0c48cb0c70601db5775a9bef1b740dc4cc9f9b46389b9f0563fe7eb94d7"
+  },
+  {
+    "path": "cases/gotcha/restore/branch_result.json",
+    "size": 9580,
+    "sha256": "d28e80922a08acd0390c513e5c8563abb19573449a40ec0e444bf27ec3c49597"
+  },
+  {
+    "path": "cases/gotcha/restore/effective_eviction_manifest.json",
+    "size": 12107,
+    "sha256": "cb25817a4dd4db47930976bb6144747b54d85a89ef1f64b1c8cd4dc99465377c"
+  },
+  {
+    "path": "cases/gotcha/restore/effective_eviction_pre_agent_manifest.json",
+    "size": 4,
+    "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  {
+    "path": "cases/gotcha/restore/generated_code.py",
+    "size": 1273,
+    "sha256": "0a7dab500b6900129c19578beb75b2c3520441cd9bcde988617f1ba39550a0b3"
+  },
+  {
+    "path": "cases/gotcha/restore/prompt.txt",
+    "size": 1309,
+    "sha256": "0c08c0ade2093504a9907dc26bde64487d1889a584009406283d3826ca174f05"
+  },
+  {
+    "path": "cases/gotcha/restore/retrieval_results.json",
+    "size": 1678,
+    "sha256": "f29524045403aa6c5cfe409b413e168cc1fd6e5df4a11e490cf0ef9a509dab4f"
+  },
+  {
+    "path": "cases/gotcha/source_episode.json",
+    "size": 2622,
+    "sha256": "da8488b32ce156dd02276fdebdf47b25a2b59cf62acde93f2b581f7fa07ffb90"
+  },
+  {
+    "path": "cases/gotcha/target_relationship.json",
+    "size": 1497,
+    "sha256": "d41d14d8787e0b73e975c17ca21ddd8cc6618bdd67440e680e8ecf64a5ecccde"
+  },
+  {
+    "path": "cases/gotcha/witness.json",
+    "size": 848,
+    "sha256": "720cda4ac6156f4ae99fde94e1aff7fe251e3d6247420cf1eb47f6fad5d030d7"
+  },
+  {
+    "path": "cases/workflow/case_summary.json",
+    "size": 999,
+    "sha256": "f2aafc16f13cdfd1f65d1ee1ca9de90c9e9936fbe3791f38f4fc8360bc8677ca"
+  },
+  {
+    "path": "cases/workflow/checkpoint_manifest.json",
+    "size": 2641,
+    "sha256": "1924363f2390de9a7e023276e68bc4a967e28e0c7507ab6330e2b35033d4b5ee"
+  },
+  {
+    "path": "cases/workflow/database_state_diff.json",
+    "size": 128165,
+    "sha256": "fac5616259fca9f564bd45539fa9b25b80473baec40e61070f04e418f0463942"
+  },
+  {
+    "path": "cases/workflow/evicted/agent_decision.json",
+    "size": 107,
+    "sha256": "706bd0784357f76457fa878f601af8d92b6cc3e8dd764c152cbb0003ac82837e"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/file_system.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/model_hashes.json",
+    "size": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/phone.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/supervisor.jsonl",
+    "size": 3484,
+    "sha256": "c82ae8c1fec4746027debb4cd68cf2616db51b8588e8cdf47de00db2aff2fbf9"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/checkpoints/future_task_frozen/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/dbs/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/dbs/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/dbs/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/dbs/file_system.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/dbs/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/dbs/model_hashes.json",
+    "size": 273,
+    "sha256": "604c4c4c06a11bfb0987baec6552a6b313a5945463504c6a86d098d57830057a"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/dbs/phone.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/dbs/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/dbs/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/dbs/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/dbs/supervisor.jsonl",
+    "size": 3598,
+    "sha256": "2dd84aaef2d51b0b78a0305ee8bd95f964f7c36115f7ce155f042e1d2fabd652"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/dbs/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/dbs/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/evaluation/report.md",
+    "size": 77987,
+    "sha256": "48ee910245e761e9cbe81180eebee24e2a7abe9968f43e4ed84b86c858e7e981"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/evaluation/version.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/logs/api_calls.jsonl",
+    "size": 78,
+    "sha256": "6305d2c9de7441f2d11cedb221fa0b88f352275175c8a85a6d276715364968f6"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/logs/environment_io.md",
+    "size": 273,
+    "sha256": "a2f0c580e4f46b05ad3770533f6f31508b421b2c4aba76552ecceb84c0d0204c"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/version/code.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/workflow/evicted/appworld_output_snapshot/version/data.txt",
+    "size": 5,
+    "sha256": "911fc0c48cb0c70601db5775a9bef1b740dc4cc9f9b46389b9f0563fe7eb94d7"
+  },
+  {
+    "path": "cases/workflow/evicted/branch_result.json",
+    "size": 166976,
+    "sha256": "5db9954627021e367c8578b130de1d3bb4b7319a52f87da58fb227a802401ebe"
+  },
+  {
+    "path": "cases/workflow/evicted/effective_eviction_manifest.json",
+    "size": 12954,
+    "sha256": "fde87126228a9de88ac860f94b172b9d84e1e8f2ec7bb89267c240b16aef6b60"
+  },
+  {
+    "path": "cases/workflow/evicted/effective_eviction_pre_agent_manifest.json",
+    "size": 11495,
+    "sha256": "f1a95227fb3dcae3d52163dc3a1193f62176ad5ede4736624e307a6062a8eb41"
+  },
+  {
+    "path": "cases/workflow/evicted/generated_code.py",
+    "size": 109,
+    "sha256": "8978320262071ee6d69a030334fef217ffe7947f314ee320b5c7710285635c38"
+  },
+  {
+    "path": "cases/workflow/evicted/prompt.txt",
+    "size": 1325,
+    "sha256": "bdbcd8fce31142656ffff76d5d69bfe79a97999ba88d863a932df109b1de01de"
+  },
+  {
+    "path": "cases/workflow/evicted/retrieval_results.json",
+    "size": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "cases/workflow/freeze_validation.json",
+    "size": 10799,
+    "sha256": "e9ac86de1b9439751830954331fb41b2bd9904a5237a1d6d9975efd764571f68"
+  },
+  {
+    "path": "cases/workflow/full/agent_decision.json",
+    "size": 153,
+    "sha256": "fbe45259112734c03d0edcd889aec31df77394dd77fc4c23087ed8cf82d6acac"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/checkpoints/future_task_frozen/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/checkpoints/future_task_frozen/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/checkpoints/future_task_frozen/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/checkpoints/future_task_frozen/file_system.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/checkpoints/future_task_frozen/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/checkpoints/future_task_frozen/model_hashes.json",
+    "size": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/checkpoints/future_task_frozen/phone.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/checkpoints/future_task_frozen/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/checkpoints/future_task_frozen/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/checkpoints/future_task_frozen/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/checkpoints/future_task_frozen/supervisor.jsonl",
+    "size": 3484,
+    "sha256": "c82ae8c1fec4746027debb4cd68cf2616db51b8588e8cdf47de00db2aff2fbf9"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/checkpoints/future_task_frozen/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/checkpoints/future_task_frozen/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/dbs/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/dbs/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/dbs/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/dbs/file_system.jsonl",
+    "size": 27349,
+    "sha256": "0d24e9cd86de3b4dc253657e3848fdfca1d20a1cfd059054519bc1f0f49a0a22"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/dbs/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/dbs/model_hashes.json",
+    "size": 324,
+    "sha256": "d1dc16f87baee359bffaf82a00ced113c1754554007e484f303cfb99cca1a63a"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/dbs/phone.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/dbs/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/dbs/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/dbs/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/dbs/supervisor.jsonl",
+    "size": 3601,
+    "sha256": "ccb7893966ff868626875764669d7bef5e102eb295b15948b496ed4a8c388aeb"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/dbs/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/dbs/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/evaluation/report.md",
+    "size": 1064,
+    "sha256": "489d2f63413ac4e3ad98d23090ffd92485563486bf9dc6ae2f611c5cfbb0cdf4"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/evaluation/version.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/logs/api_calls.jsonl",
+    "size": 35280,
+    "sha256": "36975d83b9bdc410767744211db7b64296671069df79cd1a8acceecf89022ce9"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/logs/environment_io.md",
+    "size": 1226,
+    "sha256": "170b3f72d44ae912f65b08c4b2e9eef8ab8f5f400544d1d1cbeb1530f39670b0"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/version/code.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/workflow/full/appworld_output_snapshot/version/data.txt",
+    "size": 5,
+    "sha256": "911fc0c48cb0c70601db5775a9bef1b740dc4cc9f9b46389b9f0563fe7eb94d7"
+  },
+  {
+    "path": "cases/workflow/full/branch_result.json",
+    "size": 9808,
+    "sha256": "b36c2fe3d01888a6aab6507362b2cb72d277221a6527d974e2508eb2cc809cc8"
+  },
+  {
+    "path": "cases/workflow/full/effective_eviction_manifest.json",
+    "size": 4,
+    "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  {
+    "path": "cases/workflow/full/effective_eviction_pre_agent_manifest.json",
+    "size": 4,
+    "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  {
+    "path": "cases/workflow/full/generated_code.py",
+    "size": 1062,
+    "sha256": "db24500acf3df3d564b6da6a48eda05c8f3ba678a16baa86051773e9d5c3fcb1"
+  },
+  {
+    "path": "cases/workflow/full/prompt.txt",
+    "size": 1325,
+    "sha256": "bdbcd8fce31142656ffff76d5d69bfe79a97999ba88d863a932df109b1de01de"
+  },
+  {
+    "path": "cases/workflow/full/retrieval_results.json",
+    "size": 1548,
+    "sha256": "e517b0604009c7a5bf5aa55e5a0ab7ac8ef50143bb74a0f631ce879dbbe3a3a1"
+  },
+  {
+    "path": "cases/workflow/memory_provenance.json",
+    "size": 439,
+    "sha256": "d178f2705e25b2d11de967652281ed8b735d78aa76b9d480373ef1b08e79ffc0"
+  },
+  {
+    "path": "cases/workflow/restore/agent_decision.json",
+    "size": 153,
+    "sha256": "fbe45259112734c03d0edcd889aec31df77394dd77fc4c23087ed8cf82d6acac"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/checkpoints/future_task_frozen/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/checkpoints/future_task_frozen/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/checkpoints/future_task_frozen/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/checkpoints/future_task_frozen/file_system.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/checkpoints/future_task_frozen/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/checkpoints/future_task_frozen/model_hashes.json",
+    "size": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/checkpoints/future_task_frozen/phone.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/checkpoints/future_task_frozen/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/checkpoints/future_task_frozen/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/checkpoints/future_task_frozen/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/checkpoints/future_task_frozen/supervisor.jsonl",
+    "size": 3484,
+    "sha256": "c82ae8c1fec4746027debb4cd68cf2616db51b8588e8cdf47de00db2aff2fbf9"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/checkpoints/future_task_frozen/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/checkpoints/future_task_frozen/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/dbs/admin.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/dbs/amazon.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/dbs/api_docs.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/dbs/file_system.jsonl",
+    "size": 27349,
+    "sha256": "0d24e9cd86de3b4dc253657e3848fdfca1d20a1cfd059054519bc1f0f49a0a22"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/dbs/gmail.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/dbs/model_hashes.json",
+    "size": 324,
+    "sha256": "d1dc16f87baee359bffaf82a00ced113c1754554007e484f303cfb99cca1a63a"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/dbs/phone.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/dbs/simple_note.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/dbs/splitwise.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/dbs/spotify.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/dbs/supervisor.jsonl",
+    "size": 3601,
+    "sha256": "ccb7893966ff868626875764669d7bef5e102eb295b15948b496ed4a8c388aeb"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/dbs/todoist.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/dbs/venmo.jsonl",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/evaluation/report.md",
+    "size": 1064,
+    "sha256": "489d2f63413ac4e3ad98d23090ffd92485563486bf9dc6ae2f611c5cfbb0cdf4"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/evaluation/version.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/logs/api_calls.jsonl",
+    "size": 35280,
+    "sha256": "36975d83b9bdc410767744211db7b64296671069df79cd1a8acceecf89022ce9"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/logs/environment_io.md",
+    "size": 1226,
+    "sha256": "170b3f72d44ae912f65b08c4b2e9eef8ab8f5f400544d1d1cbeb1530f39670b0"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/version/code.txt",
+    "size": 10,
+    "sha256": "ff13f6054997468dcba854eb0568ab274f250f56a285e5d2235f6891c2846e62"
+  },
+  {
+    "path": "cases/workflow/restore/appworld_output_snapshot/version/data.txt",
+    "size": 5,
+    "sha256": "911fc0c48cb0c70601db5775a9bef1b740dc4cc9f9b46389b9f0563fe7eb94d7"
+  },
+  {
+    "path": "cases/workflow/restore/branch_result.json",
+    "size": 9959,
+    "sha256": "e535f6a20dc67361406704d775036b8726af9b2a9179c0dd50544b107740e33f"
+  },
+  {
+    "path": "cases/workflow/restore/effective_eviction_manifest.json",
+    "size": 11495,
+    "sha256": "f1a95227fb3dcae3d52163dc3a1193f62176ad5ede4736624e307a6062a8eb41"
+  },
+  {
+    "path": "cases/workflow/restore/effective_eviction_pre_agent_manifest.json",
+    "size": 4,
+    "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  {
+    "path": "cases/workflow/restore/generated_code.py",
+    "size": 1062,
+    "sha256": "db24500acf3df3d564b6da6a48eda05c8f3ba678a16baa86051773e9d5c3fcb1"
+  },
+  {
+    "path": "cases/workflow/restore/prompt.txt",
+    "size": 1325,
+    "sha256": "bdbcd8fce31142656ffff76d5d69bfe79a97999ba88d863a932df109b1de01de"
+  },
+  {
+    "path": "cases/workflow/restore/retrieval_results.json",
+    "size": 1548,
+    "sha256": "e517b0604009c7a5bf5aa55e5a0ab7ac8ef50143bb74a0f631ce879dbbe3a3a1"
+  },
+  {
+    "path": "cases/workflow/source_episode.json",
+    "size": 2484,
+    "sha256": "396b860b90aae782fd0617560f1f932f3fdbdfcb9c046d9b68cf795b563432de"
+  },
+  {
+    "path": "cases/workflow/target_relationship.json",
+    "size": 1487,
+    "sha256": "572b1ab96e228989a36672684dedd98302c2afd3b6d72f5ef2ba90fc7dbac192"
+  },
+  {
+    "path": "cases/workflow/witness.json",
+    "size": 918,
+    "sha256": "ac7f42262b6122b8194dd6b7eaad8fc9a6c4fc2c8f346c9d9982a521ebaaf624"
+  },
+  {
+    "path": "environment.json",
+    "size": 3007,
+    "sha256": "d410eba0cccc15666878139624976048c93c24f02f83eb16e2dabd2e315d7cb8"
+  }
+]

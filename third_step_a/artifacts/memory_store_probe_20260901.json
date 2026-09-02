@@ -1,0 +1,350 @@
+{
+  "probe_version": "preempt-3a-memory-store-probe-v1",
+  "put": {
+    "memory_id": "pm3a-interface-probe-v1",
+    "record_sha256": "36f33c8e884f923549d5f993f13d8b9fcc493cdcfa994c288490051ff6e97af6"
+  },
+  "interface_before_delete": {
+    "stable_memory_id": true,
+    "provenance_present": true,
+    "retrieval_returns_exact_id": true,
+    "delete_interface": true,
+    "restore_interface": true,
+    "retrieval_interface": true,
+    "record_sha256": "36f33c8e884f923549d5f993f13d8b9fcc493cdcfa994c288490051ff6e97af6"
+  },
+  "delete": {
+    "memory_id": "pm3a-interface-probe-v1",
+    "content_sha256": "b2551a4c49cde1f657bfccf6c0abda0ca3713167b8d90b00aa76cb7ef8720724",
+    "record_sha256": "36f33c8e884f923549d5f993f13d8b9fcc493cdcfa994c288490051ff6e97af6"
+  },
+  "effective_eviction": {
+    "memory_id": "pm3a-interface-probe-v1",
+    "public_audit_record": {
+      "memory_id": "pm3a-interface-probe-v1",
+      "content_sha256": "b2551a4c49cde1f657bfccf6c0abda0ca3713167b8d90b00aa76cb7ef8720724",
+      "record_sha256": "36f33c8e884f923549d5f993f13d8b9fcc493cdcfa994c288490051ff6e97af6"
+    },
+    "controller_vault_disclosed_to_agent": false,
+    "controller_only_audit_surfaces_excluded_from_leak_scan": [
+      "controller_restore_vault",
+      "public_audit_records"
+    ],
+    "forbidden_needle_manifest": [
+      {
+        "kind": "memory_id",
+        "value_sha256": "d920f1b157b70e72784b892d925aa2896a62c7423d9827bb4aaa1eb46d7046b3"
+      },
+      {
+        "kind": "exact_content",
+        "value_sha256": "b2551a4c49cde1f657bfccf6c0abda0ca3713167b8d90b00aa76cb7ef8720724"
+      },
+      {
+        "kind": "content_sha256",
+        "value_sha256": "17cfced86de9ea79e641bc4f930d5e896bd19375ead05f018773c2941862fb4f"
+      },
+      {
+        "kind": "record_sha256",
+        "value_sha256": "f82a259f5f41a0c5bb5f93e1bd3cb232dde35723ae904b3a80d7b6cd59748d68"
+      },
+      {
+        "kind": "policy_id",
+        "value_sha256": "85114945e8a268a2efb9f50b6084dd40996a1ccf865587ca3aacc4d8ed92b008"
+      },
+      {
+        "kind": "provenance",
+        "value_sha256": "b918effebb633ea07ab440d532a983e376cffd76a74737f8409a2f928abc3fa6"
+      },
+      {
+        "kind": "leakage_sentinel",
+        "value_sha256": "c2b651a54f1daa8183936650c4473ab856252d9d58b57b23d959f09ac5adec0f"
+      },
+      {
+        "kind": "alias",
+        "value_sha256": "386cad8c1e7d47a3b5ed2f682252d811fe3803423ee47ce25ce060d97e8297c2"
+      },
+      {
+        "kind": "retrieval_key",
+        "value_sha256": "d46aee08cc49f6d1eb41800c1d6bab4506c960c700cff0efffe490d7cb1de5e3"
+      },
+      {
+        "kind": "retrieval_key",
+        "value_sha256": "ab5aa97074c454a0632057e704220d9a6678fbf773a0a5806fc09b8173b07309"
+      },
+      {
+        "kind": "retrieval_key",
+        "value_sha256": "fda638bcc9d296bbe51fdbc93d77c763b528a34ee08aba6a5139a1e66c3ce9e3"
+      },
+      {
+        "kind": "derived_content_fragment_8gram",
+        "value_sha256": "0af49e2c517d51d37de39227368408ad8db1fe1a78e4921f2027c217f87aa8b6"
+      }
+    ],
+    "negative_probe_cache_result": false,
+    "surface_state_sha256_before_probe": "06496669f577c53bc14722026ce140aa16353e343433f8ead33555d1f1712438",
+    "final_surface_state_sha256": "06496669f577c53bc14722026ce140aa16353e343433f8ead33555d1f1712438",
+    "final_surface_hashes": {
+      "canonical_memory_record": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "alias_and_near_duplicate_copies": "47891fa2fe763a82d85fe9970d7a8de3bb436a5042f3a10988d6a9b9f0ff1604",
+      "embedding_ann_keyword_graph_indexes": "7f3c7ad09357b480dd4742caf90eee16596f9c50175d897d8bb2e158d85a0aaf",
+      "reranker_derived_features": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "retrieval_tool_summary_caches": "29476d3c6ecfaffb9bbdc599a0d636c2f10cad6afddb1670384b59683f6f4eba",
+      "active_prompt_scratchpad_session_kv_context": "73ad25c1ef6c61f21e9f66010b5b309db6e3221bfe3836a4b2bb2c0f462c9641",
+      "runtime_variables": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "derived_summary_rule_skill_plan_edge_tag_cached_answer": "54c2412b9ddf0448ab3a75d448aa0739e13032b242672817bdb2ffe94959b3c9",
+      "agent_accessible_archive_logs_debug_endpoints": "606998fe75413673ef97c774ad024f746d0f3fcc9016e3963b57057d3f24ed55"
+    },
+    "checks": [
+      {
+        "surface": "negative_probe_side_effect_free",
+        "result": "PASS",
+        "evidence_sha256": "06496669f577c53bc14722026ce140aa16353e343433f8ead33555d1f1712438",
+        "detail": "all store surfaces are byte-canonically unchanged by the negative probe"
+      },
+      {
+        "surface": "retrieval_interface_negative_probe",
+        "result": "PASS",
+        "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "detail": "non-caching retrieval returns no candidate"
+      },
+      {
+        "surface": "canonical_memory_record",
+        "result": "PASS",
+        "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "alias_and_near_duplicate_copies",
+        "result": "PASS",
+        "evidence_sha256": "47891fa2fe763a82d85fe9970d7a8de3bb436a5042f3a10988d6a9b9f0ff1604",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "embedding_ann_keyword_graph_indexes",
+        "result": "PASS",
+        "evidence_sha256": "7f3c7ad09357b480dd4742caf90eee16596f9c50175d897d8bb2e158d85a0aaf",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "reranker_derived_features",
+        "result": "PASS",
+        "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "retrieval_tool_summary_caches",
+        "result": "PASS",
+        "evidence_sha256": "29476d3c6ecfaffb9bbdc599a0d636c2f10cad6afddb1670384b59683f6f4eba",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "active_prompt_scratchpad_session_kv_context",
+        "result": "PASS",
+        "evidence_sha256": "73ad25c1ef6c61f21e9f66010b5b309db6e3221bfe3836a4b2bb2c0f462c9641",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "runtime_variables",
+        "result": "PASS",
+        "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "derived_summary_rule_skill_plan_edge_tag_cached_answer",
+        "result": "PASS",
+        "evidence_sha256": "54c2412b9ddf0448ab3a75d448aa0739e13032b242672817bdb2ffe94959b3c9",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "agent_accessible_archive_logs_debug_endpoints",
+        "result": "PASS",
+        "evidence_sha256": "606998fe75413673ef97c774ad024f746d0f3fcc9016e3963b57057d3f24ed55",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      }
+    ],
+    "all_pass": true
+  },
+  "cache_after_negative_probe": {},
+  "effective_eviction_after_agent_negative_retrieval": {
+    "memory_id": "pm3a-interface-probe-v1",
+    "public_audit_record": {
+      "memory_id": "pm3a-interface-probe-v1",
+      "content_sha256": "b2551a4c49cde1f657bfccf6c0abda0ca3713167b8d90b00aa76cb7ef8720724",
+      "record_sha256": "36f33c8e884f923549d5f993f13d8b9fcc493cdcfa994c288490051ff6e97af6"
+    },
+    "controller_vault_disclosed_to_agent": false,
+    "controller_only_audit_surfaces_excluded_from_leak_scan": [
+      "controller_restore_vault",
+      "public_audit_records"
+    ],
+    "forbidden_needle_manifest": [
+      {
+        "kind": "memory_id",
+        "value_sha256": "d920f1b157b70e72784b892d925aa2896a62c7423d9827bb4aaa1eb46d7046b3"
+      },
+      {
+        "kind": "exact_content",
+        "value_sha256": "b2551a4c49cde1f657bfccf6c0abda0ca3713167b8d90b00aa76cb7ef8720724"
+      },
+      {
+        "kind": "content_sha256",
+        "value_sha256": "17cfced86de9ea79e641bc4f930d5e896bd19375ead05f018773c2941862fb4f"
+      },
+      {
+        "kind": "record_sha256",
+        "value_sha256": "f82a259f5f41a0c5bb5f93e1bd3cb232dde35723ae904b3a80d7b6cd59748d68"
+      },
+      {
+        "kind": "policy_id",
+        "value_sha256": "85114945e8a268a2efb9f50b6084dd40996a1ccf865587ca3aacc4d8ed92b008"
+      },
+      {
+        "kind": "provenance",
+        "value_sha256": "b918effebb633ea07ab440d532a983e376cffd76a74737f8409a2f928abc3fa6"
+      },
+      {
+        "kind": "leakage_sentinel",
+        "value_sha256": "c2b651a54f1daa8183936650c4473ab856252d9d58b57b23d959f09ac5adec0f"
+      },
+      {
+        "kind": "alias",
+        "value_sha256": "386cad8c1e7d47a3b5ed2f682252d811fe3803423ee47ce25ce060d97e8297c2"
+      },
+      {
+        "kind": "retrieval_key",
+        "value_sha256": "d46aee08cc49f6d1eb41800c1d6bab4506c960c700cff0efffe490d7cb1de5e3"
+      },
+      {
+        "kind": "retrieval_key",
+        "value_sha256": "ab5aa97074c454a0632057e704220d9a6678fbf773a0a5806fc09b8173b07309"
+      },
+      {
+        "kind": "retrieval_key",
+        "value_sha256": "fda638bcc9d296bbe51fdbc93d77c763b528a34ee08aba6a5139a1e66c3ce9e3"
+      },
+      {
+        "kind": "derived_content_fragment_8gram",
+        "value_sha256": "0af49e2c517d51d37de39227368408ad8db1fe1a78e4921f2027c217f87aa8b6"
+      }
+    ],
+    "negative_probe_cache_result": false,
+    "surface_state_sha256_before_probe": "eef4b5ceda1bd7220920170a0a5deacd029f19363add6c22bd4042fac7ea8160",
+    "final_surface_state_sha256": "eef4b5ceda1bd7220920170a0a5deacd029f19363add6c22bd4042fac7ea8160",
+    "final_surface_hashes": {
+      "canonical_memory_record": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "alias_and_near_duplicate_copies": "47891fa2fe763a82d85fe9970d7a8de3bb436a5042f3a10988d6a9b9f0ff1604",
+      "embedding_ann_keyword_graph_indexes": "7f3c7ad09357b480dd4742caf90eee16596f9c50175d897d8bb2e158d85a0aaf",
+      "reranker_derived_features": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "retrieval_tool_summary_caches": "14d1f9cd329260a2e53e1c7d94d8ad94bc562f4b81ac31fb206f68d99cc72626",
+      "active_prompt_scratchpad_session_kv_context": "73ad25c1ef6c61f21e9f66010b5b309db6e3221bfe3836a4b2bb2c0f462c9641",
+      "runtime_variables": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "derived_summary_rule_skill_plan_edge_tag_cached_answer": "54c2412b9ddf0448ab3a75d448aa0739e13032b242672817bdb2ffe94959b3c9",
+      "agent_accessible_archive_logs_debug_endpoints": "606998fe75413673ef97c774ad024f746d0f3fcc9016e3963b57057d3f24ed55"
+    },
+    "checks": [
+      {
+        "surface": "negative_probe_side_effect_free",
+        "result": "PASS",
+        "evidence_sha256": "eef4b5ceda1bd7220920170a0a5deacd029f19363add6c22bd4042fac7ea8160",
+        "detail": "all store surfaces are byte-canonically unchanged by the negative probe"
+      },
+      {
+        "surface": "retrieval_interface_negative_probe",
+        "result": "PASS",
+        "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "detail": "non-caching retrieval returns no candidate"
+      },
+      {
+        "surface": "canonical_memory_record",
+        "result": "PASS",
+        "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "alias_and_near_duplicate_copies",
+        "result": "PASS",
+        "evidence_sha256": "47891fa2fe763a82d85fe9970d7a8de3bb436a5042f3a10988d6a9b9f0ff1604",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "embedding_ann_keyword_graph_indexes",
+        "result": "PASS",
+        "evidence_sha256": "7f3c7ad09357b480dd4742caf90eee16596f9c50175d897d8bb2e158d85a0aaf",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "reranker_derived_features",
+        "result": "PASS",
+        "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "retrieval_tool_summary_caches",
+        "result": "PASS",
+        "evidence_sha256": "14d1f9cd329260a2e53e1c7d94d8ad94bc562f4b81ac31fb206f68d99cc72626",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "active_prompt_scratchpad_session_kv_context",
+        "result": "PASS",
+        "evidence_sha256": "73ad25c1ef6c61f21e9f66010b5b309db6e3221bfe3836a4b2bb2c0f462c9641",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "runtime_variables",
+        "result": "PASS",
+        "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "derived_summary_rule_skill_plan_edge_tag_cached_answer",
+        "result": "PASS",
+        "evidence_sha256": "54c2412b9ddf0448ab3a75d448aa0739e13032b242672817bdb2ffe94959b3c9",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      },
+      {
+        "surface": "agent_accessible_archive_logs_debug_endpoints",
+        "result": "PASS",
+        "evidence_sha256": "606998fe75413673ef97c774ad024f746d0f3fcc9016e3963b57057d3f24ed55",
+        "matched_forbidden_needles": [],
+        "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+      }
+    ],
+    "all_pass": true
+  },
+  "cache_after_agent_negative_retrieval": {
+    "current unrelated future task": []
+  },
+  "restore": {
+    "memory_id": "pm3a-interface-probe-v1",
+    "record_sha256": "36f33c8e884f923549d5f993f13d8b9fcc493cdcfa994c288490051ff6e97af6"
+  },
+  "interface_after_restore": {
+    "stable_memory_id": true,
+    "provenance_present": true,
+    "retrieval_returns_exact_id": true,
+    "delete_interface": true,
+    "restore_interface": true,
+    "retrieval_interface": true,
+    "record_sha256": "36f33c8e884f923549d5f993f13d8b9fcc493cdcfa994c288490051ff6e97af6"
+  },
+  "same_record_after_restore": true,
+  "all_required_checks_pass": true
+}

@@ -1,0 +1,23 @@
+{
+  "execution_freeze_id": "PREEMPT-Mem-3A-run_003-post-parser-repair",
+  "frozen_at": "2026-08-27T19:56:02.8765228+08:00",
+  "must_precede_run": "third_step_a/artifacts/smoke/run_003",
+  "development_runs_not_primary": [
+    "third_step_a/artifacts/smoke/run_001",
+    "third_step_a/artifacts/smoke/run_002"
+  ],
+  "repair_disclosure": "run_001 gotcha incorrectly required quoted paths and failed closed in all branches; parser fixed to accept the actual unquoted AppWorld path syntax. No target, Need, evaluator, severity, prompt, witness, memory item, seed, or budget changed.",
+  "files": {
+    "research/PREEMPT-Mem_第三步A_协议冻结与泄漏Manifest.md": "036bed73239535bf09ec590081cb353c76a1db0e4bb0aaded7be32c5385f8fa6",
+    "third_step_a/config/cases_v1.json": "b10647c9178e8a723a31d1601934fb5f2e176b4eb26142e9b57a505f37f5b175",
+    "third_step_a/prompts/agent_prompt_v1.txt": "6db6b1a6eabc3bbe0f07577e119556cbdc27e37a41bbe89165ad7289d1945f59",
+    "third_step_a/prompts/witness_prompt_v1.txt": "7f56aeead03e278461fc090d020ca12d7a4be6745c1188968517a65da1da2f4c",
+    "third_step_a/artifacts/witnesses.json": "a38258dbf7ba5364734f05ddd5eff561c59b44d9fede84c6aa9bbe536763ccf0",
+    "third_step_a/src/audit_memory_store.py": "57e6f6da6676d932bebe4af16f2b6d3249ee23410050410f0b7109d06a0d8003",
+    "third_step_a/src/protocol_executor.py": "c8296a1d13f9d80a6a2251edd84d7892ac9819e2aac90a2c0436ef173d08e8fa",
+    "third_step_a/src/run_smoke_case.py": "00b38c98adab75eec92221de392d1ed5f1f12189e3d2ffff474c33647db22090",
+    "third_step_a/src/aggregate_smoke.py": "6502518de65b59a5ecba003a67bbe53aaed9ae4b71d73295ff955064316871fd",
+    "third_step_a/artifacts/smoke/run_002/environment.json": "35e22f78f39055316a8e6cc959e11de4635fbca426a0df060f2d9c24e1d6cc6a"
+  },
+  "status": "FROZEN_BEFORE_RUN_003"
+}

@@ -1,0 +1,371 @@
+{
+  "schema_version": "preempt-mem-3a-r-raw-controller-firewall-scan-v2",
+  "scan_timing": "after all three Agents exited, witness evidence was first read, and frozen private case fields were first materialized into controller-only scan inputs; before raw controller-only payloads were discarded",
+  "branch_scans": [
+    {
+      "branch": "Full",
+      "raw_virtual_payload_sha256": "2a41f5b054e874d4583e7858cd7ac9bf66f7f3809569c31a4f2b0d861461ad98",
+      "raw_transcript_virtual_sha256": "13a9bef0b4752417f00bc1fef9bdba47f57b4c491c1cd24111f3f17c19cbb859",
+      "private_exact_match_count": 0,
+      "matches": [],
+      "forbidden_private_key_count": 0,
+      "forbidden_private_key_findings": [],
+      "private_needle_count": 16,
+      "private_needles": [
+        {
+          "value_sha256": "c06786a5dabe77037435180a32c202d08e9f4723bb365edc38b37544c98f5e07",
+          "source_paths": [
+            "$witness.hypothetical_unseen_trigger_family"
+          ]
+        },
+        {
+          "value_sha256": "1b795f0e35ea0a99de6d79dbb1b0eeca5cc84b771800ca8d998c8bf7988323d6",
+          "source_paths": [
+            "$target_relationship.gold_state_evaluator.interface"
+          ]
+        },
+        {
+          "value_sha256": "21470113c072e35ad71b036b4e2cf0d50424664e656422b838f8179bd6944a3e",
+          "source_paths": [
+            "$target_relationship.source_to_target_dependency"
+          ]
+        },
+        {
+          "value_sha256": "fbfb7a1cfed6410a507cf935a98da2ad6ead982f06313f78ffb7fd6df6bdd1fc",
+          "source_paths": [
+            "$witness.executable_intervention_family"
+          ]
+        },
+        {
+          "value_sha256": "8fb233bc8a67f9dc1bd78bf395569270064db6288c0d0d1c38d526c2b742ada0",
+          "source_paths": [
+            "$witness.falsifiable_deletion_prediction"
+          ]
+        },
+        {
+          "value_sha256": "00103f1741126fe02424000ec5f580ce54634ef6a9c1e21b5a3ed98c42d62746",
+          "source_paths": [
+            "$target_relationship.need_definition"
+          ]
+        },
+        {
+          "value_sha256": "4b0d7aa9edb2c40072818bc098f805fae8e880a46ad0d4a499afd20094819cf0",
+          "source_paths": [
+            "$controller_canaries.Evicted.branch_canary"
+          ]
+        },
+        {
+          "value_sha256": "e99326151288f2962955b4ea2caf2d013c4b70c22a106a479582fd2d9f662966",
+          "source_paths": [
+            "$controller_canaries.Restore.branch_canary"
+          ]
+        },
+        {
+          "value_sha256": "257ceafc8dd120f0ee4e1672d7922b9dec34b414c7832d780dc697fc3eed2dce",
+          "source_paths": [
+            "$controller_canaries.Full.branch_canary"
+          ]
+        },
+        {
+          "value_sha256": "e367cb93d307b543cc51d61977132f2a1b3216b548306036dbd56e4f4891f1bc",
+          "source_paths": [
+            "$controller_canaries.Evicted.caller_secret",
+            "$controller_canaries.Full.caller_secret",
+            "$controller_canaries.Restore.caller_secret"
+          ]
+        },
+        {
+          "value_sha256": "ae5db0e87039a0e9c20682abab20f1f03615b87f9328b9843b2ae1258653cbfb",
+          "source_paths": [
+            "$target_relationship.severity_application"
+          ]
+        },
+        {
+          "value_sha256": "28913ead6cba806667af93c77bd292655b81ee1890827f514051b255ddc7bdf5",
+          "source_paths": [
+            "$target_relationship.target.specs_sha256"
+          ]
+        },
+        {
+          "value_sha256": "ecd504c83c15b1ddbf2380ee6b2535a6980763a4d1ffb2a34f7d0c1c470b6d60",
+          "source_paths": [
+            "$target_relationship.gold_state_evaluator.evaluation_code_sha256"
+          ]
+        },
+        {
+          "value_sha256": "d2134c19c19a862fb8928ab49a3307c6bc6c7f52a6ca0f8aa1b6d5387dc97b9d",
+          "source_paths": [
+            "$target_relationship.gold_state_evaluator.test_data_sha256"
+          ]
+        },
+        {
+          "value_sha256": "b477311028ccd536a9cc37265bc994f5eb7a697d11c96af52288db148861a73a",
+          "source_paths": [
+            "$target_relationship.gold_state_evaluator.critical_state"
+          ]
+        },
+        {
+          "value_sha256": "0847ddd286a92116547adb528b15278b08868748a520313d3d927da4007fe3d0",
+          "source_paths": [
+            "$controller_canaries.Evicted.created_role",
+            "$controller_canaries.Full.created_role",
+            "$controller_canaries.Restore.created_role"
+          ]
+        }
+      ],
+      "public_overlap_exclusion_count": 2,
+      "public_overlap_exclusion_sha256s": [
+        "482da360134a0cc4b6c3f4016aeeaf4bece0c725b44cc3724b910431a2024a15",
+        "bc8ca62e43a3b20419b591bc382057115e12b3a3b66edb45bf615cf264bb35b9"
+      ]
+    },
+    {
+      "branch": "Evicted",
+      "raw_virtual_payload_sha256": "eb16465a5afff9a5cb7ce181cf6084ef469ad028e765db58a2b670cf12cfff85",
+      "raw_transcript_virtual_sha256": "88e5bb526e21e187567fb0d7551004f249f7392ed23807212d398fe70ce92f78",
+      "private_exact_match_count": 0,
+      "matches": [],
+      "forbidden_private_key_count": 0,
+      "forbidden_private_key_findings": [],
+      "private_needle_count": 18,
+      "private_needles": [
+        {
+          "value_sha256": "c06786a5dabe77037435180a32c202d08e9f4723bb365edc38b37544c98f5e07",
+          "source_paths": [
+            "$witness.hypothetical_unseen_trigger_family"
+          ]
+        },
+        {
+          "value_sha256": "1b795f0e35ea0a99de6d79dbb1b0eeca5cc84b771800ca8d998c8bf7988323d6",
+          "source_paths": [
+            "$target_relationship.gold_state_evaluator.interface"
+          ]
+        },
+        {
+          "value_sha256": "21470113c072e35ad71b036b4e2cf0d50424664e656422b838f8179bd6944a3e",
+          "source_paths": [
+            "$target_relationship.source_to_target_dependency"
+          ]
+        },
+        {
+          "value_sha256": "fbfb7a1cfed6410a507cf935a98da2ad6ead982f06313f78ffb7fd6df6bdd1fc",
+          "source_paths": [
+            "$witness.executable_intervention_family"
+          ]
+        },
+        {
+          "value_sha256": "8fb233bc8a67f9dc1bd78bf395569270064db6288c0d0d1c38d526c2b742ada0",
+          "source_paths": [
+            "$witness.falsifiable_deletion_prediction"
+          ]
+        },
+        {
+          "value_sha256": "00103f1741126fe02424000ec5f580ce54634ef6a9c1e21b5a3ed98c42d62746",
+          "source_paths": [
+            "$target_relationship.need_definition"
+          ]
+        },
+        {
+          "value_sha256": "4b0d7aa9edb2c40072818bc098f805fae8e880a46ad0d4a499afd20094819cf0",
+          "source_paths": [
+            "$controller_canaries.Evicted.branch_canary"
+          ]
+        },
+        {
+          "value_sha256": "e99326151288f2962955b4ea2caf2d013c4b70c22a106a479582fd2d9f662966",
+          "source_paths": [
+            "$controller_canaries.Restore.branch_canary"
+          ]
+        },
+        {
+          "value_sha256": "257ceafc8dd120f0ee4e1672d7922b9dec34b414c7832d780dc697fc3eed2dce",
+          "source_paths": [
+            "$controller_canaries.Full.branch_canary"
+          ]
+        },
+        {
+          "value_sha256": "e367cb93d307b543cc51d61977132f2a1b3216b548306036dbd56e4f4891f1bc",
+          "source_paths": [
+            "$controller_canaries.Evicted.caller_secret",
+            "$controller_canaries.Full.caller_secret",
+            "$controller_canaries.Restore.caller_secret"
+          ]
+        },
+        {
+          "value_sha256": "ae5db0e87039a0e9c20682abab20f1f03615b87f9328b9843b2ae1258653cbfb",
+          "source_paths": [
+            "$target_relationship.severity_application"
+          ]
+        },
+        {
+          "value_sha256": "28913ead6cba806667af93c77bd292655b81ee1890827f514051b255ddc7bdf5",
+          "source_paths": [
+            "$target_relationship.target.specs_sha256"
+          ]
+        },
+        {
+          "value_sha256": "ecd504c83c15b1ddbf2380ee6b2535a6980763a4d1ffb2a34f7d0c1c470b6d60",
+          "source_paths": [
+            "$target_relationship.gold_state_evaluator.evaluation_code_sha256"
+          ]
+        },
+        {
+          "value_sha256": "d2134c19c19a862fb8928ab49a3307c6bc6c7f52a6ca0f8aa1b6d5387dc97b9d",
+          "source_paths": [
+            "$target_relationship.gold_state_evaluator.test_data_sha256"
+          ]
+        },
+        {
+          "value_sha256": "b477311028ccd536a9cc37265bc994f5eb7a697d11c96af52288db148861a73a",
+          "source_paths": [
+            "$target_relationship.gold_state_evaluator.critical_state"
+          ]
+        },
+        {
+          "value_sha256": "bc8ca62e43a3b20419b591bc382057115e12b3a3b66edb45bf615cf264bb35b9",
+          "source_paths": [
+            "$witness.candidate_memory_id"
+          ]
+        },
+        {
+          "value_sha256": "0847ddd286a92116547adb528b15278b08868748a520313d3d927da4007fe3d0",
+          "source_paths": [
+            "$controller_canaries.Evicted.created_role",
+            "$controller_canaries.Full.created_role",
+            "$controller_canaries.Restore.created_role"
+          ]
+        },
+        {
+          "value_sha256": "482da360134a0cc4b6c3f4016aeeaf4bece0c725b44cc3724b910431a2024a15",
+          "source_paths": [
+            "$witness.policy_id"
+          ]
+        }
+      ],
+      "public_overlap_exclusion_count": 0,
+      "public_overlap_exclusion_sha256s": []
+    },
+    {
+      "branch": "Restore",
+      "raw_virtual_payload_sha256": "2a41f5b054e874d4583e7858cd7ac9bf66f7f3809569c31a4f2b0d861461ad98",
+      "raw_transcript_virtual_sha256": "13a9bef0b4752417f00bc1fef9bdba47f57b4c491c1cd24111f3f17c19cbb859",
+      "private_exact_match_count": 0,
+      "matches": [],
+      "forbidden_private_key_count": 0,
+      "forbidden_private_key_findings": [],
+      "private_needle_count": 16,
+      "private_needles": [
+        {
+          "value_sha256": "c06786a5dabe77037435180a32c202d08e9f4723bb365edc38b37544c98f5e07",
+          "source_paths": [
+            "$witness.hypothetical_unseen_trigger_family"
+          ]
+        },
+        {
+          "value_sha256": "1b795f0e35ea0a99de6d79dbb1b0eeca5cc84b771800ca8d998c8bf7988323d6",
+          "source_paths": [
+            "$target_relationship.gold_state_evaluator.interface"
+          ]
+        },
+        {
+          "value_sha256": "21470113c072e35ad71b036b4e2cf0d50424664e656422b838f8179bd6944a3e",
+          "source_paths": [
+            "$target_relationship.source_to_target_dependency"
+          ]
+        },
+        {
+          "value_sha256": "fbfb7a1cfed6410a507cf935a98da2ad6ead982f06313f78ffb7fd6df6bdd1fc",
+          "source_paths": [
+            "$witness.executable_intervention_family"
+          ]
+        },
+        {
+          "value_sha256": "8fb233bc8a67f9dc1bd78bf395569270064db6288c0d0d1c38d526c2b742ada0",
+          "source_paths": [
+            "$witness.falsifiable_deletion_prediction"
+          ]
+        },
+        {
+          "value_sha256": "00103f1741126fe02424000ec5f580ce54634ef6a9c1e21b5a3ed98c42d62746",
+          "source_paths": [
+            "$target_relationship.need_definition"
+          ]
+        },
+        {
+          "value_sha256": "4b0d7aa9edb2c40072818bc098f805fae8e880a46ad0d4a499afd20094819cf0",
+          "source_paths": [
+            "$controller_canaries.Evicted.branch_canary"
+          ]
+        },
+        {
+          "value_sha256": "e99326151288f2962955b4ea2caf2d013c4b70c22a106a479582fd2d9f662966",
+          "source_paths": [
+            "$controller_canaries.Restore.branch_canary"
+          ]
+        },
+        {
+          "value_sha256": "257ceafc8dd120f0ee4e1672d7922b9dec34b414c7832d780dc697fc3eed2dce",
+          "source_paths": [
+            "$controller_canaries.Full.branch_canary"
+          ]
+        },
+        {
+          "value_sha256": "e367cb93d307b543cc51d61977132f2a1b3216b548306036dbd56e4f4891f1bc",
+          "source_paths": [
+            "$controller_canaries.Evicted.caller_secret",
+            "$controller_canaries.Full.caller_secret",
+            "$controller_canaries.Restore.caller_secret"
+          ]
+        },
+        {
+          "value_sha256": "ae5db0e87039a0e9c20682abab20f1f03615b87f9328b9843b2ae1258653cbfb",
+          "source_paths": [
+            "$target_relationship.severity_application"
+          ]
+        },
+        {
+          "value_sha256": "28913ead6cba806667af93c77bd292655b81ee1890827f514051b255ddc7bdf5",
+          "source_paths": [
+            "$target_relationship.target.specs_sha256"
+          ]
+        },
+        {
+          "value_sha256": "ecd504c83c15b1ddbf2380ee6b2535a6980763a4d1ffb2a34f7d0c1c470b6d60",
+          "source_paths": [
+            "$target_relationship.gold_state_evaluator.evaluation_code_sha256"
+          ]
+        },
+        {
+          "value_sha256": "d2134c19c19a862fb8928ab49a3307c6bc6c7f52a6ca0f8aa1b6d5387dc97b9d",
+          "source_paths": [
+            "$target_relationship.gold_state_evaluator.test_data_sha256"
+          ]
+        },
+        {
+          "value_sha256": "b477311028ccd536a9cc37265bc994f5eb7a697d11c96af52288db148861a73a",
+          "source_paths": [
+            "$target_relationship.gold_state_evaluator.critical_state"
+          ]
+        },
+        {
+          "value_sha256": "0847ddd286a92116547adb528b15278b08868748a520313d3d927da4007fe3d0",
+          "source_paths": [
+            "$controller_canaries.Evicted.created_role",
+            "$controller_canaries.Full.created_role",
+            "$controller_canaries.Restore.created_role"
+          ]
+        }
+      ],
+      "public_overlap_exclusion_count": 2,
+      "public_overlap_exclusion_sha256s": [
+        "482da360134a0cc4b6c3f4016aeeaf4bece0c725b44cc3724b910431a2024a15",
+        "bc8ca62e43a3b20419b591bc382057115e12b3a3b66edb45bf615cf264bb35b9"
+      ]
+    }
+  ],
+  "total_private_exact_match_count": 0,
+  "total_forbidden_private_key_count": 0,
+  "raw_payloads_written_to_disk": false,
+  "raw_payloads_discarded_after_scan": true,
+  "all_pass": true
+}

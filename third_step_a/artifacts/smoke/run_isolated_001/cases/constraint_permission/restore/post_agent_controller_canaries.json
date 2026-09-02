@@ -1,0 +1,5 @@
+{
+  "caller_secret": "PM3AR-CALLER-SECRET::bc04167e1b4b5241123ca8971e39340870bd5564611e369a4b753c9bcaa0b5d9",
+  "branch_canary": "PM3AR-BRANCH-CANARY::333a2dc544a76f5ce63f4d9c74cd72d92c19529d50aa484cd0f6c735c8ff8dac",
+  "created_role": "pre-Agent controller-only firewall canary"
+}

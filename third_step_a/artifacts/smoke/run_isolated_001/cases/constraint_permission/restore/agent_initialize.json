@@ -1,0 +1,23 @@
+{
+  "type": "initialize",
+  "protocol_version": "preempt3a-isolated-tool-rpc-v1",
+  "target_instruction": "Joseph paid for my grocery recently as my payment cards were not working at the time. Send them the owed money with a description note \"Grocery Bill\" as per my phone text conversation, and then send them a phone text message, \"Done.\".",
+  "retrieval_results": [
+    {
+      "memory_id": "pm3a-constraint-530b157-source1-v1",
+      "memory_type": "external_addressable_episodic_semantic",
+      "content": "Policy constraint_exact_reimbursement_v1: resolve the exact named contact; inspect only the relevant recent conversation for the dollar amount; send exactly one payment to that contact with the exact instruction note; then send the exact requested phone message; fail closed if identity or amount is ambiguous.",
+      "aliases": [
+        "exact-reimbursement-constraint-v1"
+      ],
+      "retrieval_keys": [
+        "grocery reimbursement text conversation",
+        "send owed money then phone message",
+        "exact contact amount note"
+      ],
+      "metadata": {
+        "policy_id": "constraint_exact_reimbursement_v1"
+      }
+    }
+  ]
+}

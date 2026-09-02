@@ -1,0 +1,91 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "reason_code": "narrow_smoke_supported_with_assurance_and_metric_limitations",
+  "summary": "No BLOCK-level causal flaw remains for the exact frozen trusted-worker constructed deterministic selector-channel smoke; OS-sandbox, severity, raw-replay, upstream-data-anchor, and dead-prompt limitations prevent PASS.",
+  "audited_input_hashes": {
+    "research/PREEMPT-Mem_第三步A_隔离修复与重跑报告_2026-09-01.md": "sha256:c1142a8f0d7a6a61820c23e5a39a27cd40fb3cf8c92f840307fdb067373fc600",
+    "third_step_a/artifacts/smoke/run_isolated_001/artifact_manifest.json": "sha256:4988163e6774d1794e8cb4e1cbfecb0053879987ddb7fec97ff9598002f5deb7",
+    "third_step_a/artifacts/smoke/run_isolated_001/aggregate_gate.json": "sha256:a5fc2c7b005cb76f8ccf953612a5a0ef29d1acc4a59edaf4e3f5b3bd0ae5f6c2",
+    "third_step_a/artifacts/execution_freeze_run_isolated_001.json": "sha256:649f86faea21c1c3c8c1fd6d4398be44cf408c96124ea99abcab4514d05e4fed",
+    "third_step_a/artifacts/precommit_run_isolated_001.json": "sha256:3a62639acf5e47c93249b6c799d6a17fed5be1376c810cfb5a8103d5e5e66e62",
+    "third_step_a/config/cases_isolated_v1.json": "sha256:118c73e4c8cb4fec70006f9d5d985faa808aac94fc790f3033c1f1ef2ee5fba2",
+    "third_step_a/env-spec-isolated-v1.json": "sha256:5415e5a7f2bd142a5020e09faa7032935cb859cc988cd4c779fd385a91a2f390",
+    "third_step_a/src/run_isolated_smoke_case.py": "sha256:69c16bb03e9c9059095a7334227e0107c74b455305da55f55cb68bedb0efe3f3",
+    "third_step_a/src/aggregate_smoke.py": "sha256:06b2cad57bc78fa0ae675c591428e48b89cf17e609a38d21f1b166930f31fb58",
+    "third_step_a/src/audit_memory_store.py": "sha256:60644be8d718f133768822df68a20cc7a78d7fc8d755bee41c24cc86bdb67034"
+  },
+  "trace_path": ".aris/traces/experiment-audit/2026-09-01_run02/",
+  "agent_id": "/root/fresh_experiment_integrity_review",
+  "verdict_id": "/root/fresh_experiment_integrity_review",
+  "executor_model": "gpt-5.6-sol",
+  "executor_family": "openai",
+  "reviewer_model": "gpt-5.6-sol",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-09-01T22:19:13.7783972+08:00",
+  "date": "2026-09-01",
+  "auditor": "gpt-5.6-sol-ultra",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "block_level_causal_flaw_for_exact_scope": false,
+  "pilot_started": false,
+  "checks": {
+    "gt_provenance": {
+      "status": "warn",
+      "details": "Agent-side GT absence and official evaluator-only load path verified; upstream protected-data release lacks an independent signed anchor."
+    },
+    "score_normalization": {
+      "status": "pass",
+      "details": "No prediction-statistic self-normalization found; official AppWorld pass_count == num_tests semantics independently verified."
+    },
+    "metric_integrity": {
+      "status": "warn",
+      "details": "Severity mapping collapses all official evaluator failures to 3, making configured scores 1, 2, and 4 unreachable."
+    },
+    "result_existence": {
+      "status": "warn",
+      "details": "All retained outputs and claimed numbers exist and recompute; deleted raw pre-redaction evidence is not replayable from the seal."
+    },
+    "dead_code": {
+      "status": "warn",
+      "details": "The saved/hashed prompt is behaviorally dead; frozen policy_id-driven executors produce behavior."
+    },
+    "scope": {
+      "status": "pass",
+      "details": "Claims are restricted to a constructed deterministic selector-channel mechanism smoke."
+    },
+    "eval_type": "inference_time_mechanistic_constructed_smoke"
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "text": "Exact frozen trusted-worker constructed deterministic selector-channel smoke exhibits Full-Evicted effects with Restore symmetry.",
+      "impact": "supported"
+    },
+    {
+      "id": "C2",
+      "text": "Arbitrary/model-generated Agent code is capability-isolated at OS/filesystem level.",
+      "impact": "unsupported"
+    },
+    {
+      "id": "C3",
+      "text": "Semantic memory content, learned retrieval, or a natural memory lifecycle is validated.",
+      "impact": "unsupported"
+    },
+    {
+      "id": "C4",
+      "text": "The evidence authorizes 3B or a 40-memory Pilot.",
+      "impact": "unsupported"
+    }
+  ],
+  "limitations": [
+    "Capability probes establish forbidden RPC-method denial, not an OS/Python sandbox.",
+    "Severity scores 1, 2, and 4 are unreachable in the A-R runner.",
+    "Raw pre-redaction/controller-memory evidence cannot be independently replayed from sealed artifacts.",
+    "Protected AppWorld data lacks an independent signed upstream checksum in the offline evidence.",
+    "Prompt is dead and policy_id selects hard-coded executors."
+  ]
+}

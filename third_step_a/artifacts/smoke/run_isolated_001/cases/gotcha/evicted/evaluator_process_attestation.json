@@ -1,0 +1,452 @@
+{
+  "role": "official_evaluator",
+  "pids": [
+    33200,
+    45412
+  ],
+  "exit_codes": [
+    0,
+    0
+  ],
+  "pid": 33200,
+  "exit_code": 0,
+  "agent_process_pid": 24568,
+  "ground_truth_loaded": true,
+  "ground_truth_loaded_per_process": [
+    true,
+    true
+  ],
+  "save_report": false,
+  "save_report_per_process": [
+    false,
+    false
+  ],
+  "evaluation_entrypoint": "appworld.evaluator.evaluate_task",
+  "evaluation_entrypoints": [
+    "appworld.evaluator.evaluate_task",
+    "appworld.evaluator.evaluate_task"
+  ],
+  "worker_sha256s": [
+    "60f4e2d4db4ba5c64082c1089c802114e0f0260691bc8975a69f84675a83a18b",
+    "60f4e2d4db4ba5c64082c1089c802114e0f0260691bc8975a69f84675a83a18b"
+  ],
+  "processes": [
+    {
+      "pid": 33200,
+      "exit_code": 0,
+      "worker_protocol": "preempt3a-isolated-evaluator-v1",
+      "worker_sha256": "60f4e2d4db4ba5c64082c1089c802114e0f0260691bc8975a69f84675a83a18b",
+      "evaluation_entrypoint": "appworld.evaluator.evaluate_task",
+      "ground_truth_loaded": true,
+      "save_report": false,
+      "task_id": "68ee2c9_2",
+      "experiment_name": "preempt3ar_run_isolated_001_gotcha_evicted",
+      "appworld_version": "0.2.0.dev0",
+      "appworld_module_file": "E:/科研/ICLR2027-PREEMPT-Mem/third_step_a/vendor/appworld_source/src/appworld/__init__.py",
+      "appworld_module_file_sha256": "1345ce61e81b93ae95b3e3b4f6d1ba8ed43a3a6fde2b86509e9f0964198d84e3",
+      "appworld_distribution_direct_url_sha256": "cb0fb2be2dea8bec8d51136bbbf5d99ed01ee0711b5e1bb78db76b859ea46a7f",
+      "input_db_tree_before": {
+        "directory": "dbs",
+        "entries": [
+          {
+            "path": "admin.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "amazon.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "api_docs.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "file_system.jsonl",
+            "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158",
+            "size": 29080
+          },
+          {
+            "path": "gmail.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "model_hashes.json",
+            "sha256": "473d35e8bc5e9682a328dc6b1c65b7cdc8f5f542aacc0d61168fe78228f62775",
+            "size": 51
+          },
+          {
+            "path": "phone.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "simple_note.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "splitwise.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "spotify.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "supervisor.jsonl",
+            "sha256": "4e9d2b375a5a5f3e9305efdbe3abee4410c93e42ab40449ff995137e7c4cecaa",
+            "size": 3568
+          },
+          {
+            "path": "todoist.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "venmo.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          }
+        ],
+        "file_count": 13,
+        "total_bytes": 32699,
+        "tree_manifest_root_sha256": "a53839ca64cf5da0269fdd52f839dd79d643cdd0c6e948bd3b0dbc80a46ea9d0"
+      },
+      "input_db_tree_after": {
+        "directory": "dbs",
+        "entries": [
+          {
+            "path": "admin.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "amazon.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "api_docs.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "file_system.jsonl",
+            "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158",
+            "size": 29080
+          },
+          {
+            "path": "gmail.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "model_hashes.json",
+            "sha256": "473d35e8bc5e9682a328dc6b1c65b7cdc8f5f542aacc0d61168fe78228f62775",
+            "size": 51
+          },
+          {
+            "path": "phone.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "simple_note.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "splitwise.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "spotify.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "supervisor.jsonl",
+            "sha256": "4e9d2b375a5a5f3e9305efdbe3abee4410c93e42ab40449ff995137e7c4cecaa",
+            "size": 3568
+          },
+          {
+            "path": "todoist.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "venmo.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          }
+        ],
+        "file_count": 13,
+        "total_bytes": 32699,
+        "tree_manifest_root_sha256": "a53839ca64cf5da0269fdd52f839dd79d643cdd0c6e948bd3b0dbc80a46ea9d0"
+      },
+      "input_db_unchanged": true,
+      "environment_key_names": [
+        "APPWORLD_ROOT",
+        "COMSPEC",
+        "PATH",
+        "PATHEXT",
+        "PYTHONDONTWRITEBYTECODE",
+        "PYTHONHASHSEED",
+        "PYTHONIOENCODING",
+        "PYTHONUTF8",
+        "PYTHONWARNINGS",
+        "SYSTEMDRIVE",
+        "SYSTEMROOT",
+        "TEMP",
+        "TMP",
+        "WINDIR"
+      ],
+      "python_hash_seed": "0",
+      "deterministic_environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONHASHSEED": "0",
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONUTF8": "1",
+        "PYTHONWARNINGS": "ignore"
+      },
+      "stderr_sha256": "6fdc8833dfcd8c80eeef49248cc38e49c3f2eb1b20f53485e34f007d234e9d6d",
+      "stdout_sha256": "bc53ea2364b17f0e09559f3c7c9ad79b4ba5fb9c697ee150a87a09c227ed7af1",
+      "argv_attested": [
+        "python.exe",
+        "-I",
+        "isolated_evaluator_worker.py",
+        "--appworld-root",
+        "<ATTESTED_APPWORLD_ROOT>",
+        "--task-id",
+        "68ee2c9_2",
+        "--experiment-name",
+        "preempt3ar_run_isolated_001_gotcha_evicted"
+      ]
+    },
+    {
+      "pid": 45412,
+      "exit_code": 0,
+      "worker_protocol": "preempt3a-isolated-evaluator-v1",
+      "worker_sha256": "60f4e2d4db4ba5c64082c1089c802114e0f0260691bc8975a69f84675a83a18b",
+      "evaluation_entrypoint": "appworld.evaluator.evaluate_task",
+      "ground_truth_loaded": true,
+      "save_report": false,
+      "task_id": "68ee2c9_2",
+      "experiment_name": "preempt3ar_run_isolated_001_gotcha_evicted",
+      "appworld_version": "0.2.0.dev0",
+      "appworld_module_file": "E:/科研/ICLR2027-PREEMPT-Mem/third_step_a/vendor/appworld_source/src/appworld/__init__.py",
+      "appworld_module_file_sha256": "1345ce61e81b93ae95b3e3b4f6d1ba8ed43a3a6fde2b86509e9f0964198d84e3",
+      "appworld_distribution_direct_url_sha256": "cb0fb2be2dea8bec8d51136bbbf5d99ed01ee0711b5e1bb78db76b859ea46a7f",
+      "input_db_tree_before": {
+        "directory": "dbs",
+        "entries": [
+          {
+            "path": "admin.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "amazon.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "api_docs.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "file_system.jsonl",
+            "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158",
+            "size": 29080
+          },
+          {
+            "path": "gmail.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "model_hashes.json",
+            "sha256": "473d35e8bc5e9682a328dc6b1c65b7cdc8f5f542aacc0d61168fe78228f62775",
+            "size": 51
+          },
+          {
+            "path": "phone.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "simple_note.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "splitwise.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "spotify.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "supervisor.jsonl",
+            "sha256": "4e9d2b375a5a5f3e9305efdbe3abee4410c93e42ab40449ff995137e7c4cecaa",
+            "size": 3568
+          },
+          {
+            "path": "todoist.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "venmo.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          }
+        ],
+        "file_count": 13,
+        "total_bytes": 32699,
+        "tree_manifest_root_sha256": "a53839ca64cf5da0269fdd52f839dd79d643cdd0c6e948bd3b0dbc80a46ea9d0"
+      },
+      "input_db_tree_after": {
+        "directory": "dbs",
+        "entries": [
+          {
+            "path": "admin.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "amazon.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "api_docs.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "file_system.jsonl",
+            "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158",
+            "size": 29080
+          },
+          {
+            "path": "gmail.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "model_hashes.json",
+            "sha256": "473d35e8bc5e9682a328dc6b1c65b7cdc8f5f542aacc0d61168fe78228f62775",
+            "size": 51
+          },
+          {
+            "path": "phone.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "simple_note.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "splitwise.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "spotify.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "supervisor.jsonl",
+            "sha256": "4e9d2b375a5a5f3e9305efdbe3abee4410c93e42ab40449ff995137e7c4cecaa",
+            "size": 3568
+          },
+          {
+            "path": "todoist.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          },
+          {
+            "path": "venmo.jsonl",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0
+          }
+        ],
+        "file_count": 13,
+        "total_bytes": 32699,
+        "tree_manifest_root_sha256": "a53839ca64cf5da0269fdd52f839dd79d643cdd0c6e948bd3b0dbc80a46ea9d0"
+      },
+      "input_db_unchanged": true,
+      "environment_key_names": [
+        "APPWORLD_ROOT",
+        "COMSPEC",
+        "PATH",
+        "PATHEXT",
+        "PYTHONDONTWRITEBYTECODE",
+        "PYTHONHASHSEED",
+        "PYTHONIOENCODING",
+        "PYTHONUTF8",
+        "PYTHONWARNINGS",
+        "SYSTEMDRIVE",
+        "SYSTEMROOT",
+        "TEMP",
+        "TMP",
+        "WINDIR"
+      ],
+      "python_hash_seed": "0",
+      "deterministic_environment": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONHASHSEED": "0",
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONUTF8": "1",
+        "PYTHONWARNINGS": "ignore"
+      },
+      "stderr_sha256": "6fdc8833dfcd8c80eeef49248cc38e49c3f2eb1b20f53485e34f007d234e9d6d",
+      "stdout_sha256": "c339935743f67898819e444fccb2e065c9bbaf48ddd12fbbca28eb33af2239f0",
+      "argv_attested": [
+        "python.exe",
+        "-I",
+        "isolated_evaluator_worker.py",
+        "--appworld-root",
+        "<ATTESTED_APPWORLD_ROOT>",
+        "--task-id",
+        "68ee2c9_2",
+        "--experiment-name",
+        "preempt3ar_run_isolated_001_gotcha_evicted"
+      ]
+    }
+  ],
+  "evaluator_first_file_sha256": "2279e7bb424792009cbc43be9f53e2af4c65cfc50a7d355748398abbd5791f7a",
+  "evaluator_second_file_sha256": "2279e7bb424792009cbc43be9f53e2af4c65cfc50a7d355748398abbd5791f7a",
+  "evaluator_first_worker_file_sha256": "4f98ef85dfa3292fe8f4fbe98fe95012146e7f4827dfbb1131eb1e1d6c647b77",
+  "evaluator_second_worker_file_sha256": "7d71250557c4d4408cc6ab6af00669fffa1a751030d85473c8e3ef644403aaa5",
+  "input_db_tree_manifest_root_sha256": "a53839ca64cf5da0269fdd52f839dd79d643cdd0c6e948bd3b0dbc80a46ea9d0",
+  "worker_reported_input_db_tree_manifest_root_sha256s": [
+    "a53839ca64cf5da0269fdd52f839dd79d643cdd0c6e948bd3b0dbc80a46ea9d0",
+    "a53839ca64cf5da0269fdd52f839dd79d643cdd0c6e948bd3b0dbc80a46ea9d0"
+  ],
+  "worker_reported_input_db_entries_equal_frozen_copy": true,
+  "input_db_unchanged_after_both_evaluators": true,
+  "starts_after_case_agent_exit_barrier": true,
+  "semantic_stability_policy": "exact outcome,difficulty,count,label,requirement multiset; retain but exclude failures[*].trace diagnostic repr ordering",
+  "excluded_nondeterministic_diagnostic_fields": [
+    "failures[*].trace"
+  ],
+  "raw_vectors_exactly_equal": true,
+  "semantic_vectors_equal": true,
+  "semantic_vector_sha256": "0b16b2e0d33173e98c5d7fa177aeed1be1de79a6fc93ea7cccc64cde5a2deb66"
+}

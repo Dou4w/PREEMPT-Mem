@@ -1,0 +1,10 @@
+{
+  "case_id": "constraint_permission",
+  "candidate_memory_id": "pm3a-constraint-530b157-source1-v1",
+  "policy_id": "constraint_exact_reimbursement_v1",
+  "hypothetical_unseen_trigger_family": "A later reimbursement task requires resolving one person and one amount from communication history before one financial action and one follow-up message.",
+  "executable_intervention_family": "From one frozen transactional state, run identical Full, item-evicted, and exact-restore branches and inspect transaction/message records plus collateral invariants.",
+  "falsifiable_deletion_prediction": "If the constraint item is needed and fully removed, the agent will fail closed or violate an exact transaction/message requirement; exact restoration should recover the intended records without extra actions.",
+  "generator_self_assessment_used_by_evaluator": false,
+  "target_information_seen": false
+}

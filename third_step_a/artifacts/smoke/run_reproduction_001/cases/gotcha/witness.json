@@ -1,0 +1,10 @@
+{
+  "case_id": "gotcha",
+  "candidate_memory_id": "pm3a-gotcha-68ee2c9-source1-v1",
+  "policy_id": "gotcha_prefix_before_move_v1",
+  "hypothetical_unseen_trigger_family": "A later file-maintenance task requires date-derived renaming plus conditional movement while preserving untouched files.",
+  "executable_intervention_family": "From one frozen file-system state, run the same deterministic agent under Full, item-evicted, and exact-restore conditions; compare path/content maps and unrelated-file invariants.",
+  "falsifiable_deletion_prediction": "If the ordering gotcha is needed and fully removed, required renames/moves will be missing or wrong; exact restoration should recover the intended path/content map without collateral changes.",
+  "generator_self_assessment_used_by_evaluator": false,
+  "target_information_seen": false
+}

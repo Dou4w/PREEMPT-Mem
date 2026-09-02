@@ -1,0 +1,53 @@
+# Credentials and local authentication
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*credentials*
+*secrets*
+*cookies*
+
+# Python environments and caches
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+*.py[cod]
+
+# IDE and OS state
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Package/build caches
+build/
+dist/
+*.egg-info/
+.cache/
+
+# Third-party checkout and protected AppWorld material
+third_step_a/vendor/appworld_source/
+third_step_a/appworld_root/
+
+# Raw and historical run packages are external assets. Reviewed evidence files
+# are force-added from the audited allowlist and remain tracked thereafter.
+third_step_a/artifacts/smoke/
+
+# Local ARIS runtime state and raw reviewer exchanges
+.aris/compute/
+.aris/meta/
+.aris/traces/
+
+# Non-authoritative source retained at its historical path; a byte-identical
+# reviewed copy is tracked under research/candidate_inputs/.
+/PREEMPT-Mem_论文内容与候选统一设计报告取舍说明_2026-09-01 (1).md
+
+# Local repository-audit scratch output
+.repository-audit/

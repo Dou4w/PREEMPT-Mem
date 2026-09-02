@@ -1,0 +1,23 @@
+{
+  "type": "initialize",
+  "protocol_version": "preempt3a-isolated-tool-rpc-v1",
+  "target_instruction": "Export all my Simple Note notes to \"~/backups/notes/\" directory in my file system. The files should be named according to the note title, replacing white space with \"_\", and the extension should be \".md\".",
+  "retrieval_results": [
+    {
+      "memory_id": "pm3a-workflow-6c2c621-source1-v1",
+      "memory_type": "external_addressable_episodic_semantic",
+      "content": "Policy workflow_export_notes_v1: enumerate all notes; fetch each full content; transform title whitespace to underscores plus .md; create one file per note under the directory named in the current instruction; do not update or remove unrelated files.",
+      "aliases": [
+        "export-notes-workflow-v1"
+      ],
+      "retrieval_keys": [
+        "export all simple note notes",
+        "backup notes",
+        "file names note title md"
+      ],
+      "metadata": {
+        "policy_id": "workflow_export_notes_v1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "checkpoint_id": "future_task_frozen",
+  "source_directory": "E:\\科研\\ICLR2027-PREEMPT-Mem\\third_step_a\\appworld_root\\experiments\\outputs\\preempt3a_run_reproduction_001_constraint_permission_checkpoint\\tasks\\530b157_2\\checkpoints\\future_task_frozen",
+  "tree_sha256": "b287fd56077d6c73624a5b76d1615088a5b0372f9067eb6828a4de462c1387c6",
+  "files": [
+    {
+      "path": "admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "file_system.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "model_hashes.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "jsonl_lines": null
+    },
+    {
+      "path": "phone.jsonl",
+      "size": 7058,
+      "sha256": "156a965d170d3e47d79455cc55d90efed19818edbb70d0898deaa9ecfde65a58",
+      "jsonl_lines": 40
+    },
+    {
+      "path": "simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "supervisor.jsonl",
+      "size": 3758,
+      "sha256": "82e5f62cd2211a8a6c545862997a3875f99e48b982f7619096070b6dd97cb350",
+      "jsonl_lines": 18
+    },
+    {
+      "path": "todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "initialize",
+  "protocol_version": "preempt3a-isolated-tool-rpc-v1",
+  "target_instruction": "In my file system, add the prefix \"YYYY_MM_DD-\" to all file names in the ~/downloaded_files/ directory, based on their creation dates, and then move all files not from this year to ~/recycle_bin/.",
+  "retrieval_results": []
+}

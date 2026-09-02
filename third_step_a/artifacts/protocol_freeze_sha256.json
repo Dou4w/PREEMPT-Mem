@@ -1,0 +1,21 @@
+{
+  "protocol_id": "PREEMPT-Mem-3A-AppWorld-smoke-v1",
+  "frozen_at": "2026-08-27T19:44:07.3282270+08:00",
+  "freeze_precedes_witness_generation": true,
+  "freeze_precedes_target_execution": true,
+  "files": {
+    "research/PREEMPT-Mem_第三步A_协议冻结与泄漏Manifest.md": "036bed73239535bf09ec590081cb353c76a1db0e4bb0aaded7be32c5385f8fa6",
+    "third_step_a/config/cases_v1.json": "b10647c9178e8a723a31d1601934fb5f2e176b4eb26142e9b57a505f37f5b175",
+    "third_step_a/prompts/agent_prompt_v1.txt": "6db6b1a6eabc3bbe0f07577e119556cbdc27e37a41bbe89165ad7289d1945f59",
+    "third_step_a/prompts/witness_prompt_v1.txt": "7f56aeead03e278461fc090d020ca12d7a4be6745c1188968517a65da1da2f4c",
+    "third_step_a/src/audit_memory_store.py": "57e6f6da6676d932bebe4af16f2b6d3249ee23410050410f0b7109d06a0d8003"
+  },
+  "original_reports_baseline": {
+    "research/PREEMPT-Mem_第二步_数据源码与现象验证审计.md": "cdeef88ef0282128b063200340f74f5f712237f73a5f5af1d3f1f60956ad4003",
+    "review/PREEMPT-Mem_已完成内容独立复核报告.md": "0e48bd034e363784a0f7af7a15f5d9ca8721fddb3f7fc35f945edbf69acff5ed",
+    "research/PREEMPT-Mem_第二步交叉复核与第三步A准入意见.md": "ffaba6f88d1eb26f7382930a8eea80b1d60646dc4e12d4917d7e4af60161c3f1"
+  },
+  "revision_appendix": {
+    "research/PREEMPT-Mem_第二步结论修订附录.md": "95629d35e050f20bd8cda63a51a6edfff5daf3ac741d889b4d7f6f88a16cd091"
+  }
+}

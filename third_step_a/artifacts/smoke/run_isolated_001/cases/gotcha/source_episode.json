@@ -1,0 +1,40 @@
+{
+  "dataset": "dev",
+  "task_id": "68ee2c9_1",
+  "generator_or_scenario_id": "68ee2c9",
+  "variation": 1,
+  "specs_sha256": "94e4b3bc9cb876cbbcb846e85bc85f28c5e2923d11ae4e192c276d7eb836f2b5",
+  "source_solution_sha256": "396aaf4bf601c05e8857cc8c14abb72947123b463578329519cfbb9e0b45a032",
+  "summary": "A prior file-maintenance episode required reading each file creation timestamp before moving it, formatting a date prefix, and routing older files to a separate destination while preserving content.",
+  "instruction": "In my file system, add the prefix \"YYYY-MM-DD_\" to all file names in the ~/downloads/ directory, based on their creation dates, and then move all files not from this year to ~/trash/.",
+  "source_specs_file_sha256_recomputed": "94e4b3bc9cb876cbbcb846e85bc85f28c5e2923d11ae4e192c276d7eb836f2b5",
+  "candidate_record": {
+    "memory_id": "pm3a-gotcha-68ee2c9-source1-v1",
+    "memory_type": "external_addressable_episodic_semantic",
+    "content": "Policy gotcha_prefix_before_move_v1: snapshot the source directory listing; read each file's original created_at before any move; format the instruction-specified date prefix; keep current-year files in source and route older files to the named destination; preserve file contents and untouched paths.",
+    "provenance": {
+      "dataset": "dev",
+      "source_task_id": "68ee2c9_1",
+      "generator_or_scenario_id": "68ee2c9",
+      "source_variation": 1,
+      "source_specs_sha256": "94e4b3bc9cb876cbbcb846e85bc85f28c5e2923d11ae4e192c276d7eb836f2b5",
+      "source_solution_sha256": "396aaf4bf601c05e8857cc8c14abb72947123b463578329519cfbb9e0b45a032",
+      "derivation": "abstracted only from source task 68ee2c9_1; target ground truth is not an input to the candidate item"
+    },
+    "aliases": [
+      "prefix-before-move-gotcha-v1"
+    ],
+    "retrieval_keys": [
+      "creation date prefix file names",
+      "move old files archive recycle bin",
+      "downloaded files rename"
+    ],
+    "metadata": {
+      "policy_id": "gotcha_prefix_before_move_v1",
+      "summary": "Policy gotcha_prefix_before_move_v1: snapshot the source directory listing; read each file's original created_at before any move; format the instruction-specified date prefix; keep current-year files in source and route older files to the named destination; preserve file contents and untouched paths.",
+      "graph_edges": [],
+      "leakage_sentinel": "PM3A-SENTINEL::pm3a-gotcha-68ee2c9-source1-v1::f06f0fc30818447f"
+    }
+  },
+  "candidate_record_sha256": "265c5a51eddfd3abc4dcc03c0f421e383829d1139993853e17350a4aced8fa7e"
+}

@@ -1,0 +1,9 @@
+{
+  "dataset": "dev",
+  "source_task_id": "6c2c621_1",
+  "generator_or_scenario_id": "6c2c621",
+  "source_variation": 1,
+  "source_specs_sha256": "f34064d70beada7ad93ba8144c500af8b2ca1194a134e5082d39f545f4fdf7b4",
+  "source_solution_sha256": "d984edb59448b05f5b0181c4c75ed5ad98569a8e8d3982449962f82e05764bf4",
+  "derivation": "abstracted only from source task 6c2c621_1; target ground truth is not an input to the candidate item"
+}

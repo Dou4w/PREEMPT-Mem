@@ -1,0 +1,40 @@
+{
+  "dataset": "dev",
+  "task_id": "6c2c621_1",
+  "generator_or_scenario_id": "6c2c621",
+  "variation": 1,
+  "specs_sha256": "f34064d70beada7ad93ba8144c500af8b2ca1194a134e5082d39f545f4fdf7b4",
+  "source_solution_sha256": "d984edb59448b05f5b0181c4c75ed5ad98569a8e8d3982449962f82e05764bf4",
+  "summary": "A prior episode exported every Simple Note into a requested File System backup directory, deriving .md filenames from note titles and preserving note contents.",
+  "instruction": "Export all my Simple Note notes to \"~/backups/simple_note/\" directory in my file system. The files should be named according to the note title, replacing white space with \"_\", and the extension should be \".md\".",
+  "source_specs_file_sha256_recomputed": "f34064d70beada7ad93ba8144c500af8b2ca1194a134e5082d39f545f4fdf7b4",
+  "candidate_record": {
+    "memory_id": "pm3a-workflow-6c2c621-source1-v1",
+    "memory_type": "external_addressable_episodic_semantic",
+    "content": "Policy workflow_export_notes_v1: enumerate all notes; fetch each full content; transform title whitespace to underscores plus .md; create one file per note under the directory named in the current instruction; do not update or remove unrelated files.",
+    "provenance": {
+      "dataset": "dev",
+      "source_task_id": "6c2c621_1",
+      "generator_or_scenario_id": "6c2c621",
+      "source_variation": 1,
+      "source_specs_sha256": "f34064d70beada7ad93ba8144c500af8b2ca1194a134e5082d39f545f4fdf7b4",
+      "source_solution_sha256": "d984edb59448b05f5b0181c4c75ed5ad98569a8e8d3982449962f82e05764bf4",
+      "derivation": "abstracted only from source task 6c2c621_1; target ground truth is not an input to the candidate item"
+    },
+    "aliases": [
+      "export-notes-workflow-v1"
+    ],
+    "retrieval_keys": [
+      "export all simple note notes",
+      "backup notes",
+      "file names note title md"
+    ],
+    "metadata": {
+      "policy_id": "workflow_export_notes_v1",
+      "summary": "Policy workflow_export_notes_v1: enumerate all notes; fetch each full content; transform title whitespace to underscores plus .md; create one file per note under the directory named in the current instruction; do not update or remove unrelated files.",
+      "graph_edges": [],
+      "leakage_sentinel": "PM3A-SENTINEL::pm3a-workflow-6c2c621-source1-v1::69048fdadcb2d322"
+    }
+  },
+  "candidate_record_sha256": "22ada72a1203d85da27e20fa2e6ef2a16ec22f807675872da5cae26be9875dd0"
+}

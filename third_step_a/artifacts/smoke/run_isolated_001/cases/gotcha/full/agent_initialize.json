@@ -1,0 +1,23 @@
+{
+  "type": "initialize",
+  "protocol_version": "preempt3a-isolated-tool-rpc-v1",
+  "target_instruction": "In my file system, add the prefix \"YYYY_MM_DD-\" to all file names in the ~/downloaded_files/ directory, based on their creation dates, and then move all files not from this year to ~/recycle_bin/.",
+  "retrieval_results": [
+    {
+      "memory_id": "pm3a-gotcha-68ee2c9-source1-v1",
+      "memory_type": "external_addressable_episodic_semantic",
+      "content": "Policy gotcha_prefix_before_move_v1: snapshot the source directory listing; read each file's original created_at before any move; format the instruction-specified date prefix; keep current-year files in source and route older files to the named destination; preserve file contents and untouched paths.",
+      "aliases": [
+        "prefix-before-move-gotcha-v1"
+      ],
+      "retrieval_keys": [
+        "creation date prefix file names",
+        "move old files archive recycle bin",
+        "downloaded files rename"
+      ],
+      "metadata": {
+        "policy_id": "gotcha_prefix_before_move_v1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+{
+  "memory_id": "pm3a-constraint-530b157-source1-v1",
+  "public_audit_record": {
+    "memory_id": "pm3a-constraint-530b157-source1-v1",
+    "content_sha256": "5643b1024ffa60005e2f56db22f261c2f330a1f7f4b1fd3003ef7732c4373901",
+    "record_sha256": "5cfa4e1af49779cbea63be8ec7af65c5c0f09a363840d5b96bf971ababc48fc6"
+  },
+  "controller_vault_disclosed_to_agent": false,
+  "controller_only_audit_surfaces_excluded_from_leak_scan": [
+    "controller_restore_vault",
+    "controller_retrieval_cache_dependency_index",
+    "public_audit_records"
+  ],
+  "dependency_invalidation_scope": "target_only",
+  "forbidden_needle_manifest": [
+    {
+      "kind": "memory_id",
+      "value_sha256": "ce365d56d959f26e3c8ec6cddef90de2f824a1bd23c451e927996943aa4b0058",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "exact_content",
+      "value_sha256": "5643b1024ffa60005e2f56db22f261c2f330a1f7f4b1fd3003ef7732c4373901",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "content_sha256",
+      "value_sha256": "cfc21e398ba6653862946e5ff0ab51b23da41a6d9957f6ae3f73add67efd2ad3",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "record_sha256",
+      "value_sha256": "8c2fbefbb6814c300a10cd44724b3e9ae5909b398e5e53559d422ff02f0b4d75",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "policy_id",
+      "value_sha256": "51ac222a31ec1a9e518d854b0ebe7c8efd245948269e72f06842cea40eea9b3b",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "provenance",
+      "value_sha256": "f463d42edcf54555559be5a81bafd32ee9463ba105b8d557b7ba93c2c98e207b",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "leakage_sentinel",
+      "value_sha256": "76653a3b36ab43626f8040d23c54c6c6bc1b8970f562f333f249bc268a32ed5f",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "metadata_summary",
+      "value_sha256": "5643b1024ffa60005e2f56db22f261c2f330a1f7f4b1fd3003ef7732c4373901",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "alias",
+      "value_sha256": "7a3d3264ddf1f7bb518f05f57affa930f72a15e4d4183eac1cfd95a1308025e4",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "retrieval_key",
+      "value_sha256": "1ed49ba8d4817a5a67b2dc076e3e0cab5bab34ce1853b2fba8c6fe3eebb90eab",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "retrieval_key",
+      "value_sha256": "c15b05499c8bc48bffe97f870023f2d8ecc040643cc89bfbb57a89b3c1f79d78",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "retrieval_key",
+      "value_sha256": "85a486a0d7d08a26cf791fbf37a1127528a867856455d2a9d0ffa1823c9cf98a",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "metadata_scalar::leakage_sentinel",
+      "value_sha256": "76653a3b36ab43626f8040d23c54c6c6bc1b8970f562f333f249bc268a32ed5f",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "metadata_scalar::policy_id",
+      "value_sha256": "51ac222a31ec1a9e518d854b0ebe7c8efd245948269e72f06842cea40eea9b3b",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "metadata_scalar::summary",
+      "value_sha256": "5643b1024ffa60005e2f56db22f261c2f330a1f7f4b1fd3003ef7732c4373901",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "provenance_scalar::dataset",
+      "value_sha256": "ef260e9aa3c673af240d17a2660480361a8e081d1ffeca2a5ed0e3219fc18567",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "provenance_scalar::derivation",
+      "value_sha256": "4a5f6ad614b2a2a9b90f3cbae4fbb74eb424bd0118ee3ce48c59b7b3739a05fa",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "provenance_scalar::generator_or_scenario_id",
+      "value_sha256": "f1574e045759758533a5673eaa574e06ceb0c0a028518bba51f47eebedc7fa5b",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "provenance_scalar::source_solution_sha256",
+      "value_sha256": "eedd722699970f5f1b88127a18cb3760eaed4b1493f5bed7ec08b8c5e147c7eb",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "provenance_scalar::source_specs_sha256",
+      "value_sha256": "fe29776e315167dbe1b4a9523c953060c72967d81a14de65f353be69c81bec46",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "provenance_scalar::source_task_id",
+      "value_sha256": "09b1c8c505b9d97c8d5fe326f2b5d2bfa244e92afc611e69a2d67624fa533497",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "4fd0ee396dccb3d0aedb0453adb4ef4dbb7aa1b88958409a4e53f61e383d1707",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "1f50b12e0c553f9263557a567e39f7b77d7d1ef9222c757c1db983dc3af2d97b",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "39b347e28266939a43c5aec30f0407004f5fbaf2ef56054f17bae5945dee273d",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "d83dc775d0627140480f99af12ead629e19f37118d1e564a0213831191290bba",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "e88b0214d91e8a572b79b1d0db856bf55476598fff2618fa905319c0c3b87958",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "f2070524f7c1af378a8c097302ad1da35d0b52553e69d743f19196474547806b",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "d5e31d7d26a204c5ace81f0abb4af4da9a79392399fdb4881714ee386cb144f3",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "7244cd089a1e0b4fcd0810a6cf37cebfa625d867b89519eb4b6dc01a595b13a0",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "23dc4048c0511cb6aa96a749e81acee14b6d1594740590f32b88bae43f422b90",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "0c9e0405426233a8d47f68ce90c4d2430a661f34020488c1ec90b248dd4f7fbe",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "3b642250c24de7f4ebe8fdc94c3234fed0ec926128a96ba6847752359718d31a",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "c684785975d6395a8fdb60e03e679838b5047cde6cc63505937cb54e4342452e",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "e6268a227765e81167cb1ddd346674319b7f593a4702c37faa267f0f4185407d",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "990cb229567828fa91c0cc55531b21babf9a5f36cdb85b8e40888efda9ea3c66",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "0cd511b8790886df3564d18687e0711aaa35833152a088d2eaac2cf69f47d7c7",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "5debbaef53ab72cf3ec004b606c6e2a7b4fb2f01e3c9639ec737d0142415919f",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "69e0b3bafa6124fd5d247d7c7a52309654725fa72829518224469d16d0d10821",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "8033bffb29f1f2e0709538481ce72021ebacd7e8d26a94bde4fc7199f51a52e3",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "1dca86867debcb4a5f4595bb9998cdc14e51065de210a45aef2b1e5460097c0f",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "fa7ec0dc565e0265850a55aafb6f6720049b2143d5c1ec5f16acb4c92bab4bee",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "1cfd997a6f8615add48c5cf61b55a05c1f026d45e3ea96cdede0fd4c80fd62dc",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "5d457c8fd75f50beb390e366643da36b28f82dd5d3f6466ad93067cd16e7b59b",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "2023ffee23d141cfa47a7147154e7adf2cc404d3991ca6c45469e859ab35952e",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "8ec2242b0f9f6502e6fb453ff66b45a6369771cca2496960f0182ba35c21c604",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "46c83930432de12beebb0171046bd1d348eadc46051c61ac967987429af58e1f",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "84c72748cb2ea6517ab3d6a3994d1092880787c30d72f3f81f1b07bc0f3a4030",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "91a467a2c6f6c7f8f1aef1a64d2bf6b294fe50f4bca8e38e6745287a7985413a",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "67ee19fe7d2429afd9d6bf536962b3fdb90f62b724d9b6eaeca371057daf62d1",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "c97fc04494633faabf7012e58bef7994700bbbb65cfb1860cee611e202af7eb9",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "f7b82f777c0e4bddd0698706316072b7bf755f485968a81cc1287f5c20076e77",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "e6bc81d124541029fa677eb874fd729610cf91276229c98f47049f835b06fa9f",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "3d231d58b48e8c05b093d1914f260fc0a41071799fee3482620627b6593b6892",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "cf67abe7dc958908e13d865fd4967a95f4e7cecf6fcc30137db8458360fc7370",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "738ea6da5a8699556eb6cc420af2f94322c44abfa38d718db8e7b374c9f5524f",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "09aa1f2e258560449f4ed5433420e773f7dae52b487f53704843115ec9086f95",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "a528a6a9a0309f2f964f7a3e4b8a35e9b83ca69b7dc3abdc6161e42b23bb24a0",
+      "scope": "target_unique_enforced"
+    },
+    {
+      "kind": "derived_content_fragment_8gram",
+      "value_sha256": "bdb6cd07f4ee8e487055a9901931c05f1c7ac09b07e9f9ad329665adf58dcfd1",
+      "scope": "target_unique_enforced"
+    }
+  ],
+  "shared_needle_manifest": [],
+  "negative_probe_cache_result": false,
+  "surface_state_sha256_before_probe": "06496669f577c53bc14722026ce140aa16353e343433f8ead33555d1f1712438",
+  "final_surface_state_sha256": "06496669f577c53bc14722026ce140aa16353e343433f8ead33555d1f1712438",
+  "final_surface_hashes": {
+    "canonical_memory_record": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "alias_and_near_duplicate_copies": "47891fa2fe763a82d85fe9970d7a8de3bb436a5042f3a10988d6a9b9f0ff1604",
+    "embedding_ann_keyword_graph_indexes": "7f3c7ad09357b480dd4742caf90eee16596f9c50175d897d8bb2e158d85a0aaf",
+    "reranker_derived_features": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "retrieval_tool_summary_caches": "29476d3c6ecfaffb9bbdc599a0d636c2f10cad6afddb1670384b59683f6f4eba",
+    "active_prompt_scratchpad_session_kv_context": "73ad25c1ef6c61f21e9f66010b5b309db6e3221bfe3836a4b2bb2c0f462c9641",
+    "runtime_variables": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "derived_summary_rule_skill_plan_edge_tag_cached_answer": "54c2412b9ddf0448ab3a75d448aa0739e13032b242672817bdb2ffe94959b3c9",
+    "agent_accessible_archive_logs_debug_endpoints": "606998fe75413673ef97c774ad024f746d0f3fcc9016e3963b57057d3f24ed55"
+  },
+  "final_component_hashes": {
+    "canonical_record": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "aliases": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "near_duplicates": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "ann_index": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "keyword_index": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "graph_index": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "reranker_features": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "retrieval_cache": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "tool_cache": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "summary_cache": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "active_prompt": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "scratchpad": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "session_context": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "kv_context": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "runtime_variables": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "derived_summary": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "derived_rule": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "derived_skill": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "derived_plan": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "derived_edge": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "derived_tag": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "derived_cached_answer": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "agent_accessible_archives": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "agent_accessible_logs": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "debug_endpoints": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  "checks": [
+    {
+      "surface": "negative_probe_side_effect_free",
+      "result": "PASS",
+      "evidence_sha256": "06496669f577c53bc14722026ce140aa16353e343433f8ead33555d1f1712438",
+      "detail": "all store surfaces are byte-canonically unchanged by the negative probe"
+    },
+    {
+      "surface": "retrieval_interface_negative_probe",
+      "result": "PASS",
+      "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "matched_forbidden_needles": [],
+      "detail": "non-caching retrieval returns no target or target-derived candidate"
+    },
+    {
+      "surface": "canonical_memory_record",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+    },
+    {
+      "surface": "alias_and_near_duplicate_copies",
+      "result": "PASS",
+      "evidence_sha256": "47891fa2fe763a82d85fe9970d7a8de3bb436a5042f3a10988d6a9b9f0ff1604",
+      "matched_forbidden_needles": [],
+      "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+    },
+    {
+      "surface": "embedding_ann_keyword_graph_indexes",
+      "result": "PASS",
+      "evidence_sha256": "7f3c7ad09357b480dd4742caf90eee16596f9c50175d897d8bb2e158d85a0aaf",
+      "matched_forbidden_needles": [],
+      "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+    },
+    {
+      "surface": "reranker_derived_features",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+    },
+    {
+      "surface": "retrieval_tool_summary_caches",
+      "result": "PASS",
+      "evidence_sha256": "29476d3c6ecfaffb9bbdc599a0d636c2f10cad6afddb1670384b59683f6f4eba",
+      "matched_forbidden_needles": [],
+      "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+    },
+    {
+      "surface": "active_prompt_scratchpad_session_kv_context",
+      "result": "PASS",
+      "evidence_sha256": "73ad25c1ef6c61f21e9f66010b5b309db6e3221bfe3836a4b2bb2c0f462c9641",
+      "matched_forbidden_needles": [],
+      "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+    },
+    {
+      "surface": "runtime_variables",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+    },
+    {
+      "surface": "derived_summary_rule_skill_plan_edge_tag_cached_answer",
+      "result": "PASS",
+      "evidence_sha256": "54c2412b9ddf0448ab3a75d448aa0739e13032b242672817bdb2ffe94959b3c9",
+      "matched_forbidden_needles": [],
+      "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+    },
+    {
+      "surface": "agent_accessible_archive_logs_debug_endpoints",
+      "result": "PASS",
+      "evidence_sha256": "606998fe75413673ef97c774ad024f746d0f3fcc9016e3963b57057d3f24ed55",
+      "matched_forbidden_needles": [],
+      "detail": "no frozen exact identifier, hash, alias, key, policy, provenance, fragment, or sentinel is reachable"
+    },
+    {
+      "surface": "component::canonical_record",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::aliases",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::near_duplicates",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::ann_index",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::keyword_index",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::graph_index",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::reranker_features",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::retrieval_cache",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::tool_cache",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::summary_cache",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::active_prompt",
+      "result": "PASS",
+      "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::scratchpad",
+      "result": "PASS",
+      "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::session_context",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::kv_context",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::runtime_variables",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::derived_summary",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::derived_rule",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::derived_skill",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::derived_plan",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::derived_edge",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::derived_tag",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::derived_cached_answer",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::agent_accessible_archives",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::agent_accessible_logs",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    },
+    {
+      "surface": "component::debug_endpoints",
+      "result": "PASS",
+      "evidence_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "matched_forbidden_needles": [],
+      "detail": "concrete component contains no target or target-derived frozen needle"
+    }
+  ],
+  "all_pass": true
+}

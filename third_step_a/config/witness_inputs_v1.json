@@ -1,0 +1,46 @@
+{
+  "generator": "preempt-deterministic-witness-compiler-v1",
+  "visible_information_only": true,
+  "generic_api_families": [
+    "Simple Note read APIs",
+    "File System read/create/move APIs",
+    "Phone contact/text APIs",
+    "Venmo transaction APIs",
+    "Supervisor completion API"
+  ],
+  "cases": [
+    {
+      "case_id": "workflow",
+      "source_episode_summary": "A prior episode exported every Simple Note into a requested File System backup directory, deriving .md filenames from note titles and preserving note contents.",
+      "candidate_memory": {
+        "memory_id": "pm3a-workflow-6c2c621-source1-v1",
+        "memory_type": "external_addressable_episodic_semantic",
+        "policy_id": "workflow_export_notes_v1",
+        "content": "Enumerate all notes; fetch each full content; transform title whitespace to underscores plus .md; create one file per note under the directory named in the current instruction; do not update or remove unrelated files.",
+        "provenance": "source episode only"
+      }
+    },
+    {
+      "case_id": "gotcha",
+      "source_episode_summary": "A prior file-maintenance episode required reading each file creation timestamp before moving it, formatting a date prefix, and routing older files to a separate destination while preserving content.",
+      "candidate_memory": {
+        "memory_id": "pm3a-gotcha-68ee2c9-source1-v1",
+        "memory_type": "external_addressable_episodic_semantic",
+        "policy_id": "gotcha_prefix_before_move_v1",
+        "content": "Snapshot the source directory listing; read each original created_at before any move; format the instruction-specified date prefix; keep current-year files in source and route older files to the named destination; preserve contents and untouched paths.",
+        "provenance": "source episode only"
+      }
+    },
+    {
+      "case_id": "constraint_permission",
+      "source_episode_summary": "A prior reimbursement episode required identifying the named contact, extracting the grocery amount from the relevant recent text conversation, sending exactly one matching payment, and messaging only that contact after payment.",
+      "candidate_memory": {
+        "memory_id": "pm3a-constraint-530b157-source1-v1",
+        "memory_type": "external_addressable_episodic_semantic",
+        "policy_id": "constraint_exact_reimbursement_v1",
+        "content": "Resolve the exact named contact; inspect only the relevant recent conversation for the dollar amount; send exactly one payment to that contact with the exact instruction note; then send the exact requested phone message; fail closed if identity or amount is ambiguous.",
+        "provenance": "source episode only"
+      }
+    }
+  ]
+}

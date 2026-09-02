@@ -1,0 +1,127 @@
+{
+  "protocol_id": "PREEMPT-Mem-3A-R-AppWorld-isolated-v1",
+  "base_config_path": "third_step_a/config/cases_v3.json",
+  "classification": "adapted + constructed/semi-synthetic mechanism smoke",
+  "mechanism_claim": "constructed deterministic selector-channel mechanism smoke",
+  "semantic_memory_utility_claim_allowed": false,
+  "global_overrides": {
+    "agent_model": "preempt-structured-tool-agent-v1-process-isolated",
+    "agent_model_type": "non-learned deterministic structured-tool agent in a separate process",
+    "prompt_path": "third_step_a/prompts/agent_prompt_isolated_v1.txt",
+    "execution_transport": "stdio-jsonl-rpc",
+    "controller_load_ground_truth": false,
+    "agent_load_ground_truth": false,
+    "official_evaluator_separate_process": true
+  },
+  "isolation": {
+    "agent_protocol": "typed-jsonl-tool-calls-only",
+    "arbitrary_code_execution": false,
+    "boundary_claim": "structured JSONL public-tool capability boundary only",
+    "windows_arbitrary_code_sandbox_claimed": false,
+    "os_filesystem_sandbox_claimed": false,
+    "worker_copied_to_fresh_temp_directory": true,
+    "worker_python_isolated_flag": "-I",
+    "worker_argv_uses_copied_basename_only": true,
+    "worker_cwd_outside_project": true,
+    "worker_environment_allowlist": [
+      "PYTHONDONTWRITEBYTECODE",
+      "PYTHONHASHSEED",
+      "PYTHONIOENCODING",
+      "PYTHONUTF8",
+      "SYSTEMROOT",
+      "TEMP",
+      "TMP",
+      "WINDIR"
+    ],
+    "agent_input_fields": [
+      "type",
+      "protocol_version",
+      "target_instruction",
+      "retrieval_results"
+    ],
+    "allowed_tools_by_case": {
+      "workflow": [
+        "supervisor.show_profile",
+        "supervisor.show_account_passwords",
+        "supervisor.complete_task",
+        "simple_note.login",
+        "simple_note.search_notes",
+        "simple_note.show_note",
+        "file_system.login",
+        "file_system.create_file"
+      ],
+      "gotcha": [
+        "supervisor.show_profile",
+        "supervisor.show_account_passwords",
+        "supervisor.complete_task",
+        "file_system.login",
+        "file_system.show_directory",
+        "file_system.show_file",
+        "file_system.move_file",
+        "phone.get_current_date_and_time"
+      ],
+      "constraint_permission": [
+        "supervisor.show_profile",
+        "supervisor.show_account_passwords",
+        "supervisor.complete_task",
+        "phone.login",
+        "phone.get_current_date_and_time",
+        "phone.search_contacts",
+        "phone.search_text_messages",
+        "phone.send_text_message",
+        "venmo.login",
+        "venmo.create_transaction"
+      ]
+    },
+    "capability_probe_worker_path": "third_step_a/src/isolated_capability_probe_worker.py",
+    "required_denied_capability_probes": [
+      "caller_secret",
+      "inspect_stack",
+      "branch",
+      "project_file",
+      "world_object",
+      "memory_store",
+      "controller_vault",
+      "ground_truth",
+      "evaluation_code",
+      "controller_directory"
+    ],
+    "private_artifacts_written_after_agent_exit": [
+      "target_relationship",
+      "need_label",
+      "severity",
+      "witness",
+      "gold_state_evaluator",
+      "effective_eviction_manifest"
+    ],
+    "api_log_redaction": {
+      "scheme": "sha256(run_nonce || kind || canonical_value)[:16]",
+      "replacement_format": "<REDACTED:KIND:16-hex>",
+      "sensitive_key_fragments": [
+        "access_token",
+        "authorization",
+        "bearer",
+        "password",
+        "secret",
+        "username",
+        "email",
+        "phone",
+        "message",
+        "content",
+        "amount",
+        "result"
+      ],
+      "raw_logs_retained_in_run_artifacts": false,
+      "redaction_count_attested": true,
+      "post_redaction_finding_count_required": 0
+    }
+  },
+  "attestation": {
+    "nonce_bytes": 32,
+    "freeze_complete_source_tree": true,
+    "freeze_required_task_data_trees": true,
+    "record_argv_and_process_boundaries": true,
+    "require_pre_aggregate_evidence_manifest": true,
+    "require_final_artifact_manifest": true
+  }
+}

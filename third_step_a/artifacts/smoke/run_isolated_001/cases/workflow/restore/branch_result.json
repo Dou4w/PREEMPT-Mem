@@ -1,0 +1,62 @@
+{
+  "schema_version": "preempt-mem-3a-r-branch-result-v1",
+  "case_id": "workflow",
+  "branch": "Restore",
+  "classification": "adapted",
+  "mechanism_claim": "constructed deterministic selector-channel mechanism smoke",
+  "experiment_name": "preempt3ar_run_isolated_001_workflow_restore",
+  "target_task_id": "6c2c621_2",
+  "target_instruction_sha256": "211777e43cfbd331d9acd3def76fc582cc0f9ea5fe1ef10ce48b5446284161b8",
+  "execution_freeze_id": "run_isolated_001-freeze-v1",
+  "execution_freeze_sha256": "649f86faea21c1c3c8c1fd6d4398be44cf408c96124ea99abcab4514d05e4fed",
+  "execution_freeze_validation_pass": true,
+  "prompt_logical_lf_sha256": "747a23c4e14c6d97aa3f163381a41c39dd2ac4e224e39cded05a34f38ab21b98",
+  "prompt_file_sha256": "747a23c4e14c6d97aa3f163381a41c39dd2ac4e224e39cded05a34f38ab21b98",
+  "structured_agent_plan_logical_lf_sha256": "a12b1d41bfb2b6a65468e7db8aae422c2b210b0da16cf6896cfea988beebc9c2",
+  "structured_agent_plan_file_sha256": "28c0e7560c7b8bbf829f03a905e1f706fb29a9e96f14a6940978a313be8ef26f",
+  "checkpoint_id": "future_task_frozen",
+  "checkpoint_tree_manifest_root_sha256": "db55c53dda84c50086f662787976d5ea0d42ebc23ba879d1fccdfe906954756a",
+  "checkpoint_byte_equivalent_to_case_base": true,
+  "agent_model": "preempt-structured-tool-agent-v1-process-isolated",
+  "agent_model_type": "non-learned deterministic structured-tool agent in a separate process",
+  "seed": 314159,
+  "memory_put": {
+    "memory_id": "pm3a-workflow-6c2c621-source1-v1",
+    "record_sha256": "22ada72a1203d85da27e20fa2e6ef2a16ec22f807675872da5cae26be9875dd0"
+  },
+  "memory_delete": {
+    "memory_id": "pm3a-workflow-6c2c621-source1-v1",
+    "content_sha256": "69048fdadcb2d3222a71050fe78413a4521e9bd9101a5f1443bd8e343438d457",
+    "record_sha256": "22ada72a1203d85da27e20fa2e6ef2a16ec22f807675872da5cae26be9875dd0"
+  },
+  "memory_restore": {
+    "memory_id": "pm3a-workflow-6c2c621-source1-v1",
+    "record_sha256": "22ada72a1203d85da27e20fa2e6ef2a16ec22f807675872da5cae26be9875dd0"
+  },
+  "retrieved_memory_ids": [
+    "pm3a-workflow-6c2c621-source1-v1"
+  ],
+  "agent_result": "<REDACTED:AGENT_RESULT:0d60b7daae25ca48>",
+  "agent_process_pid": 48380,
+  "agent_ground_truth_loaded": false,
+  "evaluator_process_pids": [
+    46668,
+    36136
+  ],
+  "evaluator_ground_truth_loaded": true,
+  "official_success": true,
+  "evaluator_num_tests": 8,
+  "evaluator_pass_count": 8,
+  "evaluator_failure_count": 0,
+  "evaluator_stable": true,
+  "severity": 0,
+  "severity_reason": "official evaluator success; no relevant loss",
+  "severe_loss": false,
+  "db_tree_manifest_root_sha256": "f129a9ab8bbb4810edbca0fb5f781e3e6bf50a78221cf51e2e1f7cd06722f36f",
+  "db_file_count": 13,
+  "capability_probe_all_pass": true,
+  "effective_eviction_all_pass": true,
+  "api_tool_call_count": 67,
+  "api_log_redaction_count": 346,
+  "raw_api_logs_retained_in_run": false
+}

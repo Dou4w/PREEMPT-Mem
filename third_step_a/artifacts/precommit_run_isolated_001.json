@@ -1,0 +1,131 @@
+{
+  "schema_version": "preempt-mem-run-attestation-v1",
+  "attestation_role": "pre-run commitment; copy byte-for-byte into the sealed run",
+  "created_at": "2026-09-01T21:36:12.673880+08:00",
+  "run_id": "run_isolated_001",
+  "run_relative_path": "third_step_a/artifacts/smoke/run_isolated_001",
+  "nonce": "ba5872e4c3f794c6b9de4fd44bf837d7a13bf6c8fbf28caa3813a0b215882908",
+  "nonce_commitment_sha256": "edea888497cbe7c10ec21999ea014c52d17e973080ea3a33ba9cab864f9ab855",
+  "command_argv": [
+    "third_step_a/src/make_isolated_attestation.py",
+    "--run-id",
+    "run_isolated_001",
+    "--case-config",
+    "third_step_a/config/cases_isolated_v1.json",
+    "--environment-spec",
+    "third_step_a/env-spec-isolated-v1.json",
+    "--execution-freeze",
+    "third_step_a/artifacts/execution_freeze_run_isolated_001.json",
+    "--witnesses",
+    "third_step_a/artifacts/witnesses.json",
+    "--output",
+    "third_step_a/artifacts/precommit_run_isolated_001.json"
+  ],
+  "planned_runner_argv_by_case": {
+    "workflow": [
+      "third_step_a/src/run_isolated_smoke_case.py",
+      "--config",
+      "third_step_a/config/cases_isolated_v1.json",
+      "--case",
+      "workflow",
+      "--run-id",
+      "run_isolated_001",
+      "--witnesses",
+      "third_step_a/artifacts/witnesses.json",
+      "--execution-freeze",
+      "third_step_a/artifacts/execution_freeze_run_isolated_001.json",
+      "--precommit-attestation",
+      "third_step_a/artifacts/precommit_run_isolated_001.json"
+    ],
+    "gotcha": [
+      "third_step_a/src/run_isolated_smoke_case.py",
+      "--config",
+      "third_step_a/config/cases_isolated_v1.json",
+      "--case",
+      "gotcha",
+      "--run-id",
+      "run_isolated_001",
+      "--witnesses",
+      "third_step_a/artifacts/witnesses.json",
+      "--execution-freeze",
+      "third_step_a/artifacts/execution_freeze_run_isolated_001.json",
+      "--precommit-attestation",
+      "third_step_a/artifacts/precommit_run_isolated_001.json"
+    ],
+    "constraint_permission": [
+      "third_step_a/src/run_isolated_smoke_case.py",
+      "--config",
+      "third_step_a/config/cases_isolated_v1.json",
+      "--case",
+      "constraint_permission",
+      "--run-id",
+      "run_isolated_001",
+      "--witnesses",
+      "third_step_a/artifacts/witnesses.json",
+      "--execution-freeze",
+      "third_step_a/artifacts/execution_freeze_run_isolated_001.json",
+      "--precommit-attestation",
+      "third_step_a/artifacts/precommit_run_isolated_001.json"
+    ]
+  },
+  "trees": {
+    "harness_source": {
+      "path": "third_step_a/src",
+      "file_count": 18,
+      "total_bytes": 452106,
+      "tree_manifest_root_sha256": "aa83c891db273880446ec90f22543de1b2df5688c9c1a673968604d93b455097"
+    },
+    "appworld_source": {
+      "path": "third_step_a/vendor/appworld_source",
+      "file_count": 798,
+      "total_bytes": 26791070,
+      "tree_manifest_root_sha256": "72427980b250468353d8afa88841d7370753f462a0eb3f2954b725b9087bb1cd",
+      "git_commit": "a072b7a86e7c1d5b1d7175659d750ebb9b79f10a"
+    },
+    "appworld_data": {
+      "path": "third_step_a/appworld_root/data",
+      "file_count": 14885,
+      "total_bytes": 174032410,
+      "tree_manifest_root_sha256": "1510a6574e54399d0cbb5192a7bd5e65f595f9a449c5fab57de2dc4d5853cffc"
+    }
+  },
+  "files": {
+    "case_config": {
+      "path": "third_step_a/config/cases_isolated_v1.json",
+      "sha256": "118c73e4c8cb4fec70006f9d5d985faa808aac94fc790f3033c1f1ef2ee5fba2"
+    },
+    "environment_spec": {
+      "path": "third_step_a/env-spec-isolated-v1.json",
+      "sha256": "5415e5a7f2bd142a5020e09faa7032935cb859cc988cd4c779fd385a91a2f390"
+    },
+    "execution_freeze": {
+      "path": "third_step_a/artifacts/execution_freeze_run_isolated_001.json",
+      "sha256": "649f86faea21c1c3c8c1fd6d4398be44cf408c96124ea99abcab4514d05e4fed"
+    },
+    "witnesses": {
+      "path": "third_step_a/artifacts/witnesses.json",
+      "sha256": "a38258dbf7ba5364734f05ddd5eff561c59b44d9fede84c6aa9bbe536763ccf0"
+    }
+  },
+  "environment": {
+    "python_version": "3.12.13",
+    "platform": "Windows-11-10.0.22000-SP0",
+    "python_executable_sha256": "560b9ef7d856608ab8da02ded2dc8a1951ad1f424c382c0ec6a698874165a18e",
+    "critical_python_distributions": {
+      "appworld": "0.2.0.dev0",
+      "fastapi": "0.141.1",
+      "pendulum": "3.2.0",
+      "pydantic": "2.13.4",
+      "requests": "2.34.2",
+      "sqlmodel": "0.0.39",
+      "uvicorn": "0.52.4"
+    },
+    "appworld_source_commit": "a072b7a86e7c1d5b1d7175659d750ebb9b79f10a",
+    "appworld_code_version": "0.2.0.dev0",
+    "appworld_module_relative_path": "third_step_a/vendor/appworld_source/src/appworld/__init__.py",
+    "appworld_module_file_sha256": "1345ce61e81b93ae95b3e3b4f6d1ba8ed43a3a6fde2b86509e9f0964198d84e3",
+    "appworld_distribution_direct_url_sha256": "cb0fb2be2dea8bec8d51136bbbf5d99ed01ee0711b5e1bb78db76b859ea46a7f",
+    "appworld_distribution_editable": true,
+    "appworld_data_version": "0.2.0"
+  }
+}

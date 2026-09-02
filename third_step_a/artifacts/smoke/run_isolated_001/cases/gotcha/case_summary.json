@@ -1,0 +1,19 @@
+{
+  "case_id": "gotcha",
+  "classification": "adapted",
+  "mechanism_claim": "constructed deterministic selector-channel mechanism smoke",
+  "source_of_truth": "informational only; aggregate_smoke.py ignores this file and recomputes raw evidence",
+  "all_agent_processes_exited_before_private_artifacts": true,
+  "full_success": true,
+  "evicted_success": false,
+  "restore_success": true,
+  "primary_full_minus_evicted_effect": true,
+  "restore_recovery_control": true,
+  "full_restore_db_byte_equal": true,
+  "full_restore_evaluator_equal": true,
+  "checkpoint_equal_all_branches": true,
+  "agent_request_diff_is_retrieval_only": true,
+  "capability_probes_all_denied": true,
+  "effective_eviction_all_pass": true,
+  "pilot_started": false
+}

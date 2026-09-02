@@ -1,0 +1,275 @@
+{
+  "case_id": "gotcha",
+  "branch": "Evicted",
+  "classification": "adapted",
+  "experiment_name": "preempt3a_run_reproduction_001_gotcha_evicted",
+  "target_task_id": "68ee2c9_2",
+  "target_instruction_sha256": "e072f1a0bcf1f8703d0a2e942be298b6b3f5a75ffb3330ccf4a99784862d13fc",
+  "execution_freeze_id": "PREEMPT-Mem-3A-run_reproduction_001-reproduction",
+  "execution_freeze_sha256": "7c4e7ed2996cbace47ef1ac9625531368cf1bb695704ee8d63f62ee57e5f5efa",
+  "execution_freeze_validation_pass": true,
+  "prompt_sha256": "2355d2ed5e84c4c46a92db854f10173e0f62dd53dd78e96ffd00a20479952514",
+  "generated_code_sha256": "5ee84a0e00593468025f32bb512c8d6d86f33b5590b558e08b78c2d49861fd71",
+  "checkpoint_id": "future_task_frozen",
+  "base_checkpoint_tree_sha256": "4e8ecf535fd825c76e704ca130f54c9193c6e00f92adeb93aab2271b81fc4d3f",
+  "branch_checkpoint_tree_sha256": "4e8ecf535fd825c76e704ca130f54c9193c6e00f92adeb93aab2271b81fc4d3f",
+  "checkpoint_byte_equivalent": true,
+  "seed": 314159,
+  "agent_model": "preempt-deterministic-protocol-executor-v2-audit-hardened",
+  "decoding": {
+    "temperature": 0,
+    "top_p": 1,
+    "beam_size": 1,
+    "sampling": false
+  },
+  "tool_budget": {
+    "max_interactions": 1,
+    "max_api_calls_per_interaction": 250
+  },
+  "memory_put": {
+    "memory_id": "pm3a-gotcha-68ee2c9-source1-v1",
+    "record_sha256": "265c5a51eddfd3abc4dcc03c0f421e383829d1139993853e17350a4aced8fa7e"
+  },
+  "memory_restore": null,
+  "retrieved_memory_ids": [],
+  "agent_decision": {
+    "decision": "fail_closed",
+    "reason": "no external memory record retrieved",
+    "policy_id": null
+  },
+  "execute_output": "Execution successful.",
+  "task_completed_flag": true,
+  "api_call_count": 1,
+  "evaluator_first": {
+    "success": false,
+    "difficulty": 1,
+    "num_tests": 5,
+    "passes": [
+      {
+        "requirement": "assert answers match.",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "obtain all the file paths from start_file_path_to_content's keys that are neither in\nprivate_data.this_year_start_to_end_file_path nor in private_data.before_this_year_start_to_end_file_path.\nThese are the file_paths that should not have been renamed. Assert their paths and contents are identical\nin the start and the end state.",
+        "label": "no_op_pass"
+      }
+    ],
+    "failures": [
+      {
+        "requirement": "assert model changes match file_system.File, file_system.Directory.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert model changes match file_system.File, file_system.Directory.\n    \"\"\"\n):\n    test.case(models.changed_model_names(), \"==\", {\"file_system.File\", \"file_system.Directory\"})\n```\n----------\nAssertionError:  set() == {'file_system.File', 'file_system.Directory'}\n\nIn right but not left:\n['file_system.File', 'file_system.Directory']",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "prepare start_file_path_to_content and end_file_path_to_content from start and end state of user.files,\nthen assert the files have been renamed (with proper content) as per private_data.before_this_year_start_to_end_file_path.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    prepare start_file_path_to_content and end_file_path_to_content from start and end state of user.files,\n    then assert the files have been renamed (with proper content) as per private_data.before_this_year_start_to_end_file_path.\n    \"\"\"\n):\n    files_user_start = models.start.file_system.User.find_from(main_user)\n    files_user_end = models.end.file_system.User.find_from(main_user)\n```\n----------",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert the files have been renamed (with proper content) as per private_data.this_year_start_to_end_file_path.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert the files have been renamed (with proper content) as per private_data.this_year_start_to_end_file_path.\n    \"\"\"\n):\n    start_content = []\n    end_content = []\n    for start_path, end_path in private_data.this_year_start_to_end_file_path.items():\n```\n----------",
+        "label": "no_op_fail"
+      }
+    ]
+  },
+  "evaluator_second": {
+    "success": false,
+    "difficulty": 1,
+    "num_tests": 5,
+    "passes": [
+      {
+        "requirement": "assert answers match.",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "obtain all the file paths from start_file_path_to_content's keys that are neither in\nprivate_data.this_year_start_to_end_file_path nor in private_data.before_this_year_start_to_end_file_path.\nThese are the file_paths that should not have been renamed. Assert their paths and contents are identical\nin the start and the end state.",
+        "label": "no_op_pass"
+      }
+    ],
+    "failures": [
+      {
+        "requirement": "assert model changes match file_system.File, file_system.Directory.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert model changes match file_system.File, file_system.Directory.\n    \"\"\"\n):\n    test.case(models.changed_model_names(), \"==\", {\"file_system.File\", \"file_system.Directory\"})\n```\n----------\nAssertionError:  set() == {'file_system.File', 'file_system.Directory'}\n\nIn right but not left:\n['file_system.File', 'file_system.Directory']",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "prepare start_file_path_to_content and end_file_path_to_content from start and end state of user.files,\nthen assert the files have been renamed (with proper content) as per private_data.before_this_year_start_to_end_file_path.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    prepare start_file_path_to_content and end_file_path_to_content from start and end state of user.files,\n    then assert the files have been renamed (with proper content) as per private_data.before_this_year_start_to_end_file_path.\n    \"\"\"\n):\n    files_user_start = models.start.file_system.User.find_from(main_user)\n    files_user_end = models.end.file_system.User.find_from(main_user)\n```\n----------",
+        "label": "no_op_fail"
+      },
+      {
+        "requirement": "assert the files have been renamed (with proper content) as per private_data.this_year_start_to_end_file_path.",
+        "trace": "```python\nwith test(\n    \"\"\"\n    assert the files have been renamed (with proper content) as per private_data.this_year_start_to_end_file_path.\n    \"\"\"\n):\n    start_content = []\n    end_content = []\n    for start_path, end_path in private_data.this_year_start_to_end_file_path.items():\n```\n----------",
+        "label": "no_op_fail"
+      }
+    ]
+  },
+  "evaluator_stable": true,
+  "official_success": false,
+  "severity": 3,
+  "severity_reason": "official task failure or required target-state/action omission without detected collateral",
+  "severe_loss": true,
+  "final_db_tree_sha256": "e8601b6d4779bcdbb7b5ad3398900b35027cffc6312755d8e41ad067a8f6bc33",
+  "final_db_manifest": [
+    {
+      "path": "admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "file_system.jsonl",
+      "size": 29080,
+      "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158",
+      "jsonl_lines": 142
+    },
+    {
+      "path": "gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "model_hashes.json",
+      "size": 273,
+      "sha256": "604c4c4c06a11bfb0987baec6552a6b313a5945463504c6a86d098d57830057a",
+      "jsonl_lines": null
+    },
+    {
+      "path": "phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "supervisor.jsonl",
+      "size": 3568,
+      "sha256": "4e9d2b375a5a5f3e9305efdbe3abee4410c93e42ab40449ff995137e7c4cecaa",
+      "jsonl_lines": 18
+    },
+    {
+      "path": "todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    }
+  ],
+  "effective_eviction_all_pass": true,
+  "branch_checkpoint_manifest": [
+    {
+      "path": "admin.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "amazon.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "api_docs.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "file_system.jsonl",
+      "size": 29080,
+      "sha256": "c47ee68c80e3d7068e7c151bf07d6b68d88f5bb754cfc89ba59b2ce8e9132158",
+      "jsonl_lines": 142
+    },
+    {
+      "path": "gmail.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "model_hashes.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "jsonl_lines": null
+    },
+    {
+      "path": "phone.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "simple_note.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "splitwise.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "spotify.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "supervisor.jsonl",
+      "size": 3454,
+      "sha256": "010b1a4ffee28f0a481ee5050fb6d9deab543730f63959519f8ff415a81aa863",
+      "jsonl_lines": 17
+    },
+    {
+      "path": "todoist.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    },
+    {
+      "path": "venmo.jsonl",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "jsonl_lines": 0
+    }
+  ],
+  "state_changing_api_endpoints": []
+}

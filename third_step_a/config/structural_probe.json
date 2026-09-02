@@ -1,0 +1,10 @@
+{
+  "appworld_root": "third_step_a/appworld_root",
+  "source_repo": "third_step_a/vendor/appworld_source",
+  "relationship_task_ids": ["82e2fac_1", "82e2fac_2"],
+  "checkpoint_task_id": "82e2fac_1",
+  "evaluator_task_id": "82e2fac_1",
+  "seed": 314159,
+  "max_interactions": 20,
+  "max_api_calls_per_interaction": 1000
+}

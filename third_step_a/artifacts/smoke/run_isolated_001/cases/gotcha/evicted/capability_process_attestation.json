@@ -1,0 +1,43 @@
+{
+  "role": "agent_capability_probe",
+  "pid": 25000,
+  "argv": [
+    "python.exe",
+    "-I",
+    "capability_probe_worker.py"
+  ],
+  "cwd": "preempt3a-probe-bcfec9bf2fb2dd0f60d28e4a1f4fb58c",
+  "argv_contains_project_path": false,
+  "cwd_contains_project_path": false,
+  "worker_command_contains_project_path": false,
+  "project_root_path_disclosed": false,
+  "environment_key_names": [
+    "PYTHONDONTWRITEBYTECODE",
+    "PYTHONHASHSEED",
+    "PYTHONIOENCODING",
+    "PYTHONUTF8",
+    "SYSTEMROOT",
+    "TEMP",
+    "TMP",
+    "WINDIR"
+  ],
+  "interpreter_sha256": "d8e3f0adf246db00358c0c4ed349cf714898178f9558fb0e944f79f5c07f8eaa",
+  "interpreter_outside_project": true,
+  "source_worker_sha256": "b07803eb0d85aaf7bfb4240bd496edf775bf3f367b9c9d5437d2c5eda31875a5",
+  "copied_worker_sha256": "b07803eb0d85aaf7bfb4240bd496edf775bf3f367b9c9d5437d2c5eda31875a5",
+  "source_copy_hash_equal": true,
+  "worker_copied_to_fresh_external_sandbox": true,
+  "worker_copied_to_temporary_directory": true,
+  "python_isolated_flag": true,
+  "boundary": "structured_json_tool_call_rpc",
+  "structured_tool_boundary_only": true,
+  "arbitrary_code_sandbox_claimed": false,
+  "os_filesystem_sandbox_claimed": false,
+  "appworld_imported_by_worker": false,
+  "return_code": 0,
+  "exit_code": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_empty": true,
+  "rpc_transcript_file_sha256": "6341d456bd5d38af4a5a6d3a92ea59112628cdc0b786a327c6cd82914d687e60",
+  "rpc_transcript_row_count": 11
+}

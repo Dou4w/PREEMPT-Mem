@@ -1,0 +1,15 @@
+{
+  "all_three_agent_processes_exited": true,
+  "agent_pids": [
+    34308,
+    4316,
+    48380
+  ],
+  "agent_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "all_three_databases_frozen": true,
+  "private_artifacts_written_before_barrier": false
+}

@@ -1,0 +1,20 @@
+{
+  "target": {
+    "dataset": "dev",
+    "task_id": "6c2c621_2",
+    "generator_or_scenario_id": "6c2c621",
+    "variation": 2,
+    "specs_sha256": "a15395e6548c6eb2f68c8bef9885561026a4bbb532264fe1c36913c475021fbd"
+  },
+  "source_to_target_dependency": "Constructed adapted selector bridge: the same official generator supplies a different user/database variation; retrieval of the external record exposes metadata.policy_id, which selects a frozen hard-coded executor. This tests selector-record availability, not semantic interpretation.",
+  "need_definition": "Need=1 before witness because the target evaluator requires a complete note-to-file state transformation, the frozen fallback has no export policy and fails closed, and no other memory item or built-in policy selector is mounted.",
+  "need_label": 1,
+  "gold_state_evaluator": {
+    "interface": "AppWorld.evaluate() with full dev ground truth",
+    "test_data_sha256": "e8fdf91ed8d0475f171c0ed72b25f58cec0d3c9a9a059d3dc5ac44802dd73047",
+    "evaluation_code_sha256": "e608eb322a391638bb993ac5e3c1fd87d78ddd74b6ccb57a27d6d4712de2d812",
+    "critical_state": "exact added File/Directory records; path under requested backup directory; .md extension; exact path/content mapping; zero updated/removed files",
+    "witness_used_by_evaluator": false
+  },
+  "severity_application": "Score 3 for official failure or missing/wrong exported artifacts; score 4 only if unrelated records are changed or removed."
+}

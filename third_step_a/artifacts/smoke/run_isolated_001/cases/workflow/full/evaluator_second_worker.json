@@ -1,0 +1,226 @@
+{
+  "appworld_distribution_direct_url_sha256": "cb0fb2be2dea8bec8d51136bbbf5d99ed01ee0711b5e1bb78db76b859ea46a7f",
+  "appworld_module_file": "E:/科研/ICLR2027-PREEMPT-Mem/third_step_a/vendor/appworld_source/src/appworld/__init__.py",
+  "appworld_module_file_sha256": "1345ce61e81b93ae95b3e3b4f6d1ba8ed43a3a6fde2b86509e9f0964198d84e3",
+  "appworld_version": "0.2.0.dev0",
+  "deterministic_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0",
+    "PYTHONIOENCODING": "utf-8",
+    "PYTHONUTF8": "1",
+    "PYTHONWARNINGS": "ignore"
+  },
+  "environment_key_names": [
+    "APPWORLD_ROOT",
+    "COMSPEC",
+    "PATH",
+    "PATHEXT",
+    "PYTHONDONTWRITEBYTECODE",
+    "PYTHONHASHSEED",
+    "PYTHONIOENCODING",
+    "PYTHONUTF8",
+    "PYTHONWARNINGS",
+    "SYSTEMDRIVE",
+    "SYSTEMROOT",
+    "TEMP",
+    "TMP",
+    "WINDIR"
+  ],
+  "evaluation_entrypoint": "appworld.evaluator.evaluate_task",
+  "experiment_name": "preempt3ar_run_isolated_001_workflow_full",
+  "ground_truth_loaded_only_in_evaluator": true,
+  "input_db_path_role": "live experiment DB frozen by controller before evaluator start",
+  "input_db_tree_after": {
+    "directory": "dbs",
+    "entries": [
+      {
+        "path": "admin.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "amazon.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "api_docs.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "file_system.jsonl",
+        "sha256": "0d24e9cd86de3b4dc253657e3848fdfca1d20a1cfd059054519bc1f0f49a0a22",
+        "size": 27349
+      },
+      {
+        "path": "gmail.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "model_hashes.json",
+        "sha256": "c393d1b827b17d80910dd447a03d4057b9dbea92af1ab2e4a77a7620082c6591",
+        "size": 126
+      },
+      {
+        "path": "phone.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "simple_note.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "splitwise.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "spotify.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "supervisor.jsonl",
+        "sha256": "ccb7893966ff868626875764669d7bef5e102eb295b15948b496ed4a8c388aeb",
+        "size": 3601
+      },
+      {
+        "path": "todoist.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "venmo.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      }
+    ],
+    "file_count": 13,
+    "total_bytes": 31076,
+    "tree_manifest_root_sha256": "f129a9ab8bbb4810edbca0fb5f781e3e6bf50a78221cf51e2e1f7cd06722f36f"
+  },
+  "input_db_tree_before": {
+    "directory": "dbs",
+    "entries": [
+      {
+        "path": "admin.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "amazon.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "api_docs.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "file_system.jsonl",
+        "sha256": "0d24e9cd86de3b4dc253657e3848fdfca1d20a1cfd059054519bc1f0f49a0a22",
+        "size": 27349
+      },
+      {
+        "path": "gmail.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "model_hashes.json",
+        "sha256": "c393d1b827b17d80910dd447a03d4057b9dbea92af1ab2e4a77a7620082c6591",
+        "size": 126
+      },
+      {
+        "path": "phone.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "simple_note.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "splitwise.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "spotify.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "supervisor.jsonl",
+        "sha256": "ccb7893966ff868626875764669d7bef5e102eb295b15948b496ed4a8c388aeb",
+        "size": 3601
+      },
+      {
+        "path": "todoist.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "venmo.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      }
+    ],
+    "file_count": 13,
+    "total_bytes": 31076,
+    "tree_manifest_root_sha256": "f129a9ab8bbb4810edbca0fb5f781e3e6bf50a78221cf51e2e1f7cd06722f36f"
+  },
+  "input_db_unchanged": true,
+  "pid": 33292,
+  "python_hash_seed": "0",
+  "result": {
+    "difficulty": 2,
+    "failures": [],
+    "num_tests": 8,
+    "passes": [
+      {
+        "label": "no_op_fail",
+        "requirement": "assert answers match."
+      },
+      {
+        "label": "no_op_fail",
+        "requirement": "assert model changes match file_system.File, file_system.Directory."
+      },
+      {
+        "label": "no_op_pass",
+        "requirement": "obtain added, updated, removed file_system.File records using models.changed_records,\nand assert 0 were updated or removed."
+      },
+      {
+        "label": "no_op_fail",
+        "requirement": "assert all added files have tilde_path starting with public_data.backup_directory_path."
+      },
+      {
+        "label": "no_op_fail",
+        "requirement": "assert all added files have path ending with \".md\"."
+      },
+      {
+        "label": "no_op_fail",
+        "requirement": "assert all added file_system.File records' paths match keys of\nprivate_data.file_path_to_content. (ignore_case)"
+      },
+      {
+        "label": "no_op_fail",
+        "requirement": "assert all added file_system.File records' contents\nmatch values of private_data.file_path_to_content (strip)."
+      },
+      {
+        "label": "no_op_fail",
+        "requirement": "assert all added file_system.File records' path to content\nmapping match that of private_data.file_path_to_content\n(strip and ignore case)."
+      }
+    ],
+    "success": true
+  },
+  "save_report": false,
+  "task_id": "6c2c621_2",
+  "worker_protocol": "preempt3a-isolated-evaluator-v1",
+  "worker_sha256": "60f4e2d4db4ba5c64082c1089c802114e0f0260691bc8975a69f84675a83a18b"
+}

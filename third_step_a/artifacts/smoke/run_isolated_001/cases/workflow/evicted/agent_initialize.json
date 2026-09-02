@@ -1,0 +1,6 @@
+{
+  "type": "initialize",
+  "protocol_version": "preempt3a-isolated-tool-rpc-v1",
+  "target_instruction": "Export all my Simple Note notes to \"~/backups/notes/\" directory in my file system. The files should be named according to the note title, replacing white space with \"_\", and the extension should be \".md\".",
+  "retrieval_results": []
+}
